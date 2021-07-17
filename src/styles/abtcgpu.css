@@ -1,0 +1,125 @@
+.abt-cgpu-main{
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.abt-sub-1{
+    /* background-color: aquamarine; */
+    width: 90vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.abt-desc{
+    /* width: 50vw; */
+    color: #828282;
+}
+.abt-head{
+    color: #4F4F4F;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Image */
+.img-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+.img-box-blue{
+    width: 120px;
+    height: 150px;
+    position:absolute;
+    right: 80px;
+    top: 10px;
+    background: #1F7AE0;
+    border-radius: 0px 40px 0px 0px;
+    z-index: 10;
+}
+.img-box-green{
+    width: 110px;
+    height: 130px;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    background-color: green;
+    z-index: 30;
+    background: #2ECC71;
+    opacity: 0.4;
+    border-radius: 0px 0px 0px 40px;
+}
+.img-box-white{
+    width: 400px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px rgba(130, 130, 130, 0.2);
+    border-radius: 24px;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    z-index: 20;
+    padding: 10px;
+}
+.img-box-in-gray{
+    background: rgba(130, 130, 130, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* CGPU People */
+.ppl-cgpu{
+    /* background-color: khaki; */
+    width: 90vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cards-main{
+    padding: 10px;
+}
+.cards-each{
+    /* background-color: lightcoral; */
+    width: 260px;
+    height: 250x;
+    padding: 20px 10px ;
+}
+.cards-in{
+    width: 95%;
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(130, 130, 130, 0.16);
+    border-radius: 12px;
+    margin-right:5px;
+    transition: transform .3s;
+}
+.cards-in:hover{
+    transform: scale(1.2);
+}
+.img-bg{
+    width: 100%;
+    height: 185px;
+    background: rgba(130, 130, 130, 0.5);
+    border-radius: 12px;
+}
+.item-name{
+    color: #4f4f4f;
+}
+.item-pos{
+    color: #828282;
+    font-size: 12px;
+}
+.item-mail{
+    color:#1F7AE0;
+    font-size: 12px;
+}
