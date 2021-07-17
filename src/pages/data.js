@@ -1,4 +1,4 @@
-
+import {ibm} from '../images/ibm.png'
 
   export const eventData = [
     {
@@ -44,3 +44,39 @@
     
   ]
 
+  export const recruitData = [
+    {
+      company:"IBM",
+      url:"www.ibm.com",
+      logo:{ibm}
+    },
+    {
+      company:"ABB",
+      url:"www.abb.com"
+    },
+    {
+      company:"IBM",
+      url:"www.ibm.com",
+      logo:{ibm}
+    },
+    {
+      company:"ABB",
+      url:"www.abb.com"
+    },
+    {
+      company:"IBM",
+      url:"www.ibm.com"
+    },
+    {
+      company:"ABB",
+      url:"www.abb.com"
+    },
+    {
+      company:"IBM",
+      url:"www.ibm.com"
+    },
+    {
+      company:"ABB",
+      url:"www.abb.com"
+    },
+  ]

@@ -1,0 +1,68 @@
+.recruit-main{
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: #FAFAFA;
+}
+.head-desc{
+    font-size: 15px;
+    color:#7A8193;
+    width: 650px;
+}
+.head-desc-main{
+    margin-bottom: 20px;
+}
+.r-card-main{
+    padding: 10px;
+}
+.r-cards-each{
+    width: 260px;
+    height: 250x;
+    padding: 20px 10px ;
+    margin-top: 60px;
+}
+.r-cards-in{
+    width: 95%;
+    height: 160px;
+    background: #DBEAFA;
+    border-radius: 12px;
+    margin-right:5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-round{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 100%;
+    border:#DBEAFA 2px solid;
+    position: absolute;
+    top:-50px;
+    left: auto;
+}
+.company-desc{
+    text-align: center;
+    
+}
+.item-company{
+    color:#4f4f4f;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top:20px;
+}
+.item-url{
+    color: #7A8193;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+.item-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
