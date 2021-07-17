@@ -1,0 +1,50 @@
+.btn:focus {
+    box-shadow: none;
+}
+
+header {
+    padding: 4% 10% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a span {
+    vertical-align: center;
+    font-size: 2rem;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header a span:nth-child(1) {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+header a span:nth-child(2) {
+    color: var(--green);
+    font-weight: 500;
+}
+
+header nav a {
+    color: var(--dark);
+    font-weight: 600;
+    padding: 1rem;
+}
+
+header .btn {
+    background: var(--blue);
+    color: white;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: 0.15s;
+}
+
+header a:hover {
+    color: black !important;
+    transition: 0.15s;
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/layout";
 
-export default function Placement() {
+export default function Contact() {
     return (
         <Layout>
-            <div className='page-head'>Placement Highlights</div>
+            <div className='page-head'>Contact Us</div>
         </Layout>
     );
 }

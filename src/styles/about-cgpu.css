@@ -17,12 +17,6 @@
     /* width: 50vw; */
     color: #828282;
 }
-.abt-head{
-    color: #4F4F4F;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
 
 /* Image */
 .img-main{
@@ -39,7 +33,7 @@
     position:absolute;
     right: 80px;
     top: 10px;
-    background: #1F7AE0;
+    background: var(--blue);
     border-radius: 0px 40px 0px 0px;
     z-index: 10;
 }
@@ -51,7 +45,7 @@
     bottom: 0;
     background-color: green;
     z-index: 30;
-    background: #2ECC71;
+    background: var(--green);
     opacity: 0.4;
     border-radius: 0px 0px 0px 40px;
 }
@@ -113,13 +107,13 @@
     border-radius: 12px;
 }
 .item-name{
-    color: #4f4f4f;
+    color: var(--dark);
 }
 .item-pos{
     color: #828282;
     font-size: 12px;
 }
 .item-mail{
-    color:#1F7AE0;
+    color:var(--blue);
     font-size: 12px;
 }

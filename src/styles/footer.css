@@ -1,0 +1,77 @@
+hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.2;
+    height: 0.05rem;
+}
+
+footer {
+    background-color: var(--blue);
+    color: white;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #ffffffbf;
+    margin-top: 3%;
+}
+
+footer h2 span:nth-child(1) {
+    font-weight: 700;
+}
+
+footer h2 span:nth-child(2) {
+    color: var(--green);
+    font-weight: 500;
+}
+
+.footer-container h6 {
+    margin-bottom: 2rem;
+}
+
+.footer-container a {
+    color: #ffffffbf;
+    display: block;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    transition: 0.15s;
+}
+
+.footer-container a:hover {
+    color: white;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.footer-container ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0 5% 4%;
+}
+
+.contact .footer-adr {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #ffffffbf;
+}
+
+.contact span {
+    color: #ffffffbf;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.contact a {
+    display: inline;
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+    user-select: text;
+}
