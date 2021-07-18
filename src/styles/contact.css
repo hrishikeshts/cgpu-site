@@ -2,42 +2,60 @@
    
     
     
-    
-    height: 200px;
+   
+    height: 350px;
     background: #FFFFFF;
     box-shadow: 0px 0px 24px rgba(130, 130, 130, 0.16);
     border-radius: 12px;
-    
+    margin-right: 50px;
+    margin-left: 70px;
+    border-top: 10px solid var(--blue);
+    text-align: center;
+    padding: 5vh;
+    color: var(--dark);
+    font-size: 16px;
 }
 .contac {
     
 
-
-    height: 200px;
+   margin-right: 50px;
+   margin-left: 50px;
+    height: 350px;
     background: #FFFFFF;
     box-shadow: 0px 0px 24px rgba(130, 130, 130, 0.16);
     border-radius: 12px;
+    border-top: 10px solid var(--green);
+     font-size: 16px;
+     text-align: center;
+     padding: 5vh;
+    
 }
 .contact-main{
     padding: 4% 10% 2%;
 }
 .main{
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .reach{
-    padding: 3%;
+    
     text-align: center;
+    color: var(--blue);
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    font-size: 30px;
+    font-weight: 600;
+
 }
 .map{
     height: 438px;
     background-color: blue;
     border-radius: 24px;
+    margin-bottom: 100px;
 }
-.brochure{
-    
-    /* identical to box height */
-
-    
-    background: #DBEAFA;
-
+.p-main{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.phone{
+    font-weight: 600;
 }
