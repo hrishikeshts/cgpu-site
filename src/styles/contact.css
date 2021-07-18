@@ -1,0 +1,43 @@
+.address {
+   
+    
+    
+    
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(130, 130, 130, 0.16);
+    border-radius: 12px;
+    
+}
+.contac {
+    
+
+
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(130, 130, 130, 0.16);
+    border-radius: 12px;
+}
+.contact-main{
+    padding: 4% 10% 2%;
+}
+.main{
+    padding-top: 20px;
+}
+.reach{
+    padding: 3%;
+    text-align: center;
+}
+.map{
+    height: 438px;
+    background-color: blue;
+    border-radius: 24px;
+}
+.brochure{
+    
+    /* identical to box height */
+
+    
+    background: #DBEAFA;
+
+}
