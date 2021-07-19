@@ -13,6 +13,7 @@ export default function Header() {
                 <Link to='/'>Home</Link>
                 <Link to='/about-cet'>About CET</Link>
                 <Link to='/about-cgpu'>About CGPU</Link>
+                <Link to='/gallery'>Gallery</Link>
                 <Link to='/placement'>Placement</Link>
                 <Link to='/recruiters'>Recruiters</Link>
                 <Link to='/contact'>Contact</Link>

@@ -19,6 +19,7 @@ export default function Footer() {
                         <h6>Learn More</h6>
                         <Link to='/about-cgpu'>About CGPU</Link>
                         <Link to='/about-cet'>About CET</Link>
+                        <Link to='/gallery'>Gallery</Link>
                         <Link to='/placement'>Placement</Link>
                         <Link to='/recruiters'>Recruiters</Link>
                         <Link to='/contact'>Contact Us</Link>
