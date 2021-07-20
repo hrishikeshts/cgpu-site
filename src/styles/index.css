@@ -1,0 +1,49 @@
+.homepage{
+    padding: 1% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.firstabt{
+    width: 90vw;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.desc{
+    color: #828282;
+}
+.learnbtn{
+    background: var(--blue);
+    color: white;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: 0.15s;
+    border: none;
+}
+.learnbtn:focus{
+    box-shadow: none;
+}
+
+.dwnld{
+    padding:0% 4%;
+    color: #1F7AE0;
+}
+
+.bluebox{
+    background: #1F7AE0;
+    color: white;
+    padding: 3% 7%;
+    margin: 3% 0%;
+    font-size: 18px;
+    border-radius: 16px;
+}
+.bigno{
+    font-size: 27px;
+}
