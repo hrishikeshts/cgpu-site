@@ -8,6 +8,10 @@ export default function Gallery() {
         <Layout>
             <div className='gallery-page'>
             <div className="coverimg">
+                <div className="layer"></div>
+                <div className="layer2">
+                    <div className="gal-head">Gallery</div>
+                </div>
                 <img src={coverimage} className="coverphoto"></img>
                 {/* <h1>Gallery</h1> */}
             </div>
