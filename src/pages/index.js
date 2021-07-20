@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../components/layout";
 import "../styles/index.css";
 import logo from "../images/cet-logo.png";
+import eye from "../images/Asseteye.png";
+import missioncircle from "../images/mission.png";
 
 export default function Home() {
   return (
@@ -56,6 +58,41 @@ export default function Home() {
           <b>
             <span className="bigno">₹9.6 </span>lpa
           </b>
+        </div>
+        <div className="midheading">Things Which We Value</div>
+        <div className="vm px-3">
+          <div className=" row vision py-3 ">
+            <div className="col-2">
+              <div className="bluelayer">
+                <img src={eye} className="eye" />
+              </div>
+            </div>
+            <div className="col-7">
+              <h3>Our Vision</h3>
+              <div className="text">
+                National Level Excellence and International Visibility in Every
+                Facet of Engineering Research and Education.
+              </div>
+            </div>
+          </div>
+          <div className=" row mission px-3 py-3 my-3">
+            <div className="col-10 missionpara">
+              <h3>Our Mission</h3>
+              <div className="text">
+                To facilitate quality transformative education in Engineering
+                and Management. To foster innovations in Technology and its
+                application for meeting global challenges. To pursue and
+                disseminate Quality Research. To equip, enrich and transform
+                students to be Responsible Professionals for better service to
+                humanity.
+              </div>
+            </div>
+            <div className="col-2">
+              <div className="bluelayer">
+                <img src={missioncircle} className="eye" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
