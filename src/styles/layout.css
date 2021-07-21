@@ -136,13 +136,7 @@ body {
     --light-blue: #dbeafa;
     --dark: #4f4f4f;
     background: #fafafa;
-}
-
-.page-head {
-    color: var(--dark);
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
+    overflow-y: scroll;
 }
 
 img {

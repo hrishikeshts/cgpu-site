@@ -26,7 +26,7 @@ export default function Home() {
         <div className="row firstabt">
           <div className="col-6 my-4">
             <div className="page-head">
-              <img src={logo} alt="CET Seal" className="py-3" />
+              <img src={logo} alt="CET Seal" className="cet-logo py-3" />
               <br />
               Career Guidance and <br />
               Placement Unit, College of

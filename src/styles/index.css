@@ -1,21 +1,32 @@
-.homepage{
+.page-head {
+    color: var(--dark);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cet-logo {
+    mix-blend-mode: darken;
+}
+
+.homepage {
     padding: 1% 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
 }
-.firstabt{
+.firstabt {
     width: 90vw;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-.desc{
+.desc {
     color: #828282;
 }
-.learnbtn{
+.learnbtn {
     background: var(--blue);
     color: white;
     font-weight: 500;
@@ -27,77 +38,74 @@
     transition: 0.15s;
     border: none;
 }
-.learnbtn:focus{
+.learnbtn:focus {
     box-shadow: none;
 }
 
-.dwnld{
-    padding:0% 4%;
-    color: #1F7AE0;
+.dwnld {
+    padding: 0% 4%;
+    color: #1f7ae0;
 }
 
 /* .vm{
 
 } */
-.bluebox{
-    background: #1F7AE0;
+.bluebox {
+    background: #1f7ae0;
     color: white;
     padding: 3% 7%;
     margin: 3% 0%;
     font-size: 18px;
     border-radius: 16px;
 }
-.bigno{
+.bigno {
     font-size: 27px;
 }
 
-.midheading{
+.midheading {
     font-size: 36px;
-    color: #4F4F4F;
+    color: #4f4f4f;
     padding: 2% 0%;
 }
 
-.bluelayer{
-    background: #DBEAFA;
+.bluelayer {
+    background: #dbeafa;
     /* margin-left: 14%;
     margin-right: 14%;
     margin-bottom: 3%; */
     margin: 3% 14%;
     overflow: hidden;
     border-radius: 12px;
-    position:relative;
+    position: relative;
     padding: 20% 0%;
 }
-.eye{
+.eye {
     object-fit: cover;
     opacity: 0.8;
     padding-left: 25%;
 }
-.text{
-    color:  #7A8193;
-  
+.text {
+    color: #7a8193;
 }
-.missionpara{
+.missionpara {
     text-align: right;
 }
 
-.objectives{
+.objectives {
     background-color: var(--light-blue);
-    border-radius:2%;
+    border-radius: 2%;
     text-align: center;
     padding: 4% 2%;
-    width:90%;
-
-    
+    width: 90%;
 }
 
-.objectives-title{
+.objectives-title {
     color: var(--blue);
     margin-bottom: 5%;
     font-weight: 600;
 }
 
-.objectives-content{
+.objectives-content {
     color: var(--dark);
     opacity: 0.8;
 }

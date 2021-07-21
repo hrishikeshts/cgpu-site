@@ -3,11 +3,18 @@
 }
 
 header {
-    padding: 4% 10% 2%;
+    padding: 2% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #fafafa;
+    transition: 0.5s;
+}
+
+header.scrolled {
+    background: white;
+    box-shadow: 0 0 0.5rem rgba(130, 130, 130, 0.16);
+    transition: 0.5s;
 }
 
 header a span {
@@ -48,7 +55,7 @@ header .btn {
 }
 
 header a:hover,
-header .dropdown-toggle:hover {
+.dropdown-toggle:hover {
     color: black !important;
     transition: 0.15s;
 }
@@ -71,11 +78,12 @@ header .dropdown-toggle:hover {
     transition: 0.15s;
 }
 
-.dropdown-menu a:hover {
+.dropdown-menu a:hover,
+.dropdown-menu .active {
     background: #dbeafa !important;
-    color: var(--blue) !important;
 }
 
-header nav a.active {
+header nav a.active,
+.dropdown-toggle.active {
     color: var(--blue) !important;
 }
