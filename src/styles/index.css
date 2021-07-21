@@ -80,3 +80,24 @@
 .missionpara{
     text-align: right;
 }
+
+.objectives{
+    background-color: var(--light-blue);
+    border-radius:2%;
+    text-align: center;
+    padding: 4% 2%;
+    width:90%;
+
+    
+}
+
+.objectives-title{
+    color: var(--blue);
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.objectives-content{
+    color: var(--dark);
+    opacity: 0.8;
+}

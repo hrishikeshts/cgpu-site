@@ -132,8 +132,13 @@
 
 .alumnititle{
     display:flex;
+    
 }
-
+.alumniheading{
+    color:var(--blue);
+    font-weight: 600;
+    font-size: 25px;
+}
 .alumnicontent{
     background-color: var(--light-blue);
     border-radius: 2%;
@@ -152,4 +157,7 @@ ul {
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
+    border-color: transparent #111;
+  border-style: circle;
+  border-width: 0.35em;
   }

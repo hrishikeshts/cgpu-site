@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
+import cetaalogo from "../images/cetaa-logo.png";
 import { Link } from "gatsby";
 
 import "../styles/about-cet.css";
@@ -95,9 +96,9 @@ export default function AboutCET() {
                   <div className='alumnicontent  col-6 my-4'>
                     <div className='alumnititle'>
                         <div className='alumnipic'>
-                            <img src="../images/cetaa-logo.png" alt="cetaa-logo"></img>
+                            <img src={cetaalogo} alt="cetaa-logo"></img>
                         </div>
-                        <div>
+                        <div className='alumniheading' style={{marginLeft:'4%'}}>
                             College of Engineering Trivandrum Alumni Association
                         </div>
                     </div>
