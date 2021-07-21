@@ -1,0 +1,163 @@
+.overall-styling{
+ /* padding: 5% 10%;  */
+   background-color: #FAFAFA;
+}
+.abt-cgpu-main{
+    /* padding: 5% 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FAFAFA; */
+}
+.abt-sub-1{
+    /* background-color: aquamarine; */
+    width: 90vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.abt-desc{
+    /* width: 50vw; */
+    color: #828282;
+}
+
+/* Image */
+.img-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+.img-box-blue{
+    width: 120px;
+    height: 150px;
+    position:absolute;
+    right: 80px;
+    top: 10px;
+    background: var(--blue);
+    border-radius: 0px 40px 0px 0px;
+    z-index: 10;
+}
+.img-box-green{
+    width: 110px;
+    height: 130px;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    background-color: green;
+    z-index: 30;
+    background: var(--green);
+    opacity: 0.4;
+    border-radius: 0px 0px 0px 40px;
+}
+.img-box-white{
+    width: 400px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px rgba(130, 130, 130, 0.2);
+    border-radius: 24px;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    z-index: 20;
+    padding: 10px;
+}
+.img-box-in-gray{
+    background: rgba(130, 130, 130, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.learnLink{
+    color: var(--blue);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.textHighlights{
+    color: var(--dark);
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.feature-box{
+    background-color:var(--blue);
+ 
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+  
+}
+
+.numeric{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 0.5%;
+}
+
+.numeric-text{
+    color: var(--light-blue);
+    text-align: center;
+    
+    font-weight: 300;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.col-2{
+    display:inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.btn{
+    background: var(--blue);
+    color: white;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: 0.15s;
+    margin-top: 5%;
+    
+}
+
+.alumnititle{
+    display:flex;
+    
+}
+.alumniheading{
+    color:var(--blue);
+    font-weight: 600;
+    font-size: 25px;
+}
+.alumnicontent{
+    background-color: var(--light-blue);
+    border-radius: 2%;
+    padding: 3% 2%;
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color:var(--blue);
+    font-weight:bold;
+   font-size: 150%;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    border-color: transparent #111;
+  border-style: circle;
+  border-width: 0.35em;
+  }
