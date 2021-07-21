@@ -144,3 +144,8 @@ body {
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+img {
+    pointer-events: none;
+    user-select: none;
+}

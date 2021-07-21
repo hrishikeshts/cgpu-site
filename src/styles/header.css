@@ -7,6 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #fafafa;
 }
 
 header a span {
@@ -28,10 +29,12 @@ header a span:nth-child(2) {
     font-weight: 500;
 }
 
-header nav a {
-    color: var(--dark);
-    font-weight: 600;
+header nav a,
+header .dropdown-toggle {
+    color: var(--dark) !important;
+    font-weight: 600 !important;
     padding: 1rem;
+    background: transparent !important;
 }
 
 header .btn {
@@ -44,7 +47,35 @@ header .btn {
     transition: 0.15s;
 }
 
-header a:hover {
+header a:hover,
+header .dropdown-toggle:hover {
     color: black !important;
     transition: 0.15s;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.dropdown-menu {
+    box-shadow: 0 0 0.5rem rgba(130, 130, 130, 0.16);
+    border: none;
+    border-radius: 0.66rem;
+    padding: 0.5rem;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.5rem 0.66rem;
+    border-radius: 0.5rem;
+    transition: 0.15s;
+}
+
+.dropdown-menu a:hover {
+    background: #dbeafa !important;
+    color: var(--blue) !important;
+}
+
+header nav a.active {
+    color: var(--blue) !important;
 }

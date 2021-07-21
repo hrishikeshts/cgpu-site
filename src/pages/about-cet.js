@@ -17,7 +17,7 @@ export default function AboutCET() {
     ];
 
     return (
-        <Layout>
+        <Layout page="cet">
         <div className="overall-styling">
 
      
@@ -89,7 +89,7 @@ export default function AboutCET() {
                       <br />
 
                       <br />
-                      <button className='btn'>Learn More</button>
+                      <button className='learnbtn'>Learn More</button>
                   </div>
                  
                   </div>

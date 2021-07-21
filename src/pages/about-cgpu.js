@@ -5,12 +5,12 @@ import Layout from "../components/layout";
 
 export default function AboutCGPU() {
     return (
-        <Layout>
-            <div className='abt-cgpu-main'>
-                <div className='row abt-sub-1'>
-                    <div className='col-6 my-4'>
-                        <div className='page-head'>About CGPU</div>
-                        <div className='abt-desc'>
+        <Layout page="cgpu">
+            <div className="abt-cgpu-main">
+                <div className="row abt-sub-1">
+                    <div className="col-6 my-4">
+                        <div className="page-head">About CGPU</div>
+                        <div className="abt-desc">
                             The Career Guidance and Placement Unit (CGPU) was started in this college as a voluntary
                             organization in January 1984. The Placement Officer who is assisted by student
                             representatives from all the departments heads this unit. The Principal of the institution
@@ -24,28 +24,28 @@ export default function AboutCGPU() {
                             air-conditioned rooms for group discussions and interviews.
                         </div>
                     </div>
-                    <div className='col-6 img-main'>
-                        <div className='img-box-blue'>
-                            <div className='img-box-blue-in'></div>
+                    <div className="col-6 img-main">
+                        <div className="img-box-blue">
+                            <div className="img-box-blue-in"></div>
                         </div>
-                        <div className='img-box-white'>
-                            <div className='img-box-in-gray'></div>
+                        <div className="img-box-white">
+                            <div className="img-box-in-gray"></div>
                         </div>
-                        <div className='img-box-green'></div>
+                        <div className="img-box-green"></div>
                     </div>
                 </div>
-                <div className='ppl-cgpu'>
-                    <div className='page-head'>People Behind CGPU</div>
-                    <div className='cards-main row'>
+                <div className="ppl-cgpu">
+                    <div className="page-head">People Behind CGPU</div>
+                    <div className="cards-main row">
                         {eventData.map((item) => {
                             return (
-                                <div className='cards-each col-xl-3 col-md-4 col-sm-12'>
-                                    <div className='cards-in'>
-                                        <div className='img-bg'></div>
-                                        <div className='text-left mx-3 my-3'>
-                                            <div className='item-name'>{item.title}</div>
-                                            <div className='item-pos'>{item.posi}</div>
-                                            <div className='item-mail'>{item.mail}</div>
+                                <div className="cards-each col-xl-3 col-md-4 col-sm-12">
+                                    <div className="cards-in">
+                                        <div className="img-bg"></div>
+                                        <div className="text-left mx-3 my-3">
+                                            <div className="item-name">{item.title}</div>
+                                            <div className="item-pos">{item.posi}</div>
+                                            <div className="item-mail">{item.mail}</div>
                                         </div>
                                     </div>
                                 </div>

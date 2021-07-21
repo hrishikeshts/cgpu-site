@@ -1,3 +1,19 @@
+.brochure-info {
+    background: var(--light-blue);
+    padding: 1% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.brochure-info img {
+    margin: 0 0.5rem 0.15rem 0;
+}
+
 hr {
     width: 90%;
     margin-left: auto;

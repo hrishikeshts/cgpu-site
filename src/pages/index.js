@@ -40,10 +40,10 @@ export default function Home() {
               aspirations of students.
               <br />
               <br />
-              <button className="learnbtn">Learn more</button>
-              <span className="dwnld">
-                <b>Download Brochure</b>
-              </span>
+              <button className="learnbtn">Learn More</button>
+              <a href={`CET @ Glance.pdf`} download className="download px-4 py-2">
+                Download Brochure
+              </a>
             </div>
           </div>
           <div className="col-6">
