@@ -44,9 +44,15 @@
 
 .map {
     height: 438px;
-    background-color: blue;
+    background-color: #bababa80;
     border-radius: 24px;
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
 }
 
 .p-main {
