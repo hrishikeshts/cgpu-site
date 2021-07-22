@@ -1,5 +1,5 @@
 import React from "react";
-import { eventData } from "./data";
+import { eventData } from "../components/data";
 import Layout from "../components/layout";
 import "../styles/about-cgpu.css";
 import AboutSVG from "../components/aboutsvg";

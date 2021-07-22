@@ -6,7 +6,7 @@ import coverimage from "../images/cet-front.png";
 export default function Gallery() {
     return (
         <Layout page="gallery">
-            <div className="gallery-page">
+            <div className="gallery-page gallery-main">
                 <div className="coverimg">
                     <div className="layer"></div>
                     <div className="layer2">

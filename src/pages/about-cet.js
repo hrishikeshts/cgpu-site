@@ -46,38 +46,40 @@ export default function AboutCET() {
                             <AboutSVG main={aboutcet} />
                         </div>
                     </div>
+                
+
+                <div className="row justify-content-center">
+                    <div className="feature-box">
+                        <div >
+                            <p className="numeric">8</p>
+                            <p className="numeric-text">undergraduate programmes</p>
+                        </div>
+
+                        <div >
+                            <p className="numeric">27</p>
+                            <p className="numeric-text">postgraduate & doctoral programmes</p>
+                        </div>
+                        <div >
+                            <p className="numeric">4500</p>
+                            <p className="numeric-text">students studying</p>
+                        </div>
+
+                        <div>
+                            <p className="numeric">311+</p>
+                            <p className="numeric-text">teaching professionals</p>
+                        </div>
+                        <div>
+                            <p className="numeric">290+</p>
+                            <p className="numeric-text">non-teaching staff</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div className="row feature-box">
-                    <div className="col-2">
-                        <p className="numeric">8</p>
-                        <p className="numeric-text">undergraduate programmes</p>
-                    </div>
-
-                    <div className="col-3">
-                        <p className="numeric">27</p>
-                        <p className="numeric-text">postgraduate & doctoral programmes</p>
-                    </div>
-                    <div className="col-2">
-                        <p className="numeric">4500</p>
-                        <p className="numeric-text">students studying</p>
-                    </div>
-
-                    <div className="col-2">
-                        <p className="numeric">311+</p>
-                        <p className="numeric-text">teaching professionals</p>
-                    </div>
-                    <div className="col-2">
-                        <p className="numeric">290+</p>
-                        <p className="numeric-text">non-teaching staff</p>
-                    </div>
-                </div>
-
-                <div className="abt-cgpu-main">
+                
                     <div className="row abt-sub-1">
-                        <div className="col-6 my-4">
+                        <div className="col-6 my-4 alm-cntnt">
                             <div className="page-head">Alumni</div>
-                            <div className="abt-desc">
+                            <div className="abt-desc abt-cet-desc">
                                 CET alumni ae distinguished forerunners in every possible technological field across the
                                 world. The CET Alumni association,the CETAA is very much active in the college bringing
                                 together the CET-ians of yesteryears and present cream.

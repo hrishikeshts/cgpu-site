@@ -68,7 +68,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="reach">Reach our institution</div>
-                    <div className="map">google map</div>
+                    <div className="map">Map to be Displayed Here!</div>
                 </div>
             </div>
         </Layout>

@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import "../styles/recruiters.css";
-import { recruitData } from "./data";
+import { recruitData } from "../components/data";
 
 export default function Recruiters() {
     return (

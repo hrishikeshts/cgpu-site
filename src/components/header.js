@@ -19,7 +19,7 @@ export default function Header({ page }) {
 
     return (
         <>
-            <header className={`fixed-top ${scroll ? "scrolled" : ""}`}>
+            <header className={`fixed-top ${scroll ? "scrolled" : ""}`} style={{paddingLeft:"6%",paddingRight:"6%"}}>
                 <Link to="/">
                     <span>cgpu</span>
                     <span>cet</span>
