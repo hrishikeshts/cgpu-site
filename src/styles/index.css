@@ -93,10 +93,11 @@
 
 .objectives {
     background-color: var(--light-blue);
-    border-radius: 2%;
+    border-radius: 12px;
     text-align: center;
-    padding: 4% 2%;
-    width: 90%;
+    padding: 50px 25px;
+    width: 300px;
+    height: 250px;
 }
 
 .objectives-title {
