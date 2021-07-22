@@ -44,6 +44,15 @@
     position: absolute;
     top:-50px;
     left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rec-logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
 }
 .company-desc{
     text-align: center;
