@@ -1,4 +1,5 @@
-import {ibm} from '../images/ibm.png'
+
+
 
   export const eventData = [
     {
@@ -48,36 +49,42 @@ import {ibm} from '../images/ibm.png'
     {
       company:"IBM",
       url:"www.ibm.com",
-      logo:{ibm}
+      logo:"/recruiters-logo/ibm.png"
     },
     {
       company:"ABB",
-      url:"www.abb.com"
+      url:"www.abb.com",
+      logo:"/recruiters-logo/ibm.png"
     },
     {
       company:"IBM",
       url:"www.ibm.com",
-      logo:{ibm}
+      logo:"/recruiters-logo/ibm.png"
     },
     {
       company:"ABB",
-      url:"www.abb.com"
+      url:"www.abb.com",
+      logo:"/recruiters-logo/ibm.png"
     },
     {
       company:"IBM",
-      url:"www.ibm.com"
+      url:"www.ibm.com",
+      logo:"/recruiters-logo/ibm.png"
     },
     {
       company:"ABB",
-      url:"www.abb.com"
+      url:"www.abb.com",
+      logo:"/recruiters-logo/ibm.png"
     },
     {
       company:"IBM",
-      url:"www.ibm.com"
+      url:"www.ibm.com",
+      logo:"/recruiters-logo/ibm.png"
     },
     {
       company:"ABB",
-      url:"www.abb.com"
+      url:"www.abb.com",
+      logo:"/recruiters-logo/ibm.png"
     },
   ]
 
@@ -108,4 +115,86 @@ import {ibm} from '../images/ibm.png'
         title: "Excel in Competitive Exams",
         content: "To offer training for students in exams like GRE,CAT,TOEFLGMAT,GATE,etc",
     },
+];
+export const photos = [
+  {
+    src: "/gallery-images/gim1.png",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "/gallery-images/gim2.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src: "/gallery-images/gim3.jpg",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "/gallery-images/gim4.jpg",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "/gallery-images/gim5.jpg",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "/gallery-images/gim6.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "/gallery-images/gim7.png",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "/gallery-images/gim8.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "/gallery-images/gim9.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "/gallery-images/gim10.jpg",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
+    width: 4,
+    height: 3
+  }
 ];

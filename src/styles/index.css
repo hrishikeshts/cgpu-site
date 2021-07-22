@@ -111,3 +111,28 @@
     color: var(--dark);
     opacity: 0.8;
 }
+
+/* ScrollBar custom */
+
+::-webkit-scrollbar {
+    width:6px;
+    height: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: #fafafa;  */
+    background: #dbeafa;
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--blue);
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1b67bf;
+  }
