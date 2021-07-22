@@ -1,7 +1,9 @@
 import React from "react";
-import "../styles/about-cgpu.css";
 import { eventData } from "./data";
 import Layout from "../components/layout";
+import "../styles/about-cgpu.css";
+import AboutSVG from "../components/aboutsvg";
+import aboutcgpu from "../images/about-cgpu.jpg";
 
 export default function AboutCGPU() {
     return (
@@ -25,13 +27,7 @@ export default function AboutCGPU() {
                         </div>
                     </div>
                     <div className="col-6 img-main">
-                        <div className="img-box-blue">
-                            <div className="img-box-blue-in"></div>
-                        </div>
-                        <div className="img-box-white">
-                            <div className="img-box-in-gray"></div>
-                        </div>
-                        <div className="img-box-green"></div>
+                        <AboutSVG main={aboutcgpu} />
                     </div>
                 </div>
                 <div className="ppl-cgpu">
