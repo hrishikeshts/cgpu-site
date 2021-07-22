@@ -79,7 +79,7 @@
     background-color: var(--blue);
     padding-top: 12px;
     border-radius: 15px;
-    width: 87vw;
+    width: 84vw;
     height: 150px;
     display: flex;
     flex-direction: row;
@@ -135,6 +135,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: -30px;
 }
 .alumniheading {
     color: var(--blue);
@@ -144,9 +145,9 @@
 .alumnicontent {
     background-color: var(--light-blue);
     border-radius: 12px;
-    padding: 3% 2%;
-    width: 65vw;
-    margin-left: -15px;
+    padding: 4% 5%;
+    width: 45vw;
+    margin-left: -30px;
 }
 .abt-cet-desc {
     width: 35vw;
