@@ -89,22 +89,24 @@ export default function AboutCET() {
                             <button className="learnbtn">Learn More</button>
                         </div>
                     </div>
-                    <div className="alumnicontent  col-6 my-4">
-                        <div className="alumnititle">
-                            <div className="alumnipic">
-                                <img src={cetaalogo} alt="cetaa-logo"></img>
+                    <div className="col-6 my-4">
+                        <div className="alumnicontent">
+                            <div className="alumnititle">
+                                <div className="alumnipic">
+                                    <img src={cetaalogo} alt="cetaa-logo"></img>
+                                </div>
+                                <div className="alumniheading" style={{ marginLeft: "4%" }}>
+                                    College of Engineering Trivandrum Alumni Association
+                                </div>
                             </div>
-                            <div className="alumniheading" style={{ marginLeft: "4%" }}>
-                                College of Engineering Trivandrum Alumni Association
-                            </div>
+                            <ul>
+                                {alumni.map((x) => (
+                                    <li className="abt-desc" style={{ fontSize: "18px" }}>
+                                        {x}
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
-                        <ul>
-                            {alumni.map((x) => (
-                                <li className="abt-desc" style={{ fontSize: "18px" }}>
-                                    {x}
-                                </li>
-                            ))}
-                        </ul>
                     </div>
                 </div>
             </div>

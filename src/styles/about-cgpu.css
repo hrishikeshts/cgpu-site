@@ -1,5 +1,5 @@
 .abt-sub-1 {
-    /* width: 90vw; */
+    /* width: 84vw; */
     /* padding: 10px; */
     margin-bottom: 20px;
 }
@@ -61,7 +61,7 @@
 /* CGPU People */
 .ppl-cgpu {
     /* background-color: khaki; */
-    width: 90vw;
+    width: 100vw;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -71,6 +71,8 @@
 }
 .cards-main {
     padding: 10px;
+    justify-content: center;
+    
 }
 .cards-each {
     /* background-color: lightcoral; */
