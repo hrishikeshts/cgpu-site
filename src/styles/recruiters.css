@@ -1,76 +1,66 @@
-.recruit-main{
-    padding: 5% 10%;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-    background-color: #FAFAFA;
-}
-.head-desc{
+.head-desc {
     font-size: 15px;
-    color:#7A8193;
+    color: #7a8193;
     width: 650px;
 }
-.head-desc-main{
+.head-desc-main {
     margin-bottom: 20px;
 }
-.r-card-main{
+.r-card-main {
     padding: 10px;
 }
-.r-cards-each{
+.r-cards-each {
     width: 260px;
     height: 250x;
-    padding: 20px 10px ;
+    padding: 20px 10px;
     margin-top: 60px;
 }
-.r-cards-in{
+.r-cards-in {
     width: 95%;
     height: 160px;
-    background: #DBEAFA;
+    background: #dbeafa;
     border-radius: 12px;
-    margin-right:5px;
+    margin-right: 5px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.img-round{
+.img-round {
     width: 100px;
     height: 100px;
     background-color: #fff;
     border-radius: 100%;
-    border:#DBEAFA 2px solid;
+    border: #dbeafa 2px solid;
     position: absolute;
-    top:-50px;
+    top: -50px;
     left: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.rec-logo{
+.rec-logo {
     width: 90px;
     height: 90px;
     border-radius: 100%;
 }
-.company-desc{
+.company-desc {
     text-align: center;
-    
 }
-.item-company{
+.item-company {
     color: var(--dark);
     font-size: 24px;
     line-height: 28px;
-    margin-top:20px;
+    margin-top: 20px;
 }
-.item-url{
-    color: #7A8193;
+.item-url {
+    color: #7a8193;
     font-size: 16px;
     line-height: 19px;
-
 }
-.item-logo{
+.item-logo {
     width: 100px;
     height: 100px;
     border-radius: 100%;

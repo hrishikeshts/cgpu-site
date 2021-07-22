@@ -8,7 +8,7 @@ import aboutcgpu from "../images/about-cgpu.jpg";
 export default function AboutCGPU() {
     return (
         <Layout page="cgpu">
-            <div className="abt-cgpu-main">
+            <div className="main-container">
                 <div className="row abt-sub-1">
                     <div className="col-6 my-4">
                         <div className="page-head">About CGPU</div>

@@ -1,26 +1,15 @@
-.abt-cgpu-main{
-    padding: 5% 10%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #FAFAFA;
-}
-.abt-sub-1{
-    /* background-color: aquamarine; */
-    width: 90vw;
-    padding: 10px;
+.abt-sub-1 {
+    /* width: 90vw; */
+    /* padding: 10px; */
     margin-bottom: 20px;
-    
 }
-.abt-desc{
+.abt-desc {
     /* width: 50vw; */
     color: #828282;
 }
 
 /* Image */
-.img-main{
+.img-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,17 +17,17 @@
     /* background-color: blueviolet; */
     position: relative;
 }
-.img-box-blue{
+.img-box-blue {
     width: 120px;
     height: 150px;
-    position:absolute;
+    position: absolute;
     right: 80px;
     top: 10px;
     background: var(--blue);
     border-radius: 0px 40px 0px 0px;
     z-index: 10;
 }
-.img-box-green{
+.img-box-green {
     width: 110px;
     height: 130px;
     position: absolute;
@@ -50,10 +39,10 @@
     opacity: 0.4;
     border-radius: 0px 0px 0px 40px;
 }
-.img-box-white{
+.img-box-white {
     width: 400px;
     height: 300px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 0px 32px rgba(130, 130, 130, 0.2);
     border-radius: 24px;
     position: absolute;
@@ -62,7 +51,7 @@
     z-index: 20;
     padding: 10px;
 }
-.img-box-in-gray{
+.img-box-in-gray {
     background: rgba(130, 130, 130, 0.5);
     width: 100%;
     height: 100%;
@@ -70,7 +59,7 @@
 }
 
 /* CGPU People */
-.ppl-cgpu{
+.ppl-cgpu {
     /* background-color: khaki; */
     width: 90vw;
     padding: 20px;
@@ -80,41 +69,41 @@
     align-items: center;
     text-align: center;
 }
-.cards-main{
+.cards-main {
     padding: 10px;
 }
-.cards-each{
+.cards-each {
     /* background-color: lightcoral; */
     width: 260px;
     height: 250x;
-    padding: 20px 10px ;
+    padding: 20px 10px;
 }
-.cards-in{
+.cards-in {
     width: 95%;
     height: 280px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 0px 16px rgba(130, 130, 130, 0.16);
     border-radius: 12px;
-    margin-right:5px;
-    transition: transform .3s;
+    margin-right: 5px;
+    transition: transform 0.3s;
 }
-.cards-in:hover{
+.cards-in:hover {
     transform: scale(1.2);
 }
-.img-bg{
+.img-bg {
     width: 100%;
     height: 185px;
     background: rgba(130, 130, 130, 0.5);
     border-radius: 12px;
 }
-.item-name{
+.item-name {
     color: var(--dark);
 }
-.item-pos{
+.item-pos {
     color: #828282;
     font-size: 12px;
 }
-.item-mail{
-    color:var(--blue);
+.item-mail {
+    color: var(--blue);
     font-size: 12px;
 }

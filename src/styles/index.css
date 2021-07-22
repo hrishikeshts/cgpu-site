@@ -1,3 +1,11 @@
+.main-container {
+    padding: 1% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .page-head {
     color: var(--dark);
     font-size: 30px;
@@ -9,19 +17,12 @@
     mix-blend-mode: darken;
 }
 
-.homepage {
-    padding: 4% 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fafafa;
-}
+/* 
 .firstabt {
     width: 90vw;
     padding: 10px;
     margin-bottom: 20px;
-}
+} */
 
 .desc {
     color: #828282;
@@ -115,24 +116,22 @@
 /* ScrollBar custom */
 
 ::-webkit-scrollbar {
-    width:6px;
+    width: 6px;
     height: 1px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     /* background: #fafafa;  */
     background: #dbeafa;
+}
 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: var(--blue);
-    
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #1b67bf;
-  }
+}

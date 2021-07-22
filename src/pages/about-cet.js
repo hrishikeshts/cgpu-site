@@ -19,47 +19,49 @@ export default function AboutCET() {
 
     return (
         <Layout page="cet">
-            <div className="overall-styling">
-                <div className="abt-cgpu-main">
-                    <div className="row abt-sub-1">
-                        <div className="col-6 my-4">
-                            <div className="page-head">About CET</div>
-                            <div className="abt-desc">
-                                Founded in 1989 under the reign of the Travancore King, Sri Chithira Thirunal
-                                Varma,College of Engineering,Trivandrum is the first engineering collge in Kerala.
-                                <br />
-                                <br />
-                                Ranked at <span className="textHighlights">85</span> among{" "}
-                                <span className="textHighlights">engineering colleges in India by NIRF</span> in
-                                2020,CET always rankis within top 100 engineering colleges of India every year. With
-                                such an eminence in the academic and curricular activities,the College is the most
-                                sought after engineering college by the applicants of engineering degree programmes in
-                                the state.
-                                <br />
-                                <br />
-                                <Link to="/" className="learnLink">
-                                    Learn More
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="col-6 img-main">
-                            <AboutSVG main={aboutcet} />
+            <div className="main-container">
+                <div className="row abt-sub-1">
+                    <div className="col-6 my-4">
+                        <div className="page-head">About CET</div>
+                        <div className="abt-desc">
+                            Founded in 1989 under the reign of the Travancore King, Sri Chithira Thirunal Varma,College
+                            of Engineering,Trivandrum is the first engineering collge in Kerala.
+                            <br />
+                            <br />
+                            Ranked at <span className="textHighlights">85</span> among{" "}
+                            <span className="textHighlights">engineering colleges in India by NIRF</span> in 2020,CET
+                            always rankis within top 100 engineering colleges of India every year. With such an eminence
+                            in the academic and curricular activities,the College is the most sought after engineering
+                            college by the applicants of engineering degree programmes in the state.
+                            <br />
+                            <br />
+                            <a
+                                href="https://www.cet.ac.in/"
+                                className="learnLink"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Learn More
+                            </a>
                         </div>
                     </div>
-                
+                    <div className="col-6 img-main">
+                        <AboutSVG main={aboutcet} />
+                    </div>
+                </div>
 
                 <div className="row justify-content-center">
                     <div className="feature-box">
-                        <div >
+                        <div>
                             <p className="numeric">8</p>
                             <p className="numeric-text">undergraduate programmes</p>
                         </div>
 
-                        <div >
+                        <div>
                             <p className="numeric">27</p>
                             <p className="numeric-text">postgraduate & doctoral programmes</p>
                         </div>
-                        <div >
+                        <div>
                             <p className="numeric">4500</p>
                             <p className="numeric-text">students studying</p>
                         </div>
@@ -75,36 +77,34 @@ export default function AboutCET() {
                     </div>
                 </div>
 
-                
-                    <div className="row abt-sub-1">
-                        <div className="col-6 my-4 alm-cntnt">
-                            <div className="page-head">Alumni</div>
-                            <div className="abt-desc abt-cet-desc">
-                                CET alumni ae distinguished forerunners in every possible technological field across the
-                                world. The CET Alumni association,the CETAA is very much active in the college bringing
-                                together the CET-ians of yesteryears and present cream.
-                                <br />
-                                <br />
-                                <button className="learnbtn">Learn More</button>
+                <div className="row abt-sub-1">
+                    <div className="col-6 my-4 alm-cntnt">
+                        <div className="page-head">Alumni</div>
+                        <div className="abt-desc abt-cet-desc">
+                            CET alumni ae distinguished forerunners in every possible technological field across the
+                            world. The CET Alumni association,the CETAA is very much active in the college bringing
+                            together the CET-ians of yesteryears and present cream.
+                            <br />
+                            <br />
+                            <button className="learnbtn">Learn More</button>
+                        </div>
+                    </div>
+                    <div className="alumnicontent  col-6 my-4">
+                        <div className="alumnititle">
+                            <div className="alumnipic">
+                                <img src={cetaalogo} alt="cetaa-logo"></img>
+                            </div>
+                            <div className="alumniheading" style={{ marginLeft: "4%" }}>
+                                College of Engineering Trivandrum Alumni Association
                             </div>
                         </div>
-                        <div className="alumnicontent  col-6 my-4">
-                            <div className="alumnititle">
-                                <div className="alumnipic">
-                                    <img src={cetaalogo} alt="cetaa-logo"></img>
-                                </div>
-                                <div className="alumniheading" style={{ marginLeft: "4%" }}>
-                                    College of Engineering Trivandrum Alumni Association
-                                </div>
-                            </div>
-                            <ul>
-                                {alumni.map((x) => (
-                                    <li className="abt-desc" style={{ fontSize: "18px" }}>
-                                        {x}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
+                        <ul>
+                            {alumni.map((x) => (
+                                <li className="abt-desc" style={{ fontSize: "18px" }}>
+                                    {x}
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             </div>

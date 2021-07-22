@@ -2,13 +2,14 @@
     box-shadow: none;
 }
 
-header {
-    padding: 2% 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+    padding: 2% 8%;
     background: #fafafa;
     transition: 0.5s;
+}
+
+header nav .d-flex {
+    justify-content: center;
 }
 
 header.scrolled {
@@ -54,6 +55,11 @@ header .btn {
     transition: 0.15s;
 }
 
+header .btn:hover {
+    color: white;
+    background: var(--dark-blue);
+}
+
 header a:hover,
 .dropdown-toggle:hover {
     color: black !important;
@@ -86,4 +92,9 @@ header a:hover,
 header nav a.active,
 .dropdown-toggle.active {
     color: var(--blue) !important;
+}
+
+.dropdown.d-flex.d-lg-inline {
+    width: fit-content;
+    margin: auto;
 }

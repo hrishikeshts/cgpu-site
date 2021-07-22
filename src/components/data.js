@@ -99,21 +99,21 @@
     },
     {
         title: "Personality & Career Development",
-        content: "To organize lectures,seminars,group discussions,mock interviews,etc",
+        content: "To organize lectures, seminars, group discussions, mock interviews, etc.",
     },
     {
         title: "Guide Students in the Right Path",
-        content: "Proper mentorship to students,helping them to acheive current prospectives",
+        content: "Proper mentorship to students, helping them to acheive current prospectives",
     },
     { title: "Job Opportunities", content: "To find job opportunites in India and abroad" },
     {
         title: "Opportunities for Self Employment",
-        content: "To help students to work on projects,researches,and get self employed",
+        content: "To help students to work on projects, researches, and get self employed",
     },
     { title: "Find Higher Studies", content: "To provide knowledge for higher studies in India and abroad" },
     {
         title: "Excel in Competitive Exams",
-        content: "To offer training for students in exams like GRE,CAT,TOEFLGMAT,GATE,etc",
+        content: "To offer training for students in exams like GRE, CAT, TOEFLGMAT, GATE, etc.",
     },
 ];
 export const photos = [

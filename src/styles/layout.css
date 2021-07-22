@@ -135,6 +135,7 @@ body {
     --green: #2ecc71;
     --light-blue: #dbeafa;
     --dark: #4f4f4f;
+    --dark-blue: #1861b4;
     background: #fafafa;
     overflow-y: scroll;
 }
@@ -142,4 +143,8 @@ body {
 img {
     pointer-events: none;
     user-select: none;
+}
+
+a {
+    text-decoration: none;
 }

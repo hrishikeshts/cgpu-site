@@ -18,17 +18,28 @@ export default function Header({ page }) {
     };
 
     return (
-        <>
-            <header className={`fixed-top ${scroll ? "scrolled" : ""}`} style={{paddingLeft:"6%",paddingRight:"6%"}}>
-                <Link to="/">
-                    <span>cgpu</span>
-                    <span>cet</span>
-                </Link>
+        <header className={`sticky-top navbar navbar-expand-lg${scroll ? " scrolled" : ""}`}>
+            <Link to="/">
+                <span>cgpu</span>
+                <span>cet</span>
+            </Link>
+            <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <nav>
-                    <Link to="/" className={page === "home" ? "active" : ""}>
+                    <Link to="/" className={`d-flex d-lg-inline ${page === "home" ? "active" : ""}`}>
                         Home
                     </Link>
-                    <span className="dropdown">
+                    <span className="dropdown d-flex d-lg-inline">
                         <button
                             className={`btn dropdown-toggle ${
                                 page === "cet"
@@ -47,30 +58,29 @@ export default function Header({ page }) {
                             About
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <Link to="/about-cet" className={page === "cet" ? "active" : ""}>
+                            <Link to="/about-cet" className={`${page === "cet" ? "active" : ""}`}>
                                 About CET
                             </Link>
-                            <Link to="/about-cgpu" className={page === "cgpu" ? "active" : ""}>
+                            <Link to="/about-cgpu" className={`${page === "cgpu" ? "active" : ""}`}>
                                 About CGPU
                             </Link>
-                            <Link to="/gallery" className={page === "gallery" ? "active" : ""}>
+                            <Link to="/gallery" className={`${page === "gallery" ? "active" : ""}`}>
                                 Gallery
                             </Link>
                         </ul>
                     </span>
-                    <Link to="/placement" className={page === "placement" ? "active" : ""}>
+                    <Link to="/placement" className={`d-flex d-lg-inline ${page === "placement" ? "active" : ""}`}>
                         Placement
                     </Link>
-                    <Link to="/recruiters" className={page === "recruiters" ? "active" : ""}>
+                    <Link to="/recruiters" className={`d-flex d-lg-inline ${page === "recruiters" ? "active" : ""}`}>
                         Recruiters
                     </Link>
-                    <Link to="/contact" className={page === "contact" ? "active" : ""}>
+                    <Link to="/contact" className={`d-flex d-lg-inline ${page === "contact" ? "active" : ""}`}>
                         Contact
                     </Link>
-                    <button className="btn ml-4">Register</button>
+                    <button className="btn m-auto ms-lg-4 d-block d-lg-inline-block">Register</button>
                 </nav>
-            </header>
-            <header />
-        </>
+            </div>
+        </header>
     );
 }

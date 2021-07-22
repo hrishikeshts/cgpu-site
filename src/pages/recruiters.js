@@ -6,8 +6,8 @@ import { recruitData } from "../components/data";
 export default function Recruiters() {
     return (
         <Layout page="recruiters">
-            <div className="recruit-main">
-                <div className="head-desc-main">
+            <div className="main-container">
+                <div className="align-self-start head-desc-main">
                     <div className="page-head">Our Recruiters</div>
                     <div className="head-desc">
                         We have the world's leading companies coming forth to recruit our students. Register as a

@@ -5,8 +5,8 @@ export default function Contact() {
     return (
         <Layout page="contact">
             <div>
-                <div className="contact-main">
-                    <div className="page-head">Contact Us</div>
+                <div className="main-container">
+                    <div className="align-self-start page-head">Contact Us</div>
                     <div className="row main p-6">
                         <div className="col-xl-6 col-sm-12">
                             <div className="address text-wrap">
