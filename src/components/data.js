@@ -112,16 +112,17 @@
       url:"www.abb.com",
       logo:"/recruiters-logo/tismo.svg"
     },
+     {
+      company:"zoho",
+      url:"www.abb.com",
+      logo:"/recruiters-logo/zoho.svg"
+    },
     {
       company:"abb",
       url:"www.abb.com",
       logo:"/recruiters-logo/abb.svg"
     },
-    {
-      company:"zoho",
-      url:"www.abb.com",
-      logo:"/recruiters-logo/zoho.svg"
-    },
+   
   ]
 
   export const objectives = [
