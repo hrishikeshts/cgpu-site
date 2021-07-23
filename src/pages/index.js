@@ -10,7 +10,7 @@ import cgpuhall from "../images/cgpu-hall.jpg";
 import Bluebox from "../components/Bluebox";
 import Objectives from "../components/Objectives";
 import ThingsVal from "../components/ThingsVal";
-
+import Major from "../components/major";
 export default function Home() {
     return (
         <Layout page="home">
@@ -43,6 +43,7 @@ export default function Home() {
                 </div>
                 <Bluebox />
                 <ThingsVal />
+                 <Major/>
                 <Objectives />
             </div>
         </Layout>
