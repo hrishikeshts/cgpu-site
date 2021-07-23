@@ -120,81 +120,97 @@ export const photos = [
   {
     src: "/gallery-images/gim1.png",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"CET 2018"
   },
   {
     src: "/gallery-images/gim2.jpg",
     width: 1,
-    height: 1
+    height: 1,
+    desc:"Dept.of Architecture"
   },
   {
     src: "/gallery-images/gim3.jpg",
     width: 3,
-    height: 4
+    height: 4,
+    desc:"Graduation 2017 Batch"
   },
   {
     src: "/gallery-images/gim4.jpg",
     width: 3,
-    height: 4
+    height: 4,
+    desc:"MBA Block"
   },
   {
     src: "/gallery-images/gim5.jpg",
     width: 3,
-    height: 4
+    height: 4,
+    desc:"Some description"
   },
   {
     src: "/gallery-images/gim6.jpg",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   },
   {
     src: "/gallery-images/gim7.png",
     width: 3,
-    height: 4
+    height: 4,
+    desc:"Some description"
   },
   {
     src: "/gallery-images/gim8.jpg",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   },
   {
     src: "/gallery-images/gim9.jpg",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   },
   {
     src: "/gallery-images/gim10.jpg",
     width: 3,
-    height: 4
+    height: 4,
+    desc:"Some description"
   },
   {
     src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   },
   {
     src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   },
   {
     src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   },
   {
     src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   },
   {
     src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   },
   {
     src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
     width: 4,
-    height: 3
+    height: 3,
+    desc:"Some description"
   }
 ];
