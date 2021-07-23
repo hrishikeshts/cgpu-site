@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import Layout from "../components/layout";
 import AboutSVG from "../components/aboutsvg";
 import aboutcet from "../images/about-cet.jpg";
@@ -76,6 +75,62 @@ export default function AboutCET() {
                         </div>
                     </div>
                 </div>
+                <svg width="1110" height="257" viewBox="0 0 1110 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <text fill="#4F4F4F" fontWeight="500" fontSize="16" x="0" y="170">
+                        1939
+                    </text>
+                    <text fill="#1f7ae0" fontWeight="600" fontSize="23" x="0" y="200">
+                        Established
+                    </text>
+                    <text fill="#828282" fontWeight="400" fontSize="16" x="0" y="225">
+                        as the first engineering college in the state
+                    </text>
+                    <text fill="#4F4F4F" fontWeight="500" fontSize="16" x="390" y="40">
+                        1960
+                    </text>
+                    <text fill="#1f7ae0" fontWeight="600" fontSize="23" x="390" y="70">
+                        Shifted to the present campus
+                    </text>
+                    <text fill="#828282" fontWeight="400" fontSize="16" x="390" y="95">
+                        new campus of sprawling 125 acres
+                    </text>
+                    <text fill="#4F4F4F" fontWeight="500" fontSize="16" x="1110" y="170" textAnchor="end">
+                        2019
+                    </text>
+                    <text fill="#1f7ae0" fontWeight="600" fontSize="23" x="1110" y="200" textAnchor="end">
+                        Celebrated 80 years
+                    </text>
+                    <text fill="#828282" fontWeight="400" fontSize="16" x="1110" y="225" textAnchor="end">
+                        80th anniversary of nurturing young engineering minds
+                    </text>
+
+                    <circle opacity="0.3" cx="12" cy="130" r="12" fill="#2ECC71" />
+                    <circle cx="12" cy="130" r="7.2" fill="#2ECC71" />
+                    <circle opacity="0.3" cx="399" cy="130" r="12" fill="#2ECC71" />
+                    <circle cx="399" cy="130" r="7.2" fill="#2ECC71" />
+                    <circle opacity="0.3" cx="1098" cy="130" r="12" fill="#2ECC71" />
+                    <circle cx="1098" cy="130" r="7.2" fill="#2ECC71" />
+                    <line
+                        opacity="0.3"
+                        x1="24"
+                        y1="128"
+                        x2="387"
+                        y2="128"
+                        stroke="#7A8193"
+                        stroke-width="2"
+                        stroke-dasharray="8 8"
+                    />
+                    <line
+                        opacity="0.3"
+                        x1="411"
+                        y1="128"
+                        x2="1086"
+                        y2="128"
+                        stroke="#7A8193"
+                        stroke-width="2"
+                        stroke-dasharray="8 8"
+                    />
+                </svg>
 
                 <div className="row abt-sub-1">
                     <div className="col-6 my-4 alm-cntnt">

@@ -24,7 +24,7 @@ export default function Recruiters() {
                                 <div className="r-cards-each col-xl-3 col-md-4 col-sm-12">
                                     <div className="r-cards-in">
                                         <div className="img-round">
-                                            <img src={`${item.logo}`} className="rec-logo"></img>
+                                            <img src={`${item.logo}`} alt="Company Logo" className="rec-logo"></img>
                                         </div>
                                         <div className="company-desc">
                                             <div className="item-company">{item.company}</div>

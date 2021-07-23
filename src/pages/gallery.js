@@ -14,7 +14,7 @@ export default function Gallery() {
                     <div className="layer2">
                         <div className="gal-head">Gallery</div>
                     </div>
-                    <img src={coverimage} className="coverphoto"></img>
+                    <img src={coverimage} alt="Gallery" className="coverphoto"></img>
                     {/* <h1>Gallery</h1> */}
                 </div>
                 <div className="gal-container">
@@ -23,7 +23,7 @@ export default function Gallery() {
                             {photos.map((item) => {
                                 return (
                                     <div className="gal-space">
-                                        <img src={`${item.src}`} className="gal-img"></img>
+                                        <img src={`${item.src}`} alt="Gallery Item" className="gal-img"></img>
                                     </div>
                                 );
                             })}
