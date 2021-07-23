@@ -30,7 +30,7 @@ hr {
 footer {
     background-color: var(--blue);
     color: white;
-    padding: 5% 8% 3%;
+    padding: 3% 8%;
     display: flex;
     flex-direction: column;
 }
@@ -39,7 +39,6 @@ footer p {
     font-size: 0.9rem;
     font-weight: 300;
     color: #ffffffbf;
-    margin-top: 3%;
 }
 
 footer h2 span:nth-child(1) {
@@ -51,10 +50,6 @@ footer h2 span:nth-child(2) {
     font-weight: 500;
 }
 
-.footer-container h6 {
-    margin-bottom: 2rem;
-}
-
 .footer-container a {
     color: #ffffffbf;
     display: block;
@@ -62,19 +57,13 @@ footer h2 span:nth-child(2) {
     font-size: 0.9rem;
     font-weight: 300;
     transition: 0.15s;
+    width: fit-content;
 }
 
 .footer-container a:hover {
     color: white;
     text-decoration: none;
     transition: 0.15s;
-}
-
-.footer-container ul {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    margin: 0 5% 4%;
 }
 
 .contact .footer-adr {
