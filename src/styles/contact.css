@@ -1,10 +1,10 @@
 .address {
     height: 350px;
+    width: 95%;
     background: white;
     box-shadow: 0px 0px 24px rgba(130, 130, 130, 0.16);
     border-radius: 12px;
     margin-right: 50px;
-    margin-left: 70px;
     border-top: 10px solid var(--blue);
     text-align: center;
     padding: 5vh;
@@ -13,9 +13,10 @@
 }
 
 .contac {
-    margin-right: 50px;
+    
     margin-left: 50px;
     height: 350px;
+    width: 95%;
     background: white;
     box-shadow: 0px 0px 24px rgba(130, 130, 130, 0.16);
     border-radius: 12px;
@@ -31,6 +32,8 @@
 
 .main {
     padding-top: 40px;
+    width: 100%;
+    
 }
 
 .reach {
@@ -44,6 +47,7 @@
 
 .map {
     height: 438px;
+    width: 100%;
     background-color: #bababa80;
     border-radius: 24px;
     margin-bottom: 100px;

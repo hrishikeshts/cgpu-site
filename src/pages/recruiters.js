@@ -13,12 +13,13 @@ export default function Recruiters() {
                         We have the world's leading companies coming forth to recruit our students. Register as a
                         recruiter now to participate in our placement drive.
                     </div>
+                    <a href="https://genskill.com/" target="_blank" rel="noopener noreferrer" >
+                        <b>Register as a recruiter</b>
+                    </a>
                 </div>
-                <a href="https://genskill.com/" target="_blank" rel="noopener noreferrer">
-                    <b>Register as a recruiter</b>
-                </a>
+                
                 <div>
-                    <div className="r-cards-main row">
+                    <div className="r-cards-main row justify-content-center">
                         {recruitData.map((item) => {
                             return (
                                 <div className="r-cards-each col-xl-3 col-md-4 col-sm-12">
