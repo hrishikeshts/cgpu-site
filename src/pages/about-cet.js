@@ -26,14 +26,14 @@ export default function AboutCET() {
                     <div className="order-md-1 col-12 col-md-7 col-lg-6 text-center text-md-start py-3 py-md-5">
                         <div className="page-head">About CET</div>
                         <div className="abt-desc">
-                            Founded in 1989 under the reign of the Travancore King, Sri Chithira Thirunal Varma,College
-                            of Engineering,Trivandrum is the first engineering collge in Kerala.
+                            Founded in 1989 under the reign of the Travancore King, Sri Chithira Thirunal Varma, College
+                            of Engineering Trivandrum is the first engineering college in Kerala.
                             <br />
                             <br />
                             Ranked at <span className="textHighlights">85</span> among{" "}
-                            <span className="textHighlights">engineering colleges in India by NIRF</span> in 2020,CET
+                            <span className="textHighlights">engineering colleges in India by NIRF</span> in 2020, CET
                             always rankis within top 100 engineering colleges of India every year. With such an eminence
-                            in the academic and curricular activities,the College is the most sought after engineering
+                            in the academic and curricular activities, the college is the most sought after engineering
                             college by the applicants of engineering degree programmes in the state.
                             <br />
                             <br />
@@ -92,7 +92,7 @@ export default function AboutCET() {
                     <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="0" y="195">
                         Established
                     </text>
-                    <text fill="#828282" fontWeight="400" fontSize="14" x="0" y="218">
+                    <text fill="#7A8193" fontWeight="400" fontSize="14" x="0" y="218">
                         as the first engineering college in the state
                     </text>
                     <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="390" y="45">
@@ -101,7 +101,7 @@ export default function AboutCET() {
                     <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="390" y="72">
                         Shifted to the present campus
                     </text>
-                    <text fill="#828282" fontWeight="400" fontSize="14" x="390" y="95">
+                    <text fill="#7A8193" fontWeight="400" fontSize="14" x="390" y="95">
                         new campus of sprawling 125 acres
                     </text>
                     <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="1110" y="170" textAnchor="end">
@@ -110,7 +110,7 @@ export default function AboutCET() {
                     <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="1110" y="195" textAnchor="end">
                         Celebrated 80 years
                     </text>
-                    <text fill="#828282" fontWeight="400" fontSize="14" x="1110" y="218" textAnchor="end">
+                    <text fill="#7A8193" fontWeight="400" fontSize="14" x="1110" y="218" textAnchor="end">
                         80th anniversary of nurturing young engineering minds
                     </text>
 

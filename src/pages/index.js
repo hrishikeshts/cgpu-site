@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
+import { Link } from "gatsby";
 import HomeSVG from "../components/home-svg";
 import "../styles/index.css";
 import logo from "../images/cet-logo.png";
@@ -31,7 +32,9 @@ export default function Home() {
                                 Motivation and Attitude. CET's placement process aims to match the requirements of
                                 recruiters and the aspirations of students.
                             </div>
-                            <button className="learnbtn">Learn More</button>
+                            <Link to="/about-cgpu" className="btn learnbtn">
+                                Learn More
+                            </Link>
                             <a href={`CET @ Glance.pdf`} download className="download px-4 py-2">
                                 Download Brochure
                             </a>

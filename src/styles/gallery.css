@@ -79,7 +79,7 @@
 }
 
 .layer2 {
-    background: linear-gradient(77.77deg, #1f7ae0 0%, rgba(31, 122, 224, 0) 89.85%);
+    background: linear-gradient(77.77deg, var(--blue) 0%, rgba(31, 122, 224, 0) 89.85%);
     position: absolute;
     top: 0;
     left: 0;

@@ -1,46 +1,28 @@
 .address {
-    height: 350px;
-    width: 95%;
+    height: 100%;
     background: white;
     box-shadow: 0px 0px 24px rgba(130, 130, 130, 0.16);
     border-radius: 12px;
-    margin-right: 50px;
     border-top: 10px solid var(--blue);
     text-align: center;
-    padding: 5vh;
     color: var(--dark);
     font-size: 16px;
 }
 
 .contac {
-    
-    margin-left: 50px;
-    height: 350px;
-    width: 95%;
+    height: 100%;
     background: white;
     box-shadow: 0px 0px 24px rgba(130, 130, 130, 0.16);
     border-radius: 12px;
     border-top: 10px solid var(--green);
     font-size: 16px;
     text-align: center;
-    padding: 5vh;
-}
-
-.contact-main {
-    padding: 4% 10% 2%;
-}
-
-.main {
-    padding-top: 40px;
-    width: 100%;
-    
 }
 
 .reach {
     text-align: center;
     color: var(--blue);
-    margin-top: 7vh;
-    margin-bottom: 5vh;
+    margin: 2rem 0;
     font-size: 30px;
     font-weight: 600;
 }
@@ -48,9 +30,9 @@
 .map {
     height: 438px;
     width: 100%;
-    background-color: #bababa80;
+    background-color: var(--blue-gray);
+    opacity: 0.5;
     border-radius: 24px;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,8 +42,8 @@
 }
 
 .p-main {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding: 1rem 0;
+    color: var(--blue-gray);
 }
 
 .phone {
@@ -71,4 +53,9 @@
 
 .phone:hover {
     text-decoration: none;
+}
+
+.address p,
+.contac p {
+    color: var(--blue-gray);
 }

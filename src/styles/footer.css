@@ -1,14 +1,18 @@
 .brochure-info {
     background: var(--light-blue);
     padding: 1% 8%;
-    display: flex;
+    text-align: center;
     justify-content: space-between;
+    align-items: center;
     margin-top: 2%;
+    color: var(--blue-gray);
 }
 
 .download {
     font-weight: 600;
     color: var(--blue);
+    white-space: nowrap;
+    width: max-content;
 }
 
 .brochure-info img {

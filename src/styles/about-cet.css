@@ -3,7 +3,7 @@
 }
 
 .abt-desc {
-    color: #828282;
+    color: var(--blue-gray);
 }
 
 /* Image */
@@ -67,9 +67,8 @@
 }
 
 .textHighlights {
-    color: var(--dark);
+    color: var(--blue-gray);
     font-weight: 600;
-    opacity: 0.8;
 }
 
 .feature-box {
@@ -151,7 +150,7 @@
 
 .alumnicontent .abt-desc {
     font-size: 18px;
-    color: var(--grey-blue);
+    color: var(--blue-gray);
 }
 
 ul {
