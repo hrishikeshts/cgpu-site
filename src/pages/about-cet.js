@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/layout";
 import AboutSVG from "../components/about-svg";
+import "../styles/about-cet.css";
 import aboutcet from "../images/about-cet.jpg";
 import cetaalogo from "../images/cetaa-logo.png";
 
-import "../styles/about-cet.css";
 export default function AboutCET() {
     const alumni = [
         "15 chapters all over the world",
@@ -143,7 +143,7 @@ export default function AboutCET() {
                 </svg>
 
                 <div className="row">
-                    <div className="alm-cntnt col-12 col-md-7 col-lg-6 text-center text-md-start pe-md-5 py-4">
+                    <div className="alm-cntnt col-12 col-md-5 col-lg-6 text-center text-md-start pe-md-5 py-4">
                         <div className="page-head">Our Alumni</div>
                         <div className="abt-desc">
                             CET alumni are distinguished forerunners in every possible technological field across the
@@ -161,13 +161,13 @@ export default function AboutCET() {
                             </a>
                         </div>
                     </div>
-                    <div className="col-12 col-md-5 col-lg-6 py-2 my-auto my-4">
+                    <div className="col-12 col-md-7 col-lg-6 py-2 my-auto my-4">
                         <div className="alumnicontent">
                             <div className="alumnititle">
                                 <div className="alumnipic">
                                     <img src={cetaalogo} alt="cetaa-logo"></img>
                                 </div>
-                                <div className="alumniheading px-4">
+                                <div className="alumniheading ps-4">
                                     College of Engineering Trivandrum Alumni Association
                                 </div>
                             </div>

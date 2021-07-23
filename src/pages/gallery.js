@@ -1,36 +1,34 @@
 import React from "react";
 import Layout from "../components/layout";
-import "../styles/gallery.css";
-import coverimage from "../images/cet-front.png";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import "../styles/gallery.css";
 import { photos } from "../components/data";
+// import coverimage from "../images/cet-cover.png";
 
 export default function Gallery() {
     return (
         <Layout page="gallery">
-            <div className="main-container gallery-page">
+            <div className="main-container">
                 <div className="coverimg">
-                    <div className="layer"></div>
-                    <div className="layer2">
-                        <div className="gal-head">Gallery</div>
-                    </div>
-                    <img src={coverimage} alt="Gallery" className="coverphoto"></img>
-                    {/* <h1>Gallery</h1> */}
+                    {/* <div className="layer"></div>
+                    <div className="layer2">*/}
+                    <div className="gal-head m-auto ms-4 ms-md-5 mb-3 mb-md-4">Gallery</div>
+                    {/* </div>
+                    <img src={coverimage} alt="Gallery" className="coverphoto"></img>  */}
                 </div>
                 <div className="gal-container">
                     <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
                         <Masonry>
                             {photos.map((item) => {
                                 return (
-                                    <div className="gal-space ">
+                                    <div className="gal-space">
                                         <div className="myDIV">
                                             <img src={`${item.src}`} alt="Gallery Item" className="gal-img"></img>
                                             <div class="overlay">
                                                 <div className="text-wrap">
-                                                    <h4 className="img-desc">{item.desc}</h4>  
+                                                    <h4 className="img-desc">{item.desc}</h4>
                                                 </div>
                                             </div>
-                                            
                                         </div>
                                     </div>
                                 );

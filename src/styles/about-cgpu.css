@@ -1,8 +1,8 @@
 .abt-sub-1 {
     margin-bottom: 20px;
 }
+
 .abt-desc {
-    /* width: 50vw; */
     color: #828282;
 }
 
@@ -12,9 +12,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: blueviolet; */
     position: relative;
 }
+
 .img-box-blue {
     width: 120px;
     height: 150px;
@@ -25,6 +25,7 @@
     border-radius: 0px 40px 0px 0px;
     z-index: 10;
 }
+
 .img-box-green {
     width: 110px;
     height: 130px;
@@ -37,6 +38,7 @@
     opacity: 0.4;
     border-radius: 0px 0px 0px 40px;
 }
+
 .img-box-white {
     width: 400px;
     height: 300px;
@@ -49,6 +51,7 @@
     z-index: 20;
     padding: 10px;
 }
+
 .img-box-in-gray {
     background: rgba(130, 130, 130, 0.5);
     width: 100%;
@@ -58,25 +61,23 @@
 
 /* CGPU People */
 .ppl-cgpu {
-    /* background-color: khaki; */
-    width: 100vw;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 .cards-main {
     padding: 10px;
     justify-content: center;
 }
+
 .cards-each {
-    /* background-color: lightcoral; */
     width: 260px;
-    height: 250x;
     padding: 20px 10px;
 }
+
 .cards-in {
     width: 95%;
     height: 280px;
@@ -86,22 +87,27 @@
     margin-right: 5px;
     transition: transform 0.3s;
 }
+
 .cards-in:hover {
     transform: scale(1.2);
 }
+
 .img-bg {
     width: 100%;
     height: 185px;
     background: rgba(130, 130, 130, 0.5);
     border-radius: 12px;
 }
+
 .item-name {
     color: var(--dark);
 }
+
 .item-pos {
     color: #828282;
     font-size: 12px;
 }
+
 .item-mail {
     color: var(--blue);
     font-size: 12px;
