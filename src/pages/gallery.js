@@ -22,8 +22,16 @@ export default function Gallery() {
                         <Masonry>
                             {photos.map((item) => {
                                 return (
-                                    <div className="gal-space">
-                                        <img src={`${item.src}`} alt="Gallery Item" className="gal-img"></img>
+                                    <div className="gal-space ">
+                                        <div className="myDIV">
+                                            <img src={`${item.src}`} alt="Gallery Item" className="gal-img"></img>
+                                            <div class="overlay">
+                                                <div className="text-wrap">
+                                                    <h4 className="img-desc">{item.desc}</h4>  
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
                                 );
                             })}

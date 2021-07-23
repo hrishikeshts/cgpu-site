@@ -8,7 +8,7 @@ const Objectives = () => {
             <div className="page-head text-center mb-4">Our Objectives</div>
             <div className="row">
                 {objectives.map((x) => (
-                    <div className="col-12 col-sm-6 col-md-4 col-xl-3 my-3">
+                    <div className="obj-main col-12 col-sm-6 col-md-4 col-xl-3 my-3">
                         <div className="objectives mx-auto">
                             <div className="objectives-title">{x.title}</div>
                             <div className="objectives-content">{x.content}</div>

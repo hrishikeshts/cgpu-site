@@ -96,7 +96,17 @@ h4 {
 .missionpara {
     text-align: right;
 }
-
+/* .obj-main{
+    transition: transform 0.3s;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 24px;
+}
+.obj-main:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 24px rgba(130, 130, 130, 0.16));
+    box-shadow: 0px 0px 16px rgba(130, 130, 130, 0.16);
+    
+} */
 .objectives {
     background-color: var(--light-blue);
     border-radius: 12px;
@@ -104,6 +114,12 @@ h4 {
     padding: 50px 25px;
     /* width: 300px; */
     height: 100%;
+    transition: transform 0.3s;
+}
+.objectives:hover{
+        transform: scale(1.1);
+        filter: drop-shadow(0px 0px 24px rgba(130, 130, 130, 0.16));
+        background: #fff;
 }
 
 .objectives-title {
