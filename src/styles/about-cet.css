@@ -1,15 +1,8 @@
-.overall-styling {
-    /* padding: 5% 10%;  */
-    background-color: #fafafa;
-}
-
 .abt-sub-1 {
-    /* width: 90vw;
-    padding: 10px; */
     margin-bottom: 20px;
 }
+
 .abt-desc {
-    /* width: 50vw; */
     color: #828282;
 }
 
@@ -130,27 +123,29 @@
 */
 .alumnititle {
     display: flex;
+    align-items: center;
 }
+
 .alm-cntnt {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: -30px;
 }
+
 .alumniheading {
     color: var(--blue);
     font-weight: 600;
     font-size: 25px;
 }
+
 .alumnicontent {
     background-color: var(--light-blue);
     border-radius: 12px;
     padding: 4% 5%;
-    width: 45vw;
-    margin-left: -30px;
 }
-.abt-cet-desc {
-    width: 35vw;
+
+.alumnicontent .abt-desc {
+    font-size: 18px;
 }
 
 ul {

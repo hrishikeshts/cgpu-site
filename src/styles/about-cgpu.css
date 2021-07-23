@@ -1,6 +1,4 @@
 .abt-sub-1 {
-    /* width: 84vw; */
-    /* padding: 10px; */
     margin-bottom: 20px;
 }
 .abt-desc {
@@ -72,7 +70,6 @@
 .cards-main {
     padding: 10px;
     justify-content: center;
-    
 }
 .cards-each {
     /* background-color: lightcoral; */

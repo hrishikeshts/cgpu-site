@@ -19,8 +19,11 @@ export default function AboutCET() {
     return (
         <Layout page="cet">
             <div className="main-container">
-                <div className="row abt-sub-1">
-                    <div className="col-6 my-4">
+                <div className="row">
+                    <div className="order-md-2 col-12 col-md-5 col-lg-6 text-center py-2 my-auto">
+                        <AboutSVG main={aboutcet} />
+                    </div>
+                    <div className="order-md-1 col-12 col-md-7 col-lg-6 text-center text-md-start py-3 py-md-5">
                         <div className="page-head">About CET</div>
                         <div className="abt-desc">
                             Founded in 1989 under the reign of the Travancore King, Sri Chithira Thirunal Varma,College
@@ -44,38 +47,45 @@ export default function AboutCET() {
                             </a>
                         </div>
                     </div>
-                    <div className="col-6 img-main">
-                        <AboutSVG main={aboutcet} />
+                </div>
+                <div className="bluebox row my-5 px-5 pt-4 pb-3">
+                    <div className="col">
+                        <p className="numeric">8</p>
+                        <p className="numeric-text">
+                            <div>undergraduate</div>
+                            <div>programmes</div>
+                        </p>
+                    </div>
+                    <div className="col">
+                        <p className="numeric">27</p>
+                        <p className="numeric-text">
+                            <div>postgraduate &amp; doctoral programmes</div>
+                        </p>
+                    </div>
+                    <div className="col">
+                        <p className="numeric">4500</p>
+                        <p className="numeric-text">
+                            <div>students</div>
+                            <div>studying</div>
+                        </p>
+                    </div>
+
+                    <div className="col">
+                        <p className="numeric">311+</p>
+                        <p className="numeric-text">
+                            <div>teaching</div>
+                            <div>professionals</div>
+                        </p>
+                    </div>
+                    <div className="col">
+                        <p className="numeric">290+</p>
+                        <p className="numeric-text">
+                            <div>non-teaching</div>
+                            <div>staff</div>
+                        </p>
                     </div>
                 </div>
-
-                <div className="row justify-content-center">
-                    <div className="feature-box">
-                        <div>
-                            <p className="numeric">8</p>
-                            <p className="numeric-text">undergraduate programmes</p>
-                        </div>
-
-                        <div>
-                            <p className="numeric">27</p>
-                            <p className="numeric-text">postgraduate & doctoral programmes</p>
-                        </div>
-                        <div>
-                            <p className="numeric">4500</p>
-                            <p className="numeric-text">students studying</p>
-                        </div>
-
-                        <div>
-                            <p className="numeric">311+</p>
-                            <p className="numeric-text">teaching professionals</p>
-                        </div>
-                        <div>
-                            <p className="numeric">290+</p>
-                            <p className="numeric-text">non-teaching staff</p>
-                        </div>
-                    </div>
-                </div>
-                <svg viewBox="0 0 1110 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 25 1110 257" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="0" y="170">
                         1939
                     </text>
@@ -132,33 +142,38 @@ export default function AboutCET() {
                     />
                 </svg>
 
-                <div className="row abt-sub-1">
-                    <div className="col-6 my-4 alm-cntnt">
-                        <div className="page-head">Alumni</div>
-                        <div className="abt-desc abt-cet-desc">
-                            CET alumni ae distinguished forerunners in every possible technological field across the
+                <div className="row">
+                    <div className="alm-cntnt col-12 col-md-7 col-lg-6 text-center text-md-start pe-md-5 py-4">
+                        <div className="page-head">Our Alumni</div>
+                        <div className="abt-desc">
+                            CET alumni are distinguished forerunners in every possible technological field across the
                             world. The CET Alumni association,the CETAA is very much active in the college bringing
                             together the CET-ians of yesteryears and present cream.
                             <br />
                             <br />
-                            <button className="learnbtn">Learn More</button>
+                            <a
+                                href="https://alumni.cet.ac.in/"
+                                className="learnLink"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Learn More
+                            </a>
                         </div>
                     </div>
-                    <div className="col-6 my-4">
+                    <div className="col-12 col-md-5 col-lg-6 py-2 my-auto my-4">
                         <div className="alumnicontent">
                             <div className="alumnititle">
                                 <div className="alumnipic">
                                     <img src={cetaalogo} alt="cetaa-logo"></img>
                                 </div>
-                                <div className="alumniheading" style={{ marginLeft: "4%" }}>
+                                <div className="alumniheading px-4">
                                     College of Engineering Trivandrum Alumni Association
                                 </div>
                             </div>
-                            <ul>
+                            <ul className="my-2">
                                 {alumni.map((x) => (
-                                    <li className="abt-desc" style={{ fontSize: "18px" }}>
-                                        {x}
-                                    </li>
+                                    <li className="abt-desc">{x}</li>
                                 ))}
                             </ul>
                         </div>

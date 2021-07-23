@@ -136,6 +136,7 @@ body {
     --light-blue: #dbeafa;
     --dark: #4f4f4f;
     --dark-blue: #1861b4;
+    --grey-blue: #7a8193;
     background: #fafafa;
     overflow-y: scroll;
 }
