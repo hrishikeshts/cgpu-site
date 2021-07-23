@@ -19,12 +19,12 @@ export default function Header({ page }) {
 
     return (
         <header className={`sticky-top navbar navbar-expand-lg${scroll ? " scrolled" : ""}`}>
-            <Link to="/">
+            <Link to="/" className="py-2 py-lg-0">
                 <span>cgpu</span>
                 <span>cet</span>
             </Link>
             <button
-                className="navbar-toggler"
+                className="navbar-toggler collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -32,16 +32,16 @@ export default function Header({ page }) {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <nav>
-                    <Link to="/" className={`d-flex d-lg-inline ${page === "home" ? "active" : ""}`}>
+                    <Link to="/" className={`d-flex d-lg-inline ps-0 pe-5 px-lg-3 ${page === "home" ? "active" : ""}`}>
                         Home
                     </Link>
                     <span className="dropdown d-flex d-lg-inline">
                         <button
-                            className={`btn dropdown-toggle ${
+                            className={`btn dropdown-toggle ps-0 pe-5 px-lg-3 ${
                                 page === "cet"
                                     ? "active"
                                     : page === "cgpu"
@@ -69,16 +69,25 @@ export default function Header({ page }) {
                             </Link>
                         </ul>
                     </span>
-                    <Link to="/placement" className={`d-flex d-lg-inline ${page === "placement" ? "active" : ""}`}>
+                    <Link
+                        to="/placement"
+                        className={`d-flex d-lg-inline ps-0 pe-5 px-lg-3 ${page === "placement" ? "active" : ""}`}
+                    >
                         Placement
                     </Link>
-                    <Link to="/recruiters" className={`d-flex d-lg-inline ${page === "recruiters" ? "active" : ""}`}>
+                    <Link
+                        to="/recruiters"
+                        className={`d-flex d-lg-inline ps-0 pe-5 px-lg-3 ${page === "recruiters" ? "active" : ""}`}
+                    >
                         Recruiters
                     </Link>
-                    <Link to="/contact" className={`d-flex d-lg-inline ${page === "contact" ? "active" : ""}`}>
+                    <Link
+                        to="/contact"
+                        className={`d-flex d-lg-inline ps-0 pe-5 px-lg-3 ${page === "contact" ? "active" : ""}`}
+                    >
                         Contact
                     </Link>
-                    <button className="btn m-auto ms-lg-4 d-block d-lg-inline-block">Register</button>
+                    <button className="btn my-2 my-lg-0 ms-lg-3 d-block d-lg-inline-block">Register</button>
                 </nav>
             </div>
         </header>

@@ -1,6 +1,6 @@
 import React from "react";
-import missioncircle from "../images/mission.png";
-import eye from "../images/Asseteye.png";
+import vision from "../images/vision-asset.svg";
+import mission from "../images/mission-asset.svg";
 
 const ThingsVal = () => {
     return (
@@ -10,7 +10,7 @@ const ThingsVal = () => {
                 <div className="d-md-flex vision py-3">
                     <div>
                         <div className="bluelayer">
-                            <img src={eye} alt="Vision" className="eye" />
+                            <img src={vision} alt="Vision" className="eye" />
                         </div>
                     </div>
                     <div className="px-5 py-4 py-md-0 text-center text-md-start">
@@ -25,7 +25,7 @@ const ThingsVal = () => {
                 <div className="d-md-flex mission py-3">
                     <div className="order-md-2">
                         <div className="bluelayer">
-                            <img src={missioncircle} alt="Mision" className="eye" />
+                            <img src={mission} alt="Mision" className="eye" />
                         </div>
                     </div>
                     <div className="px-5 py-4 py-md-0 text-center text-md-end order-md-1">

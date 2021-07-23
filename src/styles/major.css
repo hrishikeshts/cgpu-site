@@ -1,27 +1,32 @@
-.major{
-    height:588px;
-    background: #1F7AE0 !important;
-    width: 100vw !important;
-    left:0;
+.major {
+    background: var(--blue);
+    padding-bottom: 3rem;
+    left: 0;
     right: 0;
-    margin-bottom: 30px;
-    
 }
-.majortext{
-    padding-left: 8%;
-    color: #FFFFFF;
-    font-size: 36px;
-    padding-top: 1.5%;
-}
-.logo-card{
-width: 266px;
-height: 160px;
-margin: 1%;
 
-background: #FFFFFF;
-border-radius: 12px;
+.majortext {
+    padding: 2.5rem 8% 0;
+    color: white;
 }
-.imageclass{
+
+.logo-card {
+    width: 266px;
+    height: 160px;
+    margin: 1%;
+    background: white;
+    border-radius: 12px;
+}
+
+.imageclass {
     width: 100%;
     height: 100%;
+}
+
+.major-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--blue) 0%, #00000000 15%, #00000000 85%, var(--blue) 100%);
+    z-index: 510;
 }
