@@ -2,7 +2,7 @@ import React from "react";
 import { eventData } from "../components/data";
 import Layout from "../components/layout";
 import "../styles/about-cgpu.css";
-import AboutSVG from "../components/aboutsvg";
+import AboutSVG from "../components/about-svg";
 import aboutcgpu from "../images/about-cgpu.jpg";
 
 export default function AboutCGPU() {

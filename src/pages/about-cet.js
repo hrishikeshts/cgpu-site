@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import AboutSVG from "../components/aboutsvg";
+import AboutSVG from "../components/about-svg";
 import aboutcet from "../images/about-cet.jpg";
 import cetaalogo from "../images/cetaa-logo.png";
 
@@ -75,32 +75,32 @@ export default function AboutCET() {
                         </div>
                     </div>
                 </div>
-                <svg width="1110" height="257" viewBox="0 0 1110 257" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <text fill="#4F4F4F" fontWeight="500" fontSize="16" x="0" y="170">
+                <svg viewBox="0 0 1110 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="0" y="170">
                         1939
                     </text>
-                    <text fill="#1f7ae0" fontWeight="600" fontSize="23" x="0" y="200">
+                    <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="0" y="195">
                         Established
                     </text>
-                    <text fill="#828282" fontWeight="400" fontSize="16" x="0" y="225">
+                    <text fill="#828282" fontWeight="400" fontSize="14" x="0" y="218">
                         as the first engineering college in the state
                     </text>
-                    <text fill="#4F4F4F" fontWeight="500" fontSize="16" x="390" y="40">
+                    <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="390" y="45">
                         1960
                     </text>
-                    <text fill="#1f7ae0" fontWeight="600" fontSize="23" x="390" y="70">
+                    <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="390" y="72">
                         Shifted to the present campus
                     </text>
-                    <text fill="#828282" fontWeight="400" fontSize="16" x="390" y="95">
+                    <text fill="#828282" fontWeight="400" fontSize="14" x="390" y="95">
                         new campus of sprawling 125 acres
                     </text>
-                    <text fill="#4F4F4F" fontWeight="500" fontSize="16" x="1110" y="170" textAnchor="end">
+                    <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="1110" y="170" textAnchor="end">
                         2019
                     </text>
-                    <text fill="#1f7ae0" fontWeight="600" fontSize="23" x="1110" y="200" textAnchor="end">
+                    <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="1110" y="195" textAnchor="end">
                         Celebrated 80 years
                     </text>
-                    <text fill="#828282" fontWeight="400" fontSize="16" x="1110" y="225" textAnchor="end">
+                    <text fill="#828282" fontWeight="400" fontSize="14" x="1110" y="218" textAnchor="end">
                         80th anniversary of nurturing young engineering minds
                     </text>
 

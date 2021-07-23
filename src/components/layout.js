@@ -14,7 +14,7 @@ export default function Layout({ children, page }) {
                 <span>To know more about the college and placement details, please check out our brochure</span>
                 <a href={`CET @ Glance.pdf`} download className="download">
                     <img src={Download} alt="download" />
-                    Download Brochure
+                    <span>Download Brochure</span>
                 </a>
             </div>
             <Footer />

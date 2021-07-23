@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HomeSVG({ main, left, right }) {
     return (
-        <svg width="659" height="469" viewBox="0 0 659 469" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 659 469" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M375.952 9H459.89C486.4 9 507.89 30.4903 507.89 57V193.713H375.952V9Z" fill="#1F7AE0" />
             <path
                 d="M468.309 459.238H402.759C380.667 459.238 362.759 441.33 362.759 419.238V340.494H468.309V459.238Z"

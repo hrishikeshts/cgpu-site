@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutSVG({ main }) {
     return (
-        <svg width="627" height="484" viewBox="0 0 627 484" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 627 484" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M475 8H571C597.51 8 619 29.4903 619 56V200H475V8Z" fill="#1F7AE0" />
             <g filter="url(#filter0_d)">
                 <rect x="32" y="32" width="563" height="420" rx="24" fill="white" />

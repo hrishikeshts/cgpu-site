@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import HomeSVG from "../components/homesvg";
+import HomeSVG from "../components/home-svg";
 import "../styles/index.css";
 import logo from "../images/cet-logo.png";
 import cetfront from "../images/cet-front.jpg";
@@ -15,15 +15,15 @@ export default function Home() {
         <Layout page="home">
             <div className="main-container">
                 <div className="row firstabt">
-                    <div className="order-md-2 col-12 col-md-4 col-lg-6 text-center">
+                    <div className="order-md-2 col-12 col-md-5 col-lg-6 text-center py-2 my-auto">
                         <HomeSVG main={cetfront} left={cgpufront} right={cgpuhall} />
                     </div>
-                    <div className="order-md-1 col-12 col-md-8 col-lg-6 text-center text-md-start">
+                    <div className="order-md-1 col-12 col-md-7 col-lg-6 text-center text-md-start">
                         <div className="page-head">
-                            <img src={logo} alt="CET Seal" className="cet-logo py-3" />
-                            <div className="col-8">
-                                Career Guidance and Placement Unit, College of Engineering Trivandrum
-                            </div>
+                            <img src={logo} alt="CET Seal" className="cet-logo py-2 py-md-3" />
+                            <div>Career Guidance and</div>
+                            <div>Placement Unit, College of</div>
+                            <div>Engineering Trivandrum</div>
                         </div>
                         <div className="desc">
                             <div className="mb-4">

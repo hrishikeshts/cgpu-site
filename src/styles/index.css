@@ -48,14 +48,21 @@
     color: #1f7ae0;
 }
 
-/* .vm{
+.vm {
+    width: 90%;
+    margin: auto;
+}
 
-} */
+h4 {
+    color: var(--dark);
+}
+
 .bluebox {
-    background: #1f7ae0;
+    background: var(--blue);
     color: white;
     padding: 3% 7%;
-    margin: 3% 0%;
+    width: 100%;
+    text-align: center;
     font-size: 18px;
     border-radius: 16px;
 }
@@ -71,20 +78,17 @@
 }
 
 .bluelayer {
-    background: #dbeafa;
-    /* margin-left: 14%;
-    margin-right: 14%;
-    margin-bottom: 3%; */
-    margin: 3% 14%;
-    overflow: hidden;
+    background: var(--light-blue);
+    width: 9rem;
+    height: 8rem;
     border-radius: 12px;
-    position: relative;
-    padding: 20% 0%;
+    display: flex;
+    margin: auto;
 }
+
 .eye {
     object-fit: cover;
-    opacity: 0.8;
-    padding-left: 25%;
+    margin: auto;
 }
 .text {
     color: #7a8193;
@@ -98,8 +102,8 @@
     border-radius: 12px;
     text-align: center;
     padding: 50px 25px;
-    width: 300px;
-    height: 250px;
+    /* width: 300px; */
+    height: 100%;
 }
 
 .objectives-title {
