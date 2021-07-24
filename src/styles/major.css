@@ -1,0 +1,32 @@
+.major {
+    background: var(--blue);
+    padding-bottom: 3rem;
+    left: 0;
+    right: 0;
+}
+
+.majortext {
+    padding: 2.5rem 8% 0;
+    color: white;
+}
+
+.logo-card {
+    width: 266px;
+    height: 160px;
+    margin: 1%;
+    background: white;
+    border-radius: 12px;
+}
+
+.imageclass {
+    width: 100%;
+    height: 100%;
+}
+
+.major-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--blue) 0%, #00000000 15%, #00000000 85%, var(--blue) 100%);
+    z-index: 510;
+}

@@ -1,0 +1,50 @@
+.chart-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table-tagline {
+    font-size: 24px;
+    line-height: 28.13px;
+    color: var(--blue);
+    margin: 84px 0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.placement-year {
+    color: var(--dark);
+    font-size: 36px;
+    line-height: 42px;
+    margin-left: 10px;
+}
+
+.placement-table {
+    border: 1px solid rgba(31, 122, 224, 0.3);
+}
+
+.placement-table thead {
+    background: #dbeafa;
+    border: 1px solid rgba(31, 122, 224, 0.3);
+    border-radius: 12px;
+    color: var(--blue);
+    font-size: 16px;
+}
+
+.placement-table tbody tr {
+    color: var(--blue-gray) !important;
+    border: transparent !important;
+}
+
+.placement-table > tbody > tr:nth-child(odd) {
+    background-color: white !important;
+    --bs-table-accent-bg: white !important;
+}
+
+.placement-table > tbody > tr:nth-child(even) {
+    background-color: rgba(219, 234, 250, 0.5) !important;
+}
