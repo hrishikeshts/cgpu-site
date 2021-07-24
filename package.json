@@ -14,9 +14,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "chart.js": "^3.4.1",
     "gatsby": "^3.9.1",
     "gatsby-plugin-react-helmet": "^4.9.0",
     "react": "^17.0.1",
+    "react-chartjs-2": "^3.0.4",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-responsive-masonry": "^2.1.3"
