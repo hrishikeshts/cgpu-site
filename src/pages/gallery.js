@@ -10,18 +10,14 @@ export default function Gallery() {
         <Layout page="gallery">
             <div className="main-container mb-4 mb-md-0">
                 <div className="coverimg">
-                    {/* <div className="layer"></div>
-                    <div className="layer2">*/}
                     <div className="gal-head m-auto ms-4 ms-md-5 mb-3 mb-md-4">Gallery</div>
-                    {/* </div>
-                    <img src={coverimage} alt="Gallery" className="coverphoto"></img>  */}
                 </div>
                 <div className="gal-container">
                     <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
                         <Masonry>
-                            {photos.map((item) => {
+                            {photos.map((item, key) => {
                                 return (
-                                    <div className="gal-space">
+                                    <div key={key} className="gal-space">
                                         <div className="myDIV">
                                             <img src={`${item.src}`} alt="Gallery Item" className="gal-img"></img>
                                             <div className="overlay">

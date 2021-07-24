@@ -1,7 +1,6 @@
 .chart-container {
     background-color: white;
-    padding-top: 5%;
-    padding: 2rem;
+    padding: 5%;
     border-radius: 16px;
     margin: 0 auto;
     width: 100%;
@@ -12,7 +11,7 @@
     font-size: 24px;
     line-height: 28.13px;
     color: var(--blue);
-    margin: 84px 0;
+    margin: 64px 0 44px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -25,30 +24,56 @@
     margin-left: 10px;
 }
 
-.placement-table {
-    border: 1px solid rgba(31, 122, 224, 0.3);
-    border-radius: 12px;
+.table-responsive > div {
+    border: 2px solid rgba(31, 122, 224, 0.3);
+    border-radius: 1rem;
+    background: white;
+    margin-bottom: 1rem;
+    min-width: max-content;
 }
 
 .placement-table thead {
-    background: #dbeafa;
-    border: 1px solid rgba(31, 122, 224, 0.3);
-    border-radius: 12px;
+    background: var(--light-blue);
     color: var(--blue);
     font-size: 16px;
+    height: 4.5rem;
+    vertical-align: middle;
+}
+
+.placement-table {
+    text-align: center;
+}
+
+.placement-table thead th:nth-child(2),
+.placement-table tbody tr th + td {
+    text-align: left;
+}
+
+.placement-table > tbody > tr:nth-child(odd) {
+    --bs-table-accent-bg: white;
+}
+
+.placement-table > tbody > tr:nth-child(even) {
+    --bs-table-accent-bg: rgba(219, 234, 250, 0.5);
+}
+
+.placement-table tbody th,
+.placement-table thead th:first-child {
+    border-radius: 0.75rem 0 0 0.75rem;
+}
+
+.placement-table tbody td:last-child,
+.placement-table thead th:last-child {
+    border-radius: 0 0.75rem 0.75rem 0;
+}
+
+.placement-table thead tr {
+    border-style: hidden;
 }
 
 .placement-table tbody tr {
     color: var(--blue-gray) !important;
-    border: transparent !important;
-    /* border-radius: 12px!important; */
-}
-
-.placement-table > tbody > tr:nth-child(odd) {
-    background-color: white !important;
-    --bs-table-accent-bg: white !important;
-}
-
-.placement-table > tbody > tr:nth-child(even) {
-    background-color: rgba(219, 234, 250, 0.5) !important;
+    height: 3.5rem;
+    vertical-align: middle;
+    border-style: hidden;
 }

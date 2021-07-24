@@ -18,6 +18,10 @@
     margin-bottom: 10px;
 }
 
+.title {
+    max-width: 25rem;
+}
+
 .cet-logo {
     mix-blend-mode: darken;
 }
@@ -91,6 +95,7 @@ h4 {
     object-fit: cover;
     margin: auto;
 }
+
 .text {
     color: var(--blue-gray);
 }
@@ -140,7 +145,7 @@ h4 {
 
 ::-webkit-scrollbar {
     width: 6px;
-    height: 1px;
+    height: 6px;
 }
 
 /* Track */

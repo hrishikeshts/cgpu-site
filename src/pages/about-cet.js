@@ -52,36 +52,38 @@ export default function AboutCET() {
                     <div className="col">
                         <p className="numeric">8</p>
                         <p className="numeric-text">
-                            <div>undergraduate</div>
-                            <div>programmes</div>
+                            undergraduate
+                            <br />
+                            programmes
                         </p>
                     </div>
                     <div className="col">
                         <p className="numeric">27</p>
-                        <p className="numeric-text">
-                            <div>postgraduate &amp; doctoral programmes</div>
-                        </p>
+                        <p className="numeric-text">postgraduate &amp; doctoral programmes</p>
                     </div>
                     <div className="col">
                         <p className="numeric">4500</p>
                         <p className="numeric-text">
-                            <div>students</div>
-                            <div>studying</div>
+                            students
+                            <br />
+                            studying
                         </p>
                     </div>
 
                     <div className="col">
                         <p className="numeric">311+</p>
                         <p className="numeric-text">
-                            <div>teaching</div>
-                            <div>professionals</div>
+                            teaching
+                            <br />
+                            professionals
                         </p>
                     </div>
                     <div className="col">
                         <p className="numeric">290+</p>
                         <p className="numeric-text">
-                            <div>non-teaching</div>
-                            <div>staff</div>
+                            non-teaching
+                            <br />
+                            staff
                         </p>
                     </div>
                 </div>
@@ -127,8 +129,8 @@ export default function AboutCET() {
                         x2="387"
                         y2="128"
                         stroke="#7A8193"
-                        stroke-width="2"
-                        stroke-dasharray="8 8"
+                        strokeWidth="2"
+                        strokeDasharray="8 8"
                     />
                     <line
                         opacity="0.3"
@@ -137,8 +139,8 @@ export default function AboutCET() {
                         x2="1086"
                         y2="128"
                         stroke="#7A8193"
-                        stroke-width="2"
-                        stroke-dasharray="8 8"
+                        strokeWidth="2"
+                        strokeDasharray="8 8"
                     />
                 </svg>
 
@@ -172,8 +174,10 @@ export default function AboutCET() {
                                 </div>
                             </div>
                             <ul className="my-2">
-                                {alumni.map((x) => (
-                                    <li className="abt-desc">{x}</li>
+                                {alumni.map((x, key) => (
+                                    <li key={key} className="abt-desc">
+                                        {x}
+                                    </li>
                                 ))}
                             </ul>
                         </div>

@@ -22,9 +22,9 @@ export default function Recruiters() {
                 </div>
 
                 <div className="row justify-content-center">
-                    {recruitData.map((item) => {
+                    {recruitData.map((item, key) => {
                         return (
-                            <div className="r-cards-each col-xl-3 col-md-4 col-sm-12">
+                            <div key={key} className="r-cards-each col-xl-3 col-md-4 col-sm-12">
                                 <div className="r-cards-in">
                                     <div className="img-round">
                                         <img src={`${item.logo}`} alt="Company Logo" className="rec-logo"></img>

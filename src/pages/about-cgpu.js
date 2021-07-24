@@ -33,9 +33,9 @@ export default function AboutCGPU() {
                 <div className="ppl-cgpu mt-5">
                     <div className="page-head">People Behind CGPU</div>
                     <div className="cards-main row p-0">
-                        {eventData.map((item) => {
+                        {eventData.map((item, key) => {
                             return (
-                                <div className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
+                                <div key={key} className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
                                     <div className="cards-in">
                                         <div className="img-bg"></div>
                                         <div className="text-left mx-3 my-3">
