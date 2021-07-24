@@ -69,6 +69,10 @@
     line-height: 19px;
 }
 
+.item-url:hover {
+    color: var(--blue);
+}
+
 .item-logo {
     width: 100px;
     height: 100px;

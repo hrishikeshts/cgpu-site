@@ -13,18 +13,18 @@ const Major = () => {
             <div className="position-relative">
                 <div className="major-overlay" />
                 <Marquee>
-                    {first.map((item) => {
+                    {first.map((item, key) => {
                         return (
-                            <div className="logo-card">
+                            <div key={key} className="logo-card">
                                 <img className="imageclass" alt={item.company} src={item.logo} />
                             </div>
                         );
                     })}
                 </Marquee>
                 <Marquee direction="right">
-                    {second.map((item) => {
+                    {second.map((item, key) => {
                         return (
-                            <div className="logo-card">
+                            <div key={key} className="logo-card">
                                 <img className="imageclass" alt={item.company} src={item.logo} />
                             </div>
                         );

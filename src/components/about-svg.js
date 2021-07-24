@@ -7,7 +7,7 @@ export default function AboutSVG({ main }) {
             <g filter="url(#filter0_d)">
                 <rect x="32" y="32" width="563" height="420" rx="24" fill="white" />
             </g>
-            <image href={main} x="48" y="48" width="531" height="388" clip-path="url(#main-clip)" />
+            <image href={main} x="48" y="48" width="531" height="388" clipPath="url(#main-clip)" />
             <rect id="main-rect" opacity="0.24" x="48" y="48" width="531" height="388" rx="20" fill="#1F7AE0" />
             <path opacity="0.4" d="M120 476H48C25.9086 476 8 458.091 8 436V332H120V476Z" fill="#2ECC71" />
             <defs>
@@ -21,9 +21,9 @@ export default function AboutSVG({ main }) {
                     width="627"
                     height="484"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                 >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                         in="SourceAlpha"
                         type="matrix"

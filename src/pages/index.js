@@ -1,16 +1,17 @@
 import React from "react";
 import Layout from "../components/layout";
 import { Link } from "gatsby";
-import HomeSVG from "../components/home-svg";
 import "../styles/index.css";
+import HomeSVG from "../components/home-svg";
+import Bluebox from "../components/bluebox";
+import ThingsVal from "../components/things-val";
+import Major from "../components/major";
+import Objectives from "../components/objectives";
 import logo from "../images/cet-logo.png";
 import cetfront from "../images/cet-front.jpg";
 import cgpufront from "../images/cgpu-front.jpg";
 import cgpuhall from "../images/cgpu-hall.jpg";
-import Bluebox from "../components/Bluebox";
-import Objectives from "../components/Objectives";
-import ThingsVal from "../components/ThingsVal";
-import Major from "../components/major";
+
 export default function Home() {
     return (
         <Layout page="home">

@@ -30,8 +30,15 @@ export default function Recruiters() {
                                         <img src={`${item.logo}`} alt="Company Logo" className="rec-logo"></img>
                                     </div>
                                     <div className="company-desc">
-                                        <div className="item-company">{item.company}</div>
-                                        <div className="item-url">{item.url}</div>
+                                        <div className="item-company mb-1">{item.company}</div>
+                                        <a
+                                            href={`http://${item.url}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="item-url"
+                                        >
+                                            {item.url}
+                                        </a>
                                     </div>
                                 </div>
                             </div>

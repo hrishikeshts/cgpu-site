@@ -11,7 +11,7 @@ export default function HomeSVG({ main, left, right }) {
             <g filter="url(#filter0_d)">
                 <rect x="385.848" y="221.75" width="240.529" height="214.399" rx="20" fill="white" />
             </g>
-            <image href={right} x="397" y="232" width="219.089" height="192.959" clip-path="url(#right-clip)" />
+            <image href={right} x="397" y="232" width="219.089" height="192.959" clipPath="url(#right-clip)" />
             <rect
                 id="right-rect"
                 opacity="0.24"
@@ -25,7 +25,7 @@ export default function HomeSVG({ main, left, right }) {
             <g filter="url(#filter1_d)">
                 <rect x="188.765" y="32.0891" width="296.036" height="263.876" rx="24" fill="white" />
             </g>
-            <image href={main} x="201.959" y="47.2829" width="269.648" height="237.488" clip-path="url(#main-clip)" />
+            <image href={main} x="201.959" y="47.2829" width="269.648" height="237.488" clipPath="url(#main-clip)" />
             <rect
                 id="main-rect"
                 x="201.959"
@@ -34,12 +34,12 @@ export default function HomeSVG({ main, left, right }) {
                 height="237.488"
                 rx="20"
                 fill="#1F7AE0"
-                fill-opacity="0.24"
+                fillOpacity="0.24"
             />
             <g filter="url(#filter2_d)">
                 <rect x="32.0891" y="155.781" width="216.476" height="192.959" rx="18" fill="white" />
             </g>
-            <image href={left} x="41.7371" y="165.429" width="197.18" height="173.663" clip-path="url(#left-clip)" />
+            <image href={left} x="41.7371" y="165.429" width="197.18" height="173.663" clipPath="url(#left-clip)" />
             <rect
                 id="left-rect"
                 x="41.7371"
@@ -48,7 +48,7 @@ export default function HomeSVG({ main, left, right }) {
                 height="173.663"
                 rx="14"
                 fill="#2ECC71"
-                fill-opacity="0.24"
+                fillOpacity="0.24"
             />
             <path
                 opacity="0.4"
@@ -72,9 +72,9 @@ export default function HomeSVG({ main, left, right }) {
                     width="304.529"
                     height="278.399"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                 >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                         in="SourceAlpha"
                         type="matrix"
@@ -97,9 +97,9 @@ export default function HomeSVG({ main, left, right }) {
                     width="360.036"
                     height="327.876"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                 >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                         in="SourceAlpha"
                         type="matrix"
@@ -122,9 +122,9 @@ export default function HomeSVG({ main, left, right }) {
                     width="280.476"
                     height="256.959"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                 >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                         in="SourceAlpha"
                         type="matrix"

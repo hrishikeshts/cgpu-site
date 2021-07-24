@@ -39,7 +39,7 @@ export default function AboutCET() {
                             <br />
                             <a
                                 href="https://www.cet.ac.in/"
-                                className="learnLink"
+                                className="btn learnbtn mt-2"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -153,7 +153,7 @@ export default function AboutCET() {
                             <br />
                             <a
                                 href="https://alumni.cet.ac.in/"
-                                className="learnLink"
+                                className="btn learnbtn"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

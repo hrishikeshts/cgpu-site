@@ -1,7 +1,3 @@
-.btn:focus {
-    box-shadow: none;
-}
-
 .btn:hover {
     color: white;
     background: var(--dark-blue);

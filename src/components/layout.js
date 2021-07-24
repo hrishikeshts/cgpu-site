@@ -1,8 +1,8 @@
 import React from 'react';
 import Footer from './footer';
 import Header from './header';
+import download from '../images/download.svg';
 import '../styles/layout.css';
-import Download from '../images/download.svg';
 
 export default function Layout({ children, page }) {
     return (
@@ -15,7 +15,7 @@ export default function Layout({ children, page }) {
                     check out our brochure
                 </div>
                 <a href={`CET @ Glance.pdf`} download className="download">
-                    <img src={Download} alt="download" />
+                    <img src={download} alt="download" />
                     <span>Download Brochure</span>
                 </a>
             </div>
