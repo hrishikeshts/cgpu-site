@@ -118,6 +118,42 @@
 ];
 export const photos = [
   {
+    src: "/gallery-images/gimg1.jpg",
+    width: 4,
+    height: 3,
+    desc:"CET 2020"
+  },
+  {
+    src: "/gallery-images/gimg2.jpg",
+    width: 1,
+    height: 1,
+    desc:"CGPU Building"
+  },
+  {
+    src: "/gallery-images/gimg3.jpg",
+    width: 3,
+    height: 4,
+    desc:"CGPU Hall"
+  },
+  {
+    src: "/gallery-images/gimg4.jpg",
+    width: 3,
+    height: 4,
+    desc:"CETAA Hall"
+  },
+  {
+    src: "/gallery-images/gimg5.jpg",
+    width: 3,
+    height: 4,
+    desc:"Some description"
+  },
+  {
+    src: "/gallery-images/gimg6.jpg",
+    width: 4,
+    height: 3,
+    desc:"Some description"
+  },
+  {
     src: "/gallery-images/gim1.png",
     width: 4,
     height: 3,
@@ -177,40 +213,4 @@ export const photos = [
     height: 4,
     desc:"Some description"
   },
-  {
-    src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  }
 ];
