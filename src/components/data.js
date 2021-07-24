@@ -161,11 +161,18 @@ export const photos = [
     desc:"CET 2020"
   },
   {
-    src: "/gallery-images/gimg2.jpg",
+    src: "/gallery-images/gimg10.jpg",
     width: 1,
     height: 1,
-    desc:"CGPU Building"
+    desc:"80 Years Celebrations"
   },
+  {
+    src: "/gallery-images/gimg7.jpg",
+    width: 1,
+    height: 1,
+    desc:"Golden Plaque by 1959 batch"
+  },
+  
   {
     src: "/gallery-images/gimg3.jpg",
     width: 3,
@@ -173,17 +180,41 @@ export const photos = [
     desc:"CGPU Hall"
   },
   {
+    src: "/gallery-images/gimg2.jpg",
+    width: 1,
+    height: 1,
+    desc:"CGPU Building"
+  },
+  
+  
+  {
+    src: "/gallery-images/gimg8.jpg",
+    width: 3,
+    height: 4,
+    desc:"CET College Ground"
+  },
+  
+  {
+    src: "/gallery-images/gimg11.jpg",
+    width: 1,
+    height: 1,
+    desc:"CET Platinum Jubilee Celebrations"
+  },
+  {
     src: "/gallery-images/gimg4.jpg",
     width: 3,
     height: 4,
     desc:"CETAA Hall"
   },
+  
   {
     src: "/gallery-images/gimg5.jpg",
     width: 3,
     height: 4,
     desc:"Some description"
   },
+  
+  
   {
     src: "/gallery-images/gimg6.jpg",
     width: 4,
@@ -191,17 +222,19 @@ export const photos = [
     desc:"Some description"
   },
   {
-    src: "/gallery-images/gim1.png",
+    src: "/gallery-images/gimg12.jpg",
     width: 4,
     height: 3,
-    desc:"CET 2018"
+    desc:"Dhwani 2019 Highlights"
   },
+  
   {
     src: "/gallery-images/gim2.jpg",
     width: 1,
     height: 1,
     desc:"Dept.of Architecture"
   },
+  
   {
     src: "/gallery-images/gim3.jpg",
     width: 3,
@@ -214,6 +247,7 @@ export const photos = [
     height: 4,
     desc:"MBA Block"
   },
+  
   {
     src: "/gallery-images/gim5.jpg",
     width: 3,
@@ -233,6 +267,26 @@ export const photos = [
     desc:"Some description"
   },
   {
+    src: "/gallery-images/gim10.jpg",
+    width: 3,
+    height: 4,
+    desc:"Some description"
+  },
+  {
+    src: "/gallery-images/gim8.jpg",
+    width: 4,
+    height: 3,
+    desc:"Some description"
+  },
+  {
+    src: "/gallery-images/gimg9.jpg",
+    width: 3,
+    height: 4,
+    desc:"Some description"
+  },
+  
+  
+  {
     src: "/gallery-images/gim8.jpg",
     width: 4,
     height: 3,
@@ -245,9 +299,16 @@ export const photos = [
     desc:"Some description"
   },
   {
-    src: "/gallery-images/gim10.jpg",
-    width: 3,
-    height: 4,
+    src: "/gallery-images/gim8.jpg",
+    width: 4,
+    height: 3,
     desc:"Some description"
   },
+  {
+    src: "/gallery-images/gim9.jpg",
+    width: 4,
+    height: 3,
+    desc:"Some description"
+  },
+  
 ];
