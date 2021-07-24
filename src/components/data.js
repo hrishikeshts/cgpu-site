@@ -155,17 +155,86 @@
 ];
 export const photos = [
   {
-    src: "/gallery-images/gim1.png",
+    src: "/gallery-images/gimg1.jpg",
     width: 4,
     height: 3,
-    desc:"CET 2018"
+    desc:"CET 2020"
   },
+  {
+    src: "/gallery-images/gimg10.jpg",
+    width: 1,
+    height: 1,
+    desc:"80 Years Celebrations"
+  },
+  {
+    src: "/gallery-images/gimg7.jpg",
+    width: 1,
+    height: 1,
+    desc:"Golden Plaque by 1959 batch"
+  },
+  
+  {
+    src: "/gallery-images/gimg3.jpg",
+    width: 3,
+    height: 4,
+    desc:"CGPU Hall"
+  },
+  {
+    src: "/gallery-images/gimg2.jpg",
+    width: 1,
+    height: 1,
+    desc:"CGPU Building"
+  },
+  
+  
+  {
+    src: "/gallery-images/gimg8.jpg",
+    width: 3,
+    height: 4,
+    desc:"CET College Ground"
+  },
+  
+  {
+    src: "/gallery-images/gimg11.jpg",
+    width: 1,
+    height: 1,
+    desc:"CET Platinum Jubilee Celebrations"
+  },
+  {
+    src: "/gallery-images/gimg4.jpg",
+    width: 3,
+    height: 4,
+    desc:"CETAA Hall"
+  },
+  
+  {
+    src: "/gallery-images/gimg5.jpg",
+    width: 3,
+    height: 4,
+    desc:"Some description"
+  },
+  
+  
+  {
+    src: "/gallery-images/gimg6.jpg",
+    width: 4,
+    height: 3,
+    desc:"Some description"
+  },
+  {
+    src: "/gallery-images/gimg12.jpg",
+    width: 4,
+    height: 3,
+    desc:"Dhwani 2019 Highlights"
+  },
+  
   {
     src: "/gallery-images/gim2.jpg",
     width: 1,
     height: 1,
     desc:"Dept.of Architecture"
   },
+  
   {
     src: "/gallery-images/gim3.jpg",
     width: 3,
@@ -178,6 +247,7 @@ export const photos = [
     height: 4,
     desc:"MBA Block"
   },
+  
   {
     src: "/gallery-images/gim5.jpg",
     width: 3,
@@ -197,6 +267,26 @@ export const photos = [
     desc:"Some description"
   },
   {
+    src: "/gallery-images/gim10.jpg",
+    width: 3,
+    height: 4,
+    desc:"Some description"
+  },
+  {
+    src: "/gallery-images/gim8.jpg",
+    width: 4,
+    height: 3,
+    desc:"Some description"
+  },
+  {
+    src: "/gallery-images/gimg9.jpg",
+    width: 3,
+    height: 4,
+    desc:"Some description"
+  },
+  
+  
+  {
     src: "/gallery-images/gim8.jpg",
     width: 4,
     height: 3,
@@ -209,45 +299,16 @@ export const photos = [
     desc:"Some description"
   },
   {
-    src: "/gallery-images/gim10.jpg",
-    width: 3,
-    height: 4,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
+    src: "/gallery-images/gim8.jpg",
     width: 4,
     height: 3,
     desc:"Some description"
   },
   {
-    src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
+    src: "/gallery-images/gim9.jpg",
     width: 4,
     height: 3,
     desc:"Some description"
   },
-  {
-    src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  },
-  {
-    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
-    width: 4,
-    height: 3,
-    desc:"Some description"
-  }
+  
 ];
