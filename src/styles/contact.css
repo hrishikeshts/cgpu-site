@@ -28,17 +28,11 @@
 }
 
 .map {
-    height: 438px;
+    height: 25rem;
     width: 100%;
-    background-color: var(--blue-gray);
-    opacity: 0.5;
-    border-radius: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    color: #fff;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 .p-main {

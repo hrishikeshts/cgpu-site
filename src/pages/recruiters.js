@@ -6,7 +6,7 @@ import { recruitData } from "../components/data";
 export default function Recruiters() {
     return (
         <Layout page="recruiters">
-            <div className="main-container">
+            <div className="main-container mb-4 mb-md-0">
                 <div className="align-self-start head-desc-main">
                     <div className="page-head">Our Recruiters</div>
                     <div className="head-desc">

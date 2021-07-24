@@ -81,10 +81,7 @@ header nav a.active,
     color: var(--blue) !important;
 }
 
-.dropdown.d-flex.d-lg-inline {
-    width: fit-content;
-}
-
+.dropdown.d-flex.d-lg-inline,
 nav > a {
     width: fit-content;
 }
@@ -107,4 +104,9 @@ button.navbar-toggler {
     background-position: center;
     margin-right: -10px;
     transition: 0.5s;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler.collapsed:hover {
+    filter: brightness(0);
 }

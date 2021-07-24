@@ -45,7 +45,7 @@ export default function Home() {
                 <ThingsVal />
             </div>
             <Major />
-            <div className="main-container">
+            <div className="main-container mb-4 mb-md-0">
                 <Objectives />
             </div>
         </Layout>
