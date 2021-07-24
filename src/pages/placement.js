@@ -54,7 +54,7 @@ export default function Placement() {
                     Our placement records for the year{' '}
                     <span className="placement-year">2020</span>
                 </div>
-                <table class="table table-striped placement-table">
+                <table class="table table-striped placement-table" style={{borderRadius:"12px"}}>
                     {' '}
                     <thead>
                         <tr>
