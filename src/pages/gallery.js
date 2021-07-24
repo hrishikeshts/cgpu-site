@@ -8,7 +8,7 @@ import { photos } from "../components/data";
 export default function Gallery() {
     return (
         <Layout page="gallery">
-            <div className="main-container">
+            <div className="main-container mb-4 mb-md-0">
                 <div className="coverimg">
                     {/* <div className="layer"></div>
                     <div className="layer2">*/}

@@ -18,7 +18,7 @@ export default function AboutCET() {
 
     return (
         <Layout page="cet">
-            <div className="main-container">
+            <div className="main-container mb-4 mb-md-0">
                 <div className="row">
                     <div className="order-md-2 col-12 col-md-5 col-lg-6 text-center py-2 my-auto">
                         <AboutSVG main={aboutcet} />

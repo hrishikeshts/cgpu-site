@@ -10,11 +10,11 @@ import cgpuhall from "../images/cgpu-hall.jpg";
 import Bluebox from "../components/Bluebox";
 import Objectives from "../components/Objectives";
 import ThingsVal from "../components/ThingsVal";
-
+import Major from "../components/major";
 export default function Home() {
     return (
         <Layout page="home">
-            <div className="main-container">
+            <div className="main-container pb-0">
                 <div className="row firstabt">
                     <div className="order-md-2 col-12 col-md-5 col-lg-6 text-center py-2 my-auto">
                         <HomeSVG main={cetfront} left={cgpufront} right={cgpuhall} />
@@ -43,6 +43,9 @@ export default function Home() {
                 </div>
                 <Bluebox />
                 <ThingsVal />
+            </div>
+            <Major />
+            <div className="main-container mb-4 mb-md-0">
                 <Objectives />
             </div>
         </Layout>

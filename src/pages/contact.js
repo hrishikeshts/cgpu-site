@@ -4,7 +4,7 @@ import "../styles/contact.css";
 export default function Contact() {
     return (
         <Layout page="contact">
-            <div className="main-container">
+            <div className="main-container mb-4 mb-md-0">
                 <div className="align-self-start page-head">Contact Us</div>
                 <div className="row w-100 py-2">
                     <div className="col-12 col-md-6 px-0 py-4">
@@ -66,7 +66,16 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="reach">Reach our institution</div>
-                <div className="map">Map to be Displayed Here!</div>
+                <div className="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21079.934509111976!2d76.88899011221132!3d8.545567551093711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bec79541c519%3A0x98324eb5aafb3778!2sCollege%20of%20Engineering%20Trivandrum!5e0!3m2!1sen!2sin!4v1627108118045!5m2!1sen!2sin"
+                        width="100%"
+                        height="100%"
+                        allowfullscreen=""
+                        loading="lazy"
+                        title="CET on Google Maps"
+                    />
+                </div>
             </div>
         </Layout>
     );
