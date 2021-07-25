@@ -50,7 +50,7 @@ export default function Placement() {
                 <div className="table-tagline">
                     Our placement records for the year <span className="placement-year">2020</span>
                 </div>
-                <div className="w-100 table-responsive">
+                <div className="w-100 table-responsive mb-4 mb-md-0">
                     <div>
                         <table className="table table-striped placement-table m-0">
                             <thead>

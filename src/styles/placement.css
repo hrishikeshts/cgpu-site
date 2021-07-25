@@ -57,12 +57,18 @@
     --bs-table-accent-bg: rgba(219, 234, 250, 0.5);
 }
 
-/* .placement-table tbody th, */
+.placement-table tbody tr:last-child th {
+    border-radius: 0 0 0 0.75rem;
+}
+
 .placement-table thead th:first-child {
     border-radius: 0.75rem 0 0 0;
 }
 
-/* .placement-table tbody td:last-child, */
+.placement-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 0.75rem 0;
+}
+
 .placement-table thead th:last-child {
     border-radius: 0 0.75rem 0 0;
 }
