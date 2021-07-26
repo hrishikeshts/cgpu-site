@@ -7,7 +7,7 @@ const ThingsVal = () => {
         <div className="my-0 my-md-4">
             <div className="page-head text-center mb-4">Things Which We Value</div>
             <div className="vm">
-                <div className="d-md-flex vision py-2 py-md-3">
+                <div className="vision d-md-flex align-items-center py-2 py-md-3">
                     <div>
                         <div className="bluelayer">
                             <img src={vision} alt="Vision" className="eye" />
@@ -16,13 +16,12 @@ const ThingsVal = () => {
                     <div className="px-5 py-4 py-md-0 text-center text-md-start">
                         <h4>Our Vision</h4>
                         <div className="text">
-                            <div>National Level Excellence and International Visibility</div>
-                            <div>in Every Facet of Engineering Research and</div>
-                            <div>Education.</div>
+                            National Level Excellence and International Visibility in Every Facet of Engineering
+                            Research and Education.
                         </div>
                     </div>
                 </div>
-                <div className="d-md-flex mission py-2 py-md-3">
+                <div className="mission d-md-flex align-items-center py-2 py-md-3">
                     <div className="order-md-2">
                         <div className="bluelayer">
                             <img src={mission} alt="Mision" className="eye" />

@@ -3,10 +3,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 10%;
-    height: 300px;
+    height: calc(9rem + 9vw);
     width: 100%;
     margin-bottom: 3%;
-    border-radius: 20px;
+    border-radius: calc(1rem + 1vw);
     display: flex;
 }
 

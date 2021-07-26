@@ -102,6 +102,7 @@
 
 .item-name {
     color: var(--dark);
+    font-weight: 500;
 }
 
 .item-pos {

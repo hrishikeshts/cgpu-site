@@ -57,6 +57,10 @@
     margin: auto;
 }
 
+.vision .text {
+    max-width: 26rem;
+}
+
 h4 {
     color: var(--dark);
 }

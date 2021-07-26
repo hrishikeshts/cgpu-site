@@ -17,10 +17,10 @@ export default function Home() {
         <Layout page="home">
             <div className="main-container pb-0">
                 <div className="row firstabt">
-                    <div className="order-md-2 col-12 col-md-5 col-lg-6 text-center py-2 my-auto">
+                    <div className="order-md-2 col-12 col-md-6 col-lg-7 text-center py-2 my-auto">
                         <HomeSVG main={cetfront} left={cgpufront} right={cgpuhall} />
                     </div>
-                    <div className="order-md-1 col-12 col-md-7 col-lg-6 text-center text-md-start">
+                    <div className="order-md-1 col-12 col-md-6 col-lg-5 text-center text-md-start">
                         <div className="page-head">
                             <img src={logo} alt="CET Seal" className="cet-logo py-2 py-md-3" />
                             <div className="title mx-auto mx-md-0">

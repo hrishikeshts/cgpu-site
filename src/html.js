@@ -15,6 +15,7 @@ export default function HTML(props) {
                     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
                     crossOrigin="anonymous"
                 />
+                <meta name="description" content="Official website of Career Guidance and Placement Unit of CET" />
                 <title>Career Guidance &amp; Placement Unit – College of Engineering Trivandrum</title>
                 {props.headComponents}
             </head>

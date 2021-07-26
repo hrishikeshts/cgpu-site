@@ -11,11 +11,11 @@
 }
 
 .logo-card {
-    width: 266px;
-    height: 160px;
+    width: calc(10rem + 7vw);
+    height: calc(6rem + 4vw);
     margin: 1%;
     background: white;
-    border-radius: 12px;
+    border-radius: calc(0.5rem + 0.5vw);
 }
 
 .imageclass {
