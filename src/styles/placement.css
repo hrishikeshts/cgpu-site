@@ -9,19 +9,52 @@
 
 .table-tagline {
     font-size: 24px;
-    line-height: 28.13px;
     color: var(--blue);
-    margin: 64px 0 44px;
     font-weight: 600;
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 
 .placement-year {
     color: var(--dark);
     font-size: 36px;
     line-height: 42px;
-    margin-left: 10px;
+    font-weight: 500;
+}
+
+.placement-year:hover {
+    background: transparent;
+}
+
+.placement-year img {
+    width: 1rem;
+    vertical-align: 0.45rem;
+    transition: 0.15s;
+}
+
+button.placement-year:hover > img {
+    filter: brightness(0);
+    transition: 0.15s;
+}
+
+.table-tagline .dropdown-menu {
+    max-height: 15rem;
+    overflow: auto;
+}
+
+.table-tagline .dropdown-menu button {
+    width: 100%;
+    text-align: start;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+.table-tagline .dropdown-menu button:hover {
+    color: black;
+}
+
+.table-tagline .dropdown-menu .active {
+    color: var(--blue) !important;
 }
 
 .table-responsive > div {
@@ -85,7 +118,7 @@
 }
 
 @media (max-width: 576px) {
-    .chart-container{
+    .chart-container {
         width: 100%;
     }
 }

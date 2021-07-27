@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../components/layout";
 import { Line } from "react-chartjs-2";
+import down from "../images/down.svg";
 import "../styles/placement.css";
 
 const data = {
@@ -29,6 +30,8 @@ const options = {
 };
 
 export default function Placement() {
+    const [year, setYear] = useState("");
+
     return (
         <Layout page="placement">
             <div className="main-container">
@@ -47,8 +50,32 @@ export default function Placement() {
                 <div className="chart-container">
                     <Line data={data} options={options} />
                 </div>
-                <div className="table-tagline">
-                    Our placement records for the year <span className="placement-year">2020</span>
+                <div className="table-tagline mt-2 pt-4 pb-3 pb-sm-4 mt-lg-4 mb-lg-2 py-lg-4">
+                    <span>Our placement records for the year</span>
+                    <span className="dropdown mx-auto">
+                        <button
+                            className="btn dropdown-toggle dropdown-toggle-split placement-year mx-2 p-0"
+                            type="button"
+                            id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            {year || "2020"} <img src={down} alt="Dropdown" />
+                        </button>
+                        <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            {data.labels.map((label, key) => {
+                                return (
+                                    <button
+                                        key={key}
+                                        onClick={() => setYear(label)}
+                                        className={`btn${year === label ? " active" : " "}`}
+                                    >
+                                        {label}
+                                    </button>
+                                );
+                            })}
+                        </ul>
+                    </span>
                 </div>
                 <div className="w-100 table-responsive mb-4 mb-md-0">
                     <div>
@@ -73,7 +100,7 @@ export default function Placement() {
                                 {[...new Array(14)].map((_, i) => (
                                     <tr key={i}>
                                         <th scope="row">{i + 1}</th>
-                                        <td>ABB</td>
+                                        <td>ABB ({year})</td>
                                         <td>0</td>
                                         <td>1</td>
                                         <td>2</td>

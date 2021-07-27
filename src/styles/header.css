@@ -64,7 +64,8 @@ header a:hover,
     padding: 0.5rem;
 }
 
-.dropdown-menu a {
+.dropdown-menu a,
+.dropdown-menu button {
     display: block;
     padding: 0.5rem 0.66rem;
     border-radius: 0.5rem;
@@ -72,6 +73,7 @@ header a:hover,
 }
 
 .dropdown-menu a:hover,
+.dropdown-menu button:hover,
 .dropdown-menu .active {
     background: var(--light-blue) !important;
 }
