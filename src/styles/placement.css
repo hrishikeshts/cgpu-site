@@ -63,6 +63,7 @@ button.placement-year:hover > img {
     background: white;
     margin-bottom: 1rem;
     min-width: max-content;
+    overflow: hidden;
 }
 
 .placement-table thead {

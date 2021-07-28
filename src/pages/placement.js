@@ -1,36 +1,40 @@
-import React, { useState } from "react";
-import Layout from "../components/layout";
-import { Line } from "react-chartjs-2";
-import down from "../images/down.svg";
-import "../styles/placement.css";
+import React, { useState } from 'react';
+import Layout from '../components/layout';
+// import { Line } from 'react-chartjs-2';
+import down from '../images/down.svg';
+import '../styles/placement.css';
+import { graphql } from 'gatsby';
 
-const data = {
-    labels: ["2015", "2016", "2017", "2018", "2019", "2020", "2021"],
-    datasets: [
-        {
-            label: "# of Placements",
-            data: [604, 591, 1020, 606, 715, 840],
-            fill: false,
-            backgroundColor: "#FFF",
-            borderColor: "#1F7AE0",
-        },
-    ],
-};
+// const data = {
+//     labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021'],
+//     datasets: [
+//         {
+//             label: '# of Placements',
+//             data: [604, 591, 1020, 606, 715, 840],
+//             fill: false,
+//             backgroundColor: '#FFF',
+//             borderColor: '#1F7AE0',
+//         },
+//     ],
+// };
 
-const options = {
-    scales: {
-        yAxes: [
-            {
-                ticks: {
-                    beginAtZero: true,
-                },
-            },
-        ],
-    },
-};
+// const options = {
+//     scales: {
+//         yAxes: [
+//             {
+//                 ticks: {
+//                     beginAtZero: true,
+//                 },
+//             },
+//         ],
+//     },
+// };
 
-export default function Placement() {
-    const [year, setYear] = useState("");
+export default function Placement({ data: _pData }) {
+    const pData = _pData.allPlacementJson.nodes;
+    const [year, setYear] = useState(pData[0].year);
+    const keyedData = {};
+    pData.map((p) => (keyedData[p.year] = p));
 
     return (
         <Layout page="placement">
@@ -39,17 +43,19 @@ export default function Placement() {
                     <div className="page-head">Placement Highlights</div>
                     <div className="head-desc">
                         <span>
-                            CET is one of the few colleges in Kerala who has witnessed excellent placement records in
-                            the past years.{" "}
+                            CET is one of the few colleges in Kerala who has
+                            witnessed excellent placement records in the past
+                            years.{' '}
                         </span>
                         <span className="d-lg-block">
-                            Here is the placement statistics of the total number of offers made in the last 6 years.
+                            Here is the placement statistics of the total number
+                            of offers made in the last 6 years.
                         </span>
                     </div>
                 </div>
-                <div className="chart-container">
+                {/* <div className="chart-container">
                     <Line data={data} options={options} />
-                </div>
+                </div> */}
                 <div className="table-tagline mt-2 pt-4 pb-3 pb-sm-4 mt-lg-4 mb-lg-2 py-lg-4">
                     <span>Our placement records for the year</span>
                     <span className="dropdown mx-auto">
@@ -60,17 +66,24 @@ export default function Placement() {
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                         >
-                            {year || "2020"} <img src={down} alt="Dropdown" />
+                            {year} <img src={down} alt="Dropdown" />
                         </button>
-                        <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                            {data.labels.map((label, key) => {
+                        <ul
+                            className="dropdown-menu dropdown-menu-end"
+                            aria-labelledby="dropdownMenuButton1"
+                        >
+                            {pData.map((label, key) => {
                                 return (
                                     <button
                                         key={key}
-                                        onClick={() => setYear(label)}
-                                        className={`btn${year === label ? " active" : " "}`}
+                                        onClick={() => setYear(label.year)}
+                                        className={`btn${
+                                            year === label.year
+                                                ? ' active'
+                                                : ' '
+                                        }`}
                                     >
-                                        {label}
+                                        {label.year}
                                     </button>
                                 );
                             })}
@@ -97,20 +110,26 @@ export default function Placement() {
                                 </tr>
                             </thead>
                             <tbody>
-                                {[...new Array(14)].map((_, i) => (
+                                {keyedData[year].companies.map((company, i) => (
                                     <tr key={i}>
                                         <th scope="row">{i + 1}</th>
-                                        <td>ABB ({year})</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>2</td>
-                                        <td>3</td>
-                                        <td>4</td>
-                                        <td>5</td>
-                                        <td>6</td>
-                                        <td>7</td>
-                                        <td>8</td>
-                                        <td>9</td>
+                                        <td>
+                                            {company.name} ({year})
+                                        </td>
+                                        <td>{company.stats.AE || 0}</td>
+                                        <td>{company.stats.CE || 0}</td>
+                                        <td>{company.stats.CS || 0}</td>
+                                        <td>{company.stats.EC || 0}</td>
+                                        <td>{company.stats.EE || 0}</td>
+                                        <td>{company.stats.IE || 0}</td>
+                                        <td>{company.stats.ME || 0}</td>
+                                        <td>{company.stats.MCA || 0}</td>
+                                        <td>{company.stats.MBA || 0}</td>
+                                        <td>
+                                            {Object.values(
+                                                company.stats,
+                                            ).reduce((a, b) => a + b)}
+                                        </td>
                                     </tr>
                                 ))}
                             </tbody>
@@ -121,3 +140,27 @@ export default function Placement() {
         </Layout>
     );
 }
+
+export const query = graphql`
+    query MyQuery {
+        allPlacementJson {
+            nodes {
+                year
+                companies {
+                    name
+                    stats {
+                        AE
+                        CE
+                        CS
+                        EC
+                        EEE
+                        IE
+                        MBA
+                        MCA
+                        ME
+                    }
+                }
+            }
+        }
+    }
+`;

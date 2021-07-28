@@ -1,0 +1,56 @@
+[
+    {
+        "year": 2021,
+        "companies": [
+            {
+                "name": "Amazon",
+                "stats": {
+                    "AE": 1,
+                    "CE": 2,
+                    "CS": 2,
+                    "EC": 1,
+                    "EEE": 1,
+                    "IE": 1,
+                    "ME": 1,
+                    "MCA": 1,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Google",
+                "stats": {
+                    "AE": 1,
+                    "CE": 2,
+                    "CS": 2
+                }
+            }
+        ]
+    },
+    {
+        "year": 2020,
+        "companies": [
+            {
+                "name": "Facebook",
+                "stats": {
+                    "AE": 1,
+                    "CE": 11,
+                    "CS": 2,
+                    "EC": 1,
+                    "EEE": 1,
+                    "IE": 1,
+                    "ME": 1,
+                    "MCA": 1,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Twitter",
+                "stats": {
+                    "AE": 1,
+                    "CE": 2,
+                    "CS": 2
+                }
+            }
+        ]
+    }
+]
