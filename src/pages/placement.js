@@ -113,9 +113,7 @@ export default function Placement({ data: _pData }) {
                                 {keyedData[year].companies.map((company, i) => (
                                     <tr key={i}>
                                         <th scope="row">{i + 1}</th>
-                                        <td>
-                                            {company.name} ({year})
-                                        </td>
+                                        <td>{company.name}</td>
                                         <td>{company.stats.AE || 0}</td>
                                         <td>{company.stats.CE || 0}</td>
                                         <td>{company.stats.CS || 0}</td>

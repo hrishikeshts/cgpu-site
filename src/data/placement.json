@@ -52,5 +52,2073 @@
                 }
             }
         ]
+    },
+    {
+        "year": 2019,
+        "companies": [
+            {
+                "name": "ABB",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Accumen Capital",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Acsia Technology",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Akash Institute",
+                "stats": {
+                    "AE": 0,
+                    "CE": 2,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Allianz",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Amadeus",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 2,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Amazon",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Analog Devices",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 2,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Apollo Munich",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 5
+                }
+            },
+            {
+                "name": "Aravind Mills",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Arcesium",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Aspire Next",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Binary Foundation",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "Bosch",
+                "stats": {
+                    "AE": 9,
+                    "CE": 0,
+                    "CS": 11,
+                    "EC": 11,
+                    "EE": 8,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Byjus Classes",
+                "stats": {
+                    "AE": 0,
+                    "CE": 2,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 1,
+                    "ME": 4,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Byjus Classes BDA",
+                "stats": {
+                    "AE": 0,
+                    "CE": 1,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 3,
+                    "ME": 2,
+                    "MCA": 1,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "Chola Life Insurance",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Cognizant Technology Solu",
+                "stats": {
+                    "AE": 2,
+                    "CE": 6,
+                    "CS": 4,
+                    "EC": 5,
+                    "EE": 8,
+                    "IE": 9,
+                    "ME": 10,
+                    "MCA": 2,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Cypress",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Dexlock",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 4,
+                    "EC": 3,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Envestnet",
+                "stats": {
+                    "AE": 2,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 1,
+                    "ME": 1,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ESAF",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 7
+                }
+            },
+            {
+                "name": "Experion Technologies",
+                "stats": {
+                    "AE": 1,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 3,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "EY",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 3
+                }
+            },
+            {
+                "name": "Federal Bank",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 5,
+                    "IE": 0,
+                    "ME": 3,
+                    "MCA": 2,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "Fitch",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Flytxt",
+                "stats": {
+                    "AE": 1,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 2,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "HTIC",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "IBS",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 2,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 3,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ICICI",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 4
+                }
+            },
+            {
+                "name": "Ignitarium",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 1,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Infosys",
+                "stats": {
+                    "AE": 17,
+                    "CE": 30,
+                    "CS": 13,
+                    "EC": 23,
+                    "EE": 26,
+                    "IE": 19,
+                    "ME": 33,
+                    "MCA": 15,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Infosys Power",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "IQVIA",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 5,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ITC",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Jaro Education",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "KASE",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "KIFBI",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "L&T Technology Services",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 6,
+                    "EC": 16,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Mariott",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Mindteck",
+                "stats": {
+                    "AE": 3,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 3,
+                    "EE": 3,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 9,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "MRF",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 6,
+                    "IE": 4,
+                    "ME": 16,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Mu Sigma",
+                "stats": {
+                    "AE": 2,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 2,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Muthoot Fincorp",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Nirapara",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Nissan Digital",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 5,
+                    "EC": 5,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Nissan Digital (D)",
+                "stats": {
+                    "AE": 1,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Penna Cements",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Prism Johnson",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "QBurst",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 3,
+                    "IE": 1,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Quest Global",
+                "stats": {
+                    "AE": 2,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 2,
+                    "EE": 6,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "RMESI",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "Saint Gobain",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 1,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Sankar Cements",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "S&P Global",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 6
+                }
+            },
+            {
+                "name": "Sapient",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ServiceNow Software",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 4,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "SIEMENS",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 5,
+                    "EC": 7,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 3,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Siemens Ltd.",
+                "stats": {
+                    "AE": 1,
+                    "CE": 0,
+                    "CS": 4,
+                    "EC": 0,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 1,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "South Indian Bank",
+                "stats": {
+                    "AE": 0,
+                    "CE": 2,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 1,
+                    "IE": 2,
+                    "ME": 3,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Store King",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "SUNTEC",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Tally Solutions",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 1,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "TATA ELXSI",
+                "stats": {
+                    "AE": 8,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 9,
+                    "EE": 14,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "TCS",
+                "stats": {
+                    "AE": 7,
+                    "CE": 1,
+                    "CS": 3,
+                    "EC": 4,
+                    "EE": 6,
+                    "IE": 3,
+                    "ME": 8,
+                    "MCA": 10,
+                    "MBA": 3
+                }
+            },
+            {
+                "name": "TCS Digital",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 5,
+                    "EC": 1,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 1,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Temenos",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 2,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Texas Instruments",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "TISMO",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Toonz Animation",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Travancore Analytics",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 1,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Upskill",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "UST Global",
+                "stats": {
+                    "AE": 2,
+                    "CE": 0,
+                    "CS": 4,
+                    "EC": 8,
+                    "EE": 7,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 2,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "VTOP Creations",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "VVDN Technologies",
+                "stats": {
+                    "AE": 1,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Wapcos",
+                "stats": {
+                    "AE": 0,
+                    "CE": 5,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Wipro",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Wipro Turbo Hiring",
+                "stats": {
+                    "AE": 3,
+                    "CE": 0,
+                    "CS": 4,
+                    "EC": 7,
+                    "EE": 10,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Zoho",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 1,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 1,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Zoho (D)",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 4,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            }
+        ]
+    },
+    {
+        "year": 2018,
+        "companies": [
+            {
+                "name": "AADYAH Aerospace Pvt. Ltd",
+                "stats": {
+                    "AE": 0,
+                    "CE": 2,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ABB",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ACCENTURE",
+                "stats": {
+                    "AE": 7,
+                    "CE": 26,
+                    "CS": 11,
+                    "EC": 8,
+                    "EE": 22,
+                    "IE": 11,
+                    "ME": 15,
+                    "MCA": 12,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Adobe Systems",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 1,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "AKASH Institute",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 1,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Allianz",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 13
+                }
+            },
+            {
+                "name": "AMAZON",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ASAP",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 4
+                }
+            },
+            {
+                "name": "AXIS Bank",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "Bilagos Software",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Bosch",
+                "stats": {
+                    "AE": 10,
+                    "CE": 0,
+                    "CS": 12,
+                    "EC": 16,
+                    "EE": 5,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "BPCL",
+                "stats": {
+                    "AE": 3,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 6,
+                    "IE": 0,
+                    "ME": 4,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Byjus Classes",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 1,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 2,
+                    "MCA": 0,
+                    "MBA": 3
+                }
+            },
+            {
+                "name": "Catholic Syrian Bank",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 3
+                }
+            },
+            {
+                "name": "CHAINalytics",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 3,
+                    "ME": 1,
+                    "MCA": 1,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Cognizant Technology Solu",
+                "stats": {
+                    "AE": 0,
+                    "CE": 7,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "EDUFET",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 4
+                }
+            },
+            {
+                "name": "ENVESTNET",
+                "stats": {
+                    "AE": 1,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 1,
+                    "EE": 1,
+                    "IE": 2,
+                    "ME": 3,
+                    "MCA": 0,
+                    "MBA": 10
+                }
+            },
+            {
+                "name": "ESAF",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Ernst and Young (EY)",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 6
+                }
+            },
+            {
+                "name": "Experion Technologies",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 2,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Fleet Management",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 10,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Flytxt",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 1,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "GB Mainframe",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 3
+                }
+            },
+            {
+                "name": "GE Digital",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "GES Infotek",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 3,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Godigit",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 5,
+                    "EC": 1,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Godrej",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Hyundai Motors",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 1,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Infosys",
+                "stats": {
+                    "AE": 6,
+                    "CE": 22,
+                    "CS": 11,
+                    "EC": 8,
+                    "EE": 24,
+                    "IE": 3,
+                    "ME": 41,
+                    "MCA": 2,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ITC",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "KITCO",
+                "stats": {
+                    "AE": 0,
+                    "CE": 2,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "KREATIO SOFTWARE",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 3,
+                    "MCA": 4,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Malayala Manorama",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "MINDTECK",
+                "stats": {
+                    "AE": 4,
+                    "CE": 0,
+                    "CS": 7,
+                    "EC": 6,
+                    "EE": 9,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 1,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "MRF",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 3,
+                    "IE": 2,
+                    "ME": 2,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "MU-SIGMA",
+                "stats": {
+                    "AE": 4,
+                    "CE": 1,
+                    "CS": 2,
+                    "EC": 4,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 1,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Negotious IT Solutions",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "Nokia - IN-Bangalore",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Open-Silicon",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 4,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ORACLE",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "QUEST GLOBAL",
+                "stats": {
+                    "AE": 1,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 1,
+                    "EE": 5,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "RMESI",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "Royal Enfield",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 1,
+                    "ME": 4,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "RVCJ Media",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "S&P Global",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 4
+                }
+            },
+            {
+                "name": "Saint Gobain",
+                "stats": {
+                    "AE": 0,
+                    "CE": 1,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 4,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "SAP Labs",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 1,
+                    "EC": 1,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "SAPCL",
+                "stats": {
+                    "AE": 0,
+                    "CE": 3,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "SBI Life",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "Sentient Scripts",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 1,
+                    "ME": 2,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "ServiceNow Software",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 4,
+                    "EC": 1,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "SIEMENS",
+                "stats": {
+                    "AE": 6,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Subdine Tech",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "TATA Communications",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "TATA ELXSI",
+                "stats": {
+                    "AE": 11,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "TCS",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 2
+                }
+            },
+            {
+                "name": "TISMO",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 1,
+                    "EE": 4,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Travancore Analytics",
+                "stats": {
+                    "AE": 1,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 0,
+                    "EE": 1,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Travancore Tales",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "UST Global",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 5
+                }
+            },
+            {
+                "name": "Viasat",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 2,
+                    "EC": 1,
+                    "EE": 2,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "VKC",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 3,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Webfy Infotech",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 0,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 1
+                }
+            },
+            {
+                "name": "WIPRO TURBO HIRING",
+                "stats": {
+                    "AE": 2,
+                    "CE": 0,
+                    "CS": 5,
+                    "EC": 10,
+                    "EE": 7,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Zoho",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 3,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            },
+            {
+                "name": "Zyxware",
+                "stats": {
+                    "AE": 0,
+                    "CE": 0,
+                    "CS": 4,
+                    "EC": 0,
+                    "EE": 0,
+                    "IE": 0,
+                    "ME": 0,
+                    "MCA": 0,
+                    "MBA": 0
+                }
+            }
+        ]
     }
 ]
