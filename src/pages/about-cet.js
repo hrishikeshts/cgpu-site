@@ -52,19 +52,19 @@ export default function AboutCET() {
                     <div className="col">
                         <p className="numeric">8</p>
                         <p className="numeric-text">
-                            undergraduate
+                            Undergraduate
                             <br />
-                            programmes
+                            Programmes
                         </p>
                     </div>
                     <div className="col">
                         <p className="numeric">27</p>
-                        <p className="numeric-text">postgraduate &amp; doctoral programmes</p>
+                        <p className="numeric-text">Postgraduate &amp; Doctoral Programmes</p>
                     </div>
                     <div className="col">
                         <p className="numeric">4500</p>
                         <p className="numeric-text">
-                            students
+                            Students
                             <br />
                             studying
                         </p>
@@ -73,46 +73,46 @@ export default function AboutCET() {
                     <div className="col">
                         <p className="numeric">311+</p>
                         <p className="numeric-text">
-                            teaching
+                            Teaching
                             <br />
-                            professionals
+                            Professionals
                         </p>
                     </div>
                     <div className="col">
                         <p className="numeric">290+</p>
                         <p className="numeric-text">
-                            non-teaching
+                            Non-Teaching
                             <br />
-                            staff
+                            Staff
                         </p>
                     </div>
                 </div>
                 <svg viewBox="0 25 1110 257" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="0" y="170">
+                    <text fill="#7A8193" fontWeight="500" fontSize="14" x="0" y="170">
                         1939
                     </text>
                     <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="0" y="195">
                         Established
                     </text>
-                    <text fill="#7A8193" fontWeight="400" fontSize="14" x="0" y="218">
+                    <text fill="#4F4F4F" fontWeight="400" fontSize="14" x="0" y="218">
                         as the first engineering college in the state
                     </text>
-                    <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="390" y="45">
+                    <text fill="#7A8193" fontWeight="500" fontSize="14" x="390" y="45">
                         1960
                     </text>
                     <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="390" y="72">
                         Shifted to the present campus
                     </text>
-                    <text fill="#7A8193" fontWeight="400" fontSize="14" x="390" y="95">
+                    <text fill="#4F4F4F" fontWeight="400" fontSize="14" x="390" y="95">
                         new campus of sprawling 125 acres
                     </text>
-                    <text fill="#4F4F4F" fontWeight="500" fontSize="14" x="1110" y="170" textAnchor="end">
+                    <text fill="#7A8193" fontWeight="500" fontSize="14" x="1110" y="170" textAnchor="end">
                         2019
                     </text>
                     <text fill="#1f7ae0" fontWeight="600" fontSize="20" x="1110" y="195" textAnchor="end">
                         Celebrated 80 years
                     </text>
-                    <text fill="#7A8193" fontWeight="400" fontSize="14" x="1110" y="218" textAnchor="end">
+                    <text fill="#4F4F4F" fontWeight="400" fontSize="14" x="1110" y="218" textAnchor="end">
                         80th anniversary of nurturing young engineering minds
                     </text>
 

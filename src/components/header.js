@@ -64,9 +64,6 @@ export default function Header({ page }) {
                             <Link to="/about-cgpu" className={`${page === "cgpu" ? "active" : ""}`}>
                                 About CGPU
                             </Link>
-                            <Link to="/gallery" className={`${page === "gallery" ? "active" : ""}`}>
-                                Gallery
-                            </Link>
                         </ul>
                     </span>
                     <Link
@@ -80,6 +77,12 @@ export default function Header({ page }) {
                         className={`d-flex d-lg-inline ps-0 pe-5 px-lg-3 ${page === "recruiters" ? "active" : ""}`}
                     >
                         Recruiters
+                    </Link>
+                    <Link
+                        to="/gallery"
+                        className={`d-flex d-lg-inline ps-0 pe-5 px-lg-3 ${page === "gallery" ? "active" : ""}`}
+                    >
+                        Gallery
                     </Link>
                     <Link
                         to="/contact"

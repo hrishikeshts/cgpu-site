@@ -10,11 +10,10 @@ export default function Recruiters() {
                 <div className="align-self-start head-desc-main">
                     <div className="page-head">Our Recruiters</div>
                     <div className="head-desc">
-                        <span>
-                            We have the world's leading companies coming forth to recruit our students. Register as a
-                            recruiter
+                        <span>We have the world's leading companies coming forth to recruit our students. </span>
+                        <span className="d-lg-block">
+                            Register as a recruiter now to participate in our placement drive.
                         </span>
-                        <span className="d-lg-block"> now to participate in our placement drive.</span>
                     </div>
                     <a href="https://genskill.com/" target="_blank" rel="noopener noreferrer" className="learnLink">
                         Register as a recruiter

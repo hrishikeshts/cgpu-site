@@ -3,7 +3,6 @@ import Layout from "../components/layout";
 import { Link } from "gatsby";
 import "../styles/index.css";
 import HomeSVG from "../components/home-svg";
-import Bluebox from "../components/Bluebox";
 import ThingsVal from "../components/things-val";
 import Major from "../components/major";
 import Objectives from "../components/Objectives";
@@ -42,7 +41,20 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <Bluebox />
+                <div className="bluebox my-5 px-xl-3">
+                    Over the last 5 years, we have assisted
+                    <b>
+                        <span className="bigno"> 4506+</span> students
+                    </b>{" "}
+                    in being placed in
+                    <b>
+                        <span className="bigno"> 245+</span> companies{" "}
+                    </b>
+                    at an average salary of{" "}
+                    <b>
+                        <span className="bigno">₹9.6 </span>LPA
+                    </b>
+                </div>
                 <ThingsVal />
             </div>
             <Major />

@@ -5,7 +5,7 @@ import mission from "../images/mission-asset.svg";
 const ThingsVal = () => {
     return (
         <div className="my-0 my-md-4">
-            <div className="page-head text-center mb-4">Things Which We Value</div>
+            <div className="page-head text-center mb-4">We Treasure</div>
             <div className="vm">
                 <div className="vision d-md-flex align-items-center py-2 py-md-3">
                     <div>

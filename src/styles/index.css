@@ -43,6 +43,16 @@
     border: none;
 }
 
+.learnbtn.white {
+    color: var(--blue);
+    background: white;
+}
+
+.learnbtn.white:hover {
+    color: var(--dark-blue);
+    background: #f2f2f2;
+}
+
 .learnbtn:focus {
     box-shadow: none;
 }
@@ -68,7 +78,7 @@ h4 {
 .bluebox {
     background: var(--blue);
     color: white;
-    padding: 3% 7%;
+    padding: 3% 5%;
     width: 100%;
     text-align: center;
     font-size: 18px;

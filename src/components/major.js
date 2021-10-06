@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import Marquee from "react-fast-marquee";
 import { recruitData } from "../components/data";
 import "../styles/major.css";
@@ -30,6 +31,11 @@ const Major = () => {
                         );
                     })}
                 </Marquee>
+            </div>
+            <div className="text-center mt-4">
+                <Link to="/recruiters" className="btn learnbtn white">
+                    Learn More
+                </Link>
             </div>
         </div>
     );
