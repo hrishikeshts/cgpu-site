@@ -86,15 +86,16 @@
     border-radius:2%;
     text-align: center;
     padding: 4% 2%;
-    width:90%;
-
-    
+    width:100%;
+     /* margin-right: 5%; 
+     */
 }
 
 .objectives-title{
     color: var(--blue);
     margin-bottom: 5%;
     font-weight: 600;
+    font-size: 1.25rem;
 }
 
 .objectives-content{

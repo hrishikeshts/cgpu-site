@@ -8,14 +8,14 @@ import missioncircle from "../images/mission.png";
 export default function Home() {
 
   const objectives=[
-    {title:"Best Placements", content:"To place final year students in respectable organizations through campus recruitment"},
-    {title:"Industrial Training",content:"To provide industrial training to students during their course study"},
-    {title:"Personality & Career Development",content:"To organize lectures,seminars,group discussions,mock interviews,etc"},
-    {title:"Guide Students in the Right Path",content:"Proper mentorship to students,helping them to acheive current prospectives"},
-    {title:"Job Opportunities",content:"To find job opportunites in India and abroad"},
-    {title:"Opportunities for Self Employment",content:"To help students to work on projects,researches,and get self employed"},
-    {title:"Find Higher Studies",content:"To provide knowledge for higher studies in India and abroad"},
-    {title:"Excel in Competitive Exams",content:"To offer training for students in exams like GRE,CAT,TOEFLGMAT,GATE,etc"}
+   
+    {title:"Guide Students in the Right Path",content:"Proper mentorship to students,helping them to acheive their career prospectives"},
+    {title:"Best Placements", content:"To place students in respectable organizations  through campus recruitment"},
+    {title:"Higher Studies",content:"To give students an insight into the higher studies options in India and abroad and train them to excel in competitive exams like GRE,CAT,TOEFL,GMAT,etc"},
+    
+   
+    {title:"Personality & Career Development",content:"To organize lectures,seminars,mock interviews and provide industrial training to students during their course study  as well as offer them opportunities to work on research projects."},
+
   ]
   return (
     <Layout page="home">
@@ -106,10 +106,13 @@ export default function Home() {
           </div>
         </div>
         <div className='midheading' style={{margin:'auto'}}>Our Objectives</div>
-        <div className='row'>
-        {objectives.map(x=><div className='col-3 my-2 objectives'>
+        <div className='row'  style={{margin:'auto'}}>
+        {objectives.map(x=>
+        <div className='col-6' style={{padding:'2%'}}>
+        <div className='objectives'>
           <div className='objectives-title'>{x.title}</div>
           <div className='objectives-content'>{x.content}</div>
+        </div>
         </div>)}
         </div>
       </div>
