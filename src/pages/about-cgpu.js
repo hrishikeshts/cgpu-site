@@ -1,5 +1,5 @@
 import React from "react";
-import { eventData } from "../components/data";
+import { head, reps } from "../data/people";
 import Layout from "../components/layout";
 import "../styles/about-cgpu.css";
 import AboutSVG from "../components/about-svg";
@@ -32,8 +32,28 @@ export default function AboutCGPU() {
                 </div>
                 <div className="ppl-cgpu mt-5">
                     <div className="page-head">People Behind CGPU</div>
+                    <h4 className="blue mt-2">CGPU Head</h4>
                     <div className="cards-main row p-0">
-                        {eventData.map((item, key) => {
+                        {head.map((item, key) => {
+                            return (
+                                <div key={key} className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
+                                    <div className="cards-in">
+                                        <div className="img-bg"></div>
+                                        <div className="text-left mx-3 my-3">
+                                            <div className="item-name">{item.title}</div>
+                                            <div className="item-pos">{item.posi}</div>
+                                            <a href={`mailto:${item.mail}`} className="item-mail">
+                                                {item.mail}
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                    <h4 className="blue mt-4">Student Representatives</h4>
+                    <div className="cards-main row p-0">
+                        {reps.map((item, key) => {
                             return (
                                 <div key={key} className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
                                     <div className="cards-in">
