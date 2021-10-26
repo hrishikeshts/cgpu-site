@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
 import Marquee from "react-fast-marquee";
-import { recruitData } from "../components/data";
+import { recruiters } from "../data/recruiters";
 import "../styles/major.css";
 
 const Major = () => {
-    var first = recruitData.slice(0, 8);
-    var second = recruitData.slice(8, 15);
+    var first = recruiters.slice(0, 8);
+    var second = recruiters.slice(8, 15);
 
     return (
         <div className="major my-5">

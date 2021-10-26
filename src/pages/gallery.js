@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import "../styles/gallery.css";
-import { photos } from "../components/data";
+import { gallery } from "../data/gallery";
 // import coverimage from "../images/cet-cover.png";
 
 export default function Gallery() {
@@ -15,7 +15,7 @@ export default function Gallery() {
                 <div className="gal-container">
                     <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
                         <Masonry>
-                            {photos.map((item, key) => {
+                            {gallery.map((item, key) => {
                                 return (
                                     <div key={key} className="gal-space">
                                         <div className="myDIV">

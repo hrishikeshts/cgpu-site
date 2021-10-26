@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import "../styles/recruiters.css";
-import { recruitData } from "../components/data";
+import { recruiters } from "../data/recruiters";
 
 export default function Recruiters() {
     return (
@@ -21,7 +21,7 @@ export default function Recruiters() {
                 </div>
 
                 <div className="row justify-content-center">
-                    {recruitData.map((item, key) => {
+                    {recruiters.map((item, key) => {
                         return (
                             <div key={key} className="r-cards-each col-xl-3 col-md-4 col-sm-12">
                                 <div className="r-cards-in">

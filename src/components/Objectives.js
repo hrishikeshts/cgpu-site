@@ -1,5 +1,5 @@
 import React from "react";
-import { objectives } from "./data";
+import { objectives } from "../data/objectives";
 import "../styles/index.css";
 
 const Objectives = () => {

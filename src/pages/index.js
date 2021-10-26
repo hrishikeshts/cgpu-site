@@ -5,7 +5,7 @@ import "../styles/index.css";
 import HomeSVG from "../components/home-svg";
 import ThingsVal from "../components/things-val";
 import Major from "../components/major";
-import Objectives from "../components/Objectives";
+import Objectives from "../components/objectives";
 import logo from "../images/cet-logo.png";
 import cetfront from "../images/cet-front.jpg";
 import cgpufront from "../images/cgpu-front.jpg";
