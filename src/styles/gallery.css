@@ -60,7 +60,11 @@
 .img-desc {
     font-size: 20px;
     color: #fafafa;
-}
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+    }
 
 .coverphoto {
     /* width: 1110px;

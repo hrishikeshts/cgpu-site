@@ -123,7 +123,7 @@ export default function AboutCET() {
                     <circle opacity="0.3" cx="1098" cy="130" r="12" fill="#2ECC71" />
                     <circle cx="1098" cy="130" r="7.2" fill="#2ECC71" />
                     <line
-                        opacity="0.3"
+                        opacity="0.75"
                         x1="24"
                         y1="128"
                         x2="387"
@@ -133,7 +133,7 @@ export default function AboutCET() {
                         strokeDasharray="8 8"
                     />
                     <line
-                        opacity="0.3"
+                        opacity="0.75"
                         x1="411"
                         y1="128"
                         x2="1086"
