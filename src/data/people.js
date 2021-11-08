@@ -10,6 +10,18 @@ export const head = [
 export const reps = [
     {
         img: "https://i.pravatar.cc/250",
+        title: "Lakshmi U G",
+        posi: "Computer Science and Engineering",
+        // mail: "placement@cet.ac.in",
+    },
+    {
+        img: "https://i.pravatar.cc/250",
+        title: "Ancil Tom Assisi",
+        posi: "Electrical and Electronics Engineering",
+        // mail: "placement@cet.ac.in",
+    },
+    {
+        img: "https://i.pravatar.cc/250",
         title: "Abhirami N P",
         posi: "Civil Engineering",
         // mail: "placement@cet.ac.in",
@@ -20,12 +32,7 @@ export const reps = [
         posi: "Applied Electronics and Instrumentation",
         // mail: "placement@cet.ac.in",
     },
-    {
-        img: "https://i.pravatar.cc/250",
-        title: "Ancil Tom Assisi",
-        posi: "Electrical and Electronics Engineering",
-        // mail: "placement@cet.ac.in",
-    },
+    
     {
         img: "https://i.pravatar.cc/250",
         title: "Arya Raj M",
@@ -42,12 +49,6 @@ export const reps = [
         img: "https://i.pravatar.cc/250",
         title: "Hariprasad N",
         posi: "Electrical and Electronics Engineering",
-        // mail: "placement@cet.ac.in",
-    },
-    {
-        img: "https://i.pravatar.cc/250",
-        title: "Lakshmi U G",
-        posi: "Computer Science and Engineering",
         // mail: "placement@cet.ac.in",
     },
     {
