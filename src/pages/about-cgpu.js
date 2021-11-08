@@ -23,10 +23,8 @@ export default function AboutCGPU() {
                             the unit.
                             <br />
                             <br />
-                            The unit is spread over an area of over 3500 sq.ft. It can accommodate 500 students at a
-                            time for written test. It has an amphitheatre for Pre-Placement Talk. The unit is equipped
-                            with a PA system, OHP, TV, VCR and an LCD projector. Other facilities include
-                            air-conditioned rooms for group discussions and interviews.
+                            Spanning across an area over 3500 sq feet. CGPU can accomodate 500 students at a time for written test.
+It is well equipped with high quality audio and video systems suitable for preplacement talks, group discussions and interviews.
                         </div>
                     </div>
                 </div>
@@ -57,7 +55,7 @@ export default function AboutCGPU() {
                             return (
                                 <div key={key} className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
                                     <div className="cards-in">
-                                        <div className="img-bg overflow-hidden"><img src={item.img} className="w-100" alt={item.title} /></div>
+                                        <div className="img-bg overflow-hidden"><img src={item.img} className="rep-img" alt={item.title} /></div>
                                         <div className="text-left mx-3 my-3">
                                             <div className="item-name">{item.title}</div>
                                             <div className="item-pos">{item.posi}</div>

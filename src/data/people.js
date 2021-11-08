@@ -15,7 +15,7 @@ export const reps = [
         // mail: "placement@cet.ac.in",
     },
     {
-        img: "https://i.pravatar.cc/250",
+        img: "/repImg/ancil.jpg",
         title: "Ancil Tom Assisi",
         posi: "Electrical and Electronics Engineering",
         // mail: "placement@cet.ac.in",
@@ -34,19 +34,19 @@ export const reps = [
     },
     
     {
-        img: "https://i.pravatar.cc/250",
+        img: "/repImg/arya.jpg",
         title: "Arya Raj M",
         posi: "Industrial Engineering",
         // mail: "placement@cet.ac.in",
     },
     {
-        img: "https://i.pravatar.cc/250",
+        img: "/repImg/aswin.jpg",
         title: "Aswin Sunil",
         posi: "Mechanical Engineering",
         // mail: "placement@cet.ac.in",
     },
     {
-        img: "https://i.pravatar.cc/250",
+        img: "/repImg/hari.jpg",
         title: "Hariprasad N",
         posi: "Electrical and Electronics Engineering",
         // mail: "placement@cet.ac.in",
@@ -58,13 +58,13 @@ export const reps = [
         // mail: "placement@cet.ac.in",
     },
     {
-        img: "https://i.pravatar.cc/250",
+        img: "/repImg/samjid.jpg",
         title: "Samjid Basheer",
         posi: "Mechanical Engineering",
         // mail: "placement@cet.ac.in",
     },
     {
-        img: "https://i.pravatar.cc/250",
+        img: "/repImg/sruthi.jpg",
         title: "Sruthi Shyam",
         posi: "Electronics and Communication Engineering",
         // mail: "placement@cet.ac.in",
