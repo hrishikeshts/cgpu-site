@@ -30,7 +30,7 @@ export default function AboutCET() {
                             of Engineering Trivandrum is the first engineering college in Kerala.
                             <br />
                             <br />
-                            Ranked at <span className="textHighlights">85</span> among{" "}
+                            Ranked at <span className="textHighlights">95</span> among{" "}
                             <span className="textHighlights">engineering colleges in India by NIRF</span> in 2020, CET
                             always rankis within top 100 engineering colleges of India every year. With such an eminence
                             in the academic and curricular activities, the college is the most sought after engineering
@@ -59,7 +59,9 @@ export default function AboutCET() {
                     </div>
                     <div className="col">
                         <p className="numeric">27</p>
-                        <p className="numeric-text">Postgraduate &amp; Doctoral Programmes</p>
+                        <p className="numeric-text">Postgraduate <br/>
+                        {/* &amp; Doctoral  */}
+                        Programmes</p>
                     </div>
                     <div className="col">
                         <p className="numeric">4500</p>
@@ -71,7 +73,7 @@ export default function AboutCET() {
                     </div>
 
                     <div className="col">
-                        <p className="numeric">311+</p>
+                        <p className="numeric">300+</p>
                         <p className="numeric-text">
                             Teaching
                             <br />
@@ -79,7 +81,7 @@ export default function AboutCET() {
                         </p>
                     </div>
                     <div className="col">
-                        <p className="numeric">290+</p>
+                        <p className="numeric">250+</p>
                         <p className="numeric-text">
                             Non-Teaching
                             <br />
@@ -104,7 +106,7 @@ export default function AboutCET() {
                         Shifted to the present campus
                     </text>
                     <text fill="#4F4F4F" fontWeight="400" fontSize="14" x="390" y="95">
-                        new campus of sprawling 125 acres
+                        new campus of sprawling across 80 acres
                     </text>
                     <text fill="#7A8193" fontWeight="500" fontSize="14" x="1110" y="170" textAnchor="end">
                         2019

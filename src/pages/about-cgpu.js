@@ -16,14 +16,15 @@ export default function AboutCGPU() {
                     <div className="order-md-1 col-12 col-md-7 col-lg-6 text-center text-md-start py-3 py-md-5">
                         <div className="page-head">About CGPU</div>
                         <div className="abt-desc">
-                            The Career Guidance and Placement Unit (CGPU) was started in this college as a voluntary
+                            The Career Guidance and Placement Unit (CGPU) was started in this college as an
                             organization in January 1984. The Placement Officer who is assisted by student
                             representatives from all the departments heads this unit. The Principal of the institution
                             and all other faculty members have extended their wholehearted support to the functioning of
                             the unit.
                             <br />
                             <br />
-                            Spanning across an area over 3500 sq feet. CGPU can accomodate 500 students at a time for written test.
+                            Spanning across an area over 3500 sq feet.
+                             {/* CGPU can accomodate 500 students at a time for written test. */}
 It is well equipped with high quality audio and video systems suitable for preplacement talks, group discussions and interviews.
                         </div>
                     </div>

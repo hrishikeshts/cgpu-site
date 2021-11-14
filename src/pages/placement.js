@@ -43,8 +43,8 @@ export default function Placement({ data: _pData }) {
                     <div className="page-head">Placement Highlights</div>
                     <div className="head-desc">
                         <span>
-                            CET is one of the few colleges in Kerala who has
-                            witnessed excellent placement records in the past
+                            CET is one of the few colleges in Kerala which has
+                            witnessed excellent placement records in the last 3
                             years.{' '}
                         </span>
                         <span className="d-lg-block">
