@@ -26,7 +26,7 @@ export default function AboutCET() {
                     <div className="order-md-1 col-12 col-md-7 col-lg-6 text-center text-md-start py-3 py-md-5">
                         <div className="page-head">About CET</div>
                         <div className="abt-desc">
-                            Founded in 1989 under the reign of the Travancore King, Sri Chithira Thirunal Varma, College
+                            Founded in 1939 under the reign of the Travancore King, Sri Chithira Thirunal Varma, College
                             of Engineering Trivandrum is the first engineering college in Kerala.
                             <br />
                             <br />
