@@ -16,7 +16,7 @@ const ThingsVal = () => {
                     <div className="px-5 py-4 py-md-0 text-center text-md-start">
                         <h4>Our Vision</h4>
                         <div className="text">
-                            National Level Excellence and International Visibility in Every Facet of Engineering
+                            National Level Excellence and International visibility in every facet of Engineering
                             Research and Education.
                         </div>
                     </div>
@@ -30,9 +30,9 @@ const ThingsVal = () => {
                     <div className="px-5 py-4 py-md-0 text-center text-md-end order-md-1">
                         <h4>Our Mission</h4>
                         <div className="text">
-                            To facilitate quality transformative education in Engineering and Management. To foster
-                            innovations in Technology and its application for meeting global challenges. To pursue and
-                            disseminate Quality Research. To equip, enrich and transform students to be Responsible
+                            To facilitate quality transformative education in Engineering and Management. <br/>To foster
+                            innovations in Technology and its application for meeting global challenges.<br/> To pursue and
+                            disseminate Quality Research.<br/> To equip, enrich and transform students to be Responsible
                             Professionals for better service to humanity.
                         </div>
                     </div>

@@ -31,7 +31,7 @@ export default function Footer() {
                         <h6 className="pb-3">Contact Us</h6>
                         <div className="footer-adr mb-3">
                             Career Guidance and Placement Unit (CGPU), <br />
-                            College of Engineering, Sreekaryam, <br />
+                            College of Engineering Trivandrum (CET), Sreekaryam, <br />
                             Thiruvananthapuram, Kerala 695016
                         </div>
                         <div>

@@ -23,12 +23,12 @@ export default function Home() {
                         <div className="page-head">
                             <img src={logo} alt="CET Seal" className="cet-logo py-2 py-md-3" />
                             <div className="title mx-auto mx-md-0">
-                                Career Guidance and Placement Unit, College of Engineering Trivandrum
+                                Career Guidance and Placement Unit<br/> College of Engineering Trivandrum
                             </div>
                         </div>
                         <div className="desc">
                             <div className="mb-4">
-                                We at CET believe in combining the three facets that together spell success. Ability,
+                                We at CET believe in combining the three facets that together spell success : Ability,
                                 Motivation and Attitude. CET's placement process aims to match the requirements of
                                 recruiters and the aspirations of students.
                             </div>
@@ -44,16 +44,16 @@ export default function Home() {
                 <div className="bluebox my-5 px-xl-3">
                     Over the last 5 years, we have assisted
                     <b>
-                        <span className="bigno"> 4506+</span> students
+                        <span className="bigno"> 3000+</span> students
                     </b>{" "}
                     in being placed in
                     <b>
-                        <span className="bigno"> 245+</span> companies{" "}
+                        <span className="bigno"> 150+</span> companies.{" "}
                     </b>
-                    at an average salary of{" "}
+                    {/* at an average salary of{" "}
                     <b>
                         <span className="bigno">₹9.6 </span>LPA
-                    </b>
+                    </b> */}
                 </div>
                 <ThingsVal />
             </div>
