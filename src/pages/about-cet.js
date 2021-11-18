@@ -7,13 +7,13 @@ import cetaalogo from "../images/cetaa-logo.png";
 
 export default function AboutCET() {
     const alumni = [
-        "15 chapters all over the world",
-        "Annual GB Meeting",
-        "CETAA Day celebration on 2nd Saturday of November every year",
-        "Awards day",
-        "More than 50 awards for students",
-        "Financial assistance for 10 students",
-        "Undertakes infrastructure development activities",
+        "Alumni connect",
+        "Student alumni connect",
+        "Monetary support to deserving students",
+        "Student empowerment in soft skills and technical areas via alumni support",
+        "Alumni support for internships and placements",
+        "Alumni mentors",
+        "Endowment awards to student achievers",
     ];
 
     return (
@@ -26,20 +26,21 @@ export default function AboutCET() {
                     <div className="order-md-1 col-12 col-md-7 col-lg-6 text-center text-md-start py-3 py-md-5">
                         <div className="page-head">About CET</div>
                         <div className="abt-desc">
-                            Founded in 1939 under the reign of the Travancore King, Sri Chithira Thirunal Varma, College
-                            of Engineering Trivandrum is the first engineering college in Kerala.
+                            Founded in 1939 under the reign of the Travancore King, Sri Chithira Thirunal Balarama
+                            Varma, College of Engineering Trivandrum is the first engineering college in Kerala.
                             <br />
                             <br />
-                            Ranked at <span className="textHighlights">95</span> among{" "}
-                            <span className="textHighlights">engineering colleges in India by NIRF</span> in 2020, CET
-                            always rankis within top 100 engineering colleges of India every year. With such an eminence
-                            in the academic and curricular activities, the college is the most sought after engineering
-                            college by the applicants of engineering degree programmes in the state.
+                            Ranked at <span className="textHighlights">95</span> in engineering and{" "}
+                            <span className="textHighlights">11</span> in architecture by{" "}
+                            <span className="textHighlights">NIRF 2021</span>, CET always ranks within top 100
+                            engineering colleges of India every year. With such an eminence in the academic and
+                            curricular activities, the college is the most sought after engineering college by the
+                            applicants of engineering degree programmes in the state.
                             <br />
                             <br />
                             <a
                                 href="https://www.cet.ac.in/"
-                                className="btn learnbtn mt-2"
+                                className="learnLink"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -59,9 +60,11 @@ export default function AboutCET() {
                     </div>
                     <div className="col">
                         <p className="numeric">27</p>
-                        <p className="numeric-text">Postgraduate <br/>
-                        {/* &amp; Doctoral  */}
-                        Programmes</p>
+                        <p className="numeric-text">
+                            Postgraduate <br />
+                            {/* &amp; Doctoral  */}
+                            Programmes
+                        </p>
                     </div>
                     <div className="col">
                         <p className="numeric">4500</p>
@@ -106,7 +109,7 @@ export default function AboutCET() {
                         Shifted to the present campus
                     </text>
                     <text fill="#4F4F4F" fontWeight="400" fontSize="14" x="390" y="95">
-                        new campus of sprawling across 80 acres
+                        new campus sprawling across 80 acres
                     </text>
                     <text fill="#7A8193" fontWeight="500" fontSize="14" x="1110" y="170" textAnchor="end">
                         2019
@@ -151,13 +154,13 @@ export default function AboutCET() {
                         <div className="page-head">Our Alumni</div>
                         <div className="abt-desc">
                             CET alumni are distinguished forerunners in every possible technological field across the
-                            world. The CET Alumni association,the CETAA is very much active in the college bringing
-                            together the CET-ians of yesteryears and present cream.
+                            world. The CET Alumni association, the CETAA is very much active in the college bringing
+                            together the CETians of yesteryears and present cream.
                             <br />
                             <br />
                             <a
                                 href="https://alumni.cet.ac.in/"
-                                className="btn learnbtn"
+                                className="learnLink"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

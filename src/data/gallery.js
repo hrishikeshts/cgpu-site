@@ -75,7 +75,7 @@ export const gallery = [
         src: "/gallery-images/gim3.jpg",
         width: 3,
         height: 4,
-        desc: "Graduation 2017 Batch",
+        desc: "Graduation",
     },
     {
         src: "/gallery-images/gim4.jpg",

@@ -16,7 +16,7 @@ export default function Recruiters() {
                         </span>
                     </div>
                     <a href="https://genskill.com/" target="_blank" rel="noopener noreferrer" className="learnLink">
-                        Register as a recruiter
+                        Register
                     </a>
                 </div>
 

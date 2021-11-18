@@ -22,15 +22,14 @@ export default function Home() {
                     <div className="order-md-1 col-12 col-md-6 col-lg-5 text-center text-md-start">
                         <div className="page-head">
                             <img src={logo} alt="CET Seal" className="cet-logo py-2 py-md-3" />
-                            <div className="title mx-auto mx-md-0">
-                                Career Guidance and Placement Unit<br/> College of Engineering Trivandrum
-                            </div>
+                            <div className="title mx-auto mx-md-0">Career Guidance and Placement Unit (CGPU)</div>
+                            <div>College of Engineering Trivandrum</div>
                         </div>
                         <div className="desc">
                             <div className="mb-4">
-                                We at CET believe in combining the three facets that together spell success : Ability,
-                                Motivation and Attitude. CET's placement process aims to match the requirements of
-                                recruiters and the aspirations of students.
+                                We at CET believe in fostering the three factors that in amalgamation prompts success:
+                                Ability, Motivation and Attitude. CET's placement process aims to match the requirements
+                                of recruiters and the aspirations of students.
                             </div>
                             <Link to="/about-cgpu" className="btn learnbtn">
                                 Learn More

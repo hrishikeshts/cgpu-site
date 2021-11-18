@@ -15,6 +15,6 @@ export const objectives = [
     {
         title: "Personality & Career Development",
         content:
-            "To organize lectures, seminars, mock interviews and provide internships to students during their course study  as well as offer them opportunities to work on research projects",
+            "To organize lectures, seminars, mock interviews and provide internships to students during course of study as well as offer them opportunities to work on research projects",
     },
 ];
