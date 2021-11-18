@@ -22,10 +22,10 @@ export default function AboutCGPU() {
                             wholehearted support to the functioning of the unit.
                             <br />
                             <br />
-                            Spanning across an area over 3500 sq feet.{" "}
+                            {/* Spanning across an area over 3500 sq feet.{" "} */}
                             {/* CGPU can accomodate 500 students at a time for written test. */}
-                            It is well equipped with high quality audio and video systems suitable for preplacement
-                            talks, group discussions and interviews.
+                            {/* It is well equipped with high quality audio and video systems suitable for preplacement
+                            talks, group discussions and interviews. */}
                         </div>
                     </div>
                 </div>

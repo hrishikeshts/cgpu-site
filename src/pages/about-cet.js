@@ -154,7 +154,7 @@ export default function AboutCET() {
                         <div className="page-head">Our Alumni</div>
                         <div className="abt-desc">
                             CET alumni are distinguished forerunners in every possible technological field across the
-                            world. The CET Alumni association, the CETAA is very much active in the college bringing
+                            world. The CET Alumni association (CETAA) is very much active in the college bringing
                             together the CETians of yesteryears and present cream.
                             <br />
                             <br />

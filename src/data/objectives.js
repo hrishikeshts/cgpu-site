@@ -13,7 +13,7 @@ export const objectives = [
             "To give students an insight into the higher studies options in India and abroad and train them to excel in competitive exams like GRE, CAT, TOEFL, GMAT, etc.",
     },
     {
-        title: "Personality & Career Development",
+        title: "Industrial Training",
         content:
             "To organize lectures, seminars, mock interviews and provide internships to students during course of study as well as offer them opportunities to work on research projects",
     },
