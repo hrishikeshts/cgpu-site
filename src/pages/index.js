@@ -31,12 +31,15 @@ export default function Home() {
                                 Ability, Motivation and Attitude. CET's placement process aims to match the requirements
                                 of recruiters and the aspirations of students.
                             </div>
-                            <Link to="/about-cgpu" className="btn learnbtn">
-                                Learn More
-                            </Link>
+                            <div className="width-sp">
+                                <Link to="/about-cgpu" className="btn learnbtn">
+                                    Learn More
+                                </Link>
+            
                             <a href={`CET @ Glance.pdf`} download className="download px-4 py-2">
                                 Download Brochure
                             </a>
+                            </div>
                         </div>
                     </div>
                 </div>

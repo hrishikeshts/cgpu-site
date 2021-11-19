@@ -29,6 +29,9 @@
 .desc {
     color: var(--blue-gray);
 }
+.width-sp{
+    width: 400px;
+}
 
 .learnbtn {
     background: var(--blue);

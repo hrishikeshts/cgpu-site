@@ -1,0 +1,9 @@
+<Carousel autoPlay interval={2000} showArrows={0} 
+                showIndicators={0}
+                showStatus={0}
+                transitionTime={600} infiniteLoop
+            >
+                
+                    <image href={main} x="48" y="48" width="531" height="388" clipPath="url(#main-clip)" />
+        
+</Carousel>

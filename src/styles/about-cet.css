@@ -5,6 +5,9 @@
 .abt-desc {
     color: var(--blue-gray);
 }
+.abt-cet-pos{
+    position: relative;
+}
 
 /* Image */
 .img-main {
