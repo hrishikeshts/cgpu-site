@@ -36,7 +36,9 @@ export default function Footer() {
                         <div>
                             <span>Phone: </span>
                             <a href="tel:9946844277">+91 994-684-4277</a> |{" "}
-                            <a href="tel:9946844277">+91 994-684-4277</a>
+                            <a href="tel:9946844277" className="footer-phone">
+                                +91 994-684-4277
+                            </a>
                             <span> (Office)</span>
                         </div>
                         <div>

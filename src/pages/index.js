@@ -35,10 +35,10 @@ export default function Home() {
                                 <Link to="/about-cgpu" className="btn learnbtn">
                                     Learn More
                                 </Link>
-            
-                            <a href={`CET @ Glance.pdf`} download className="download px-4 py-2">
-                                Download Brochure
-                            </a>
+
+                                <a href={`CET @ Glance.pdf`} download className="download px-4 py-2">
+                                    Download Brochure
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default function Home() {
                     </b>{" "}
                     in being placed in
                     <b>
-                        <span className="bigno"> 150+</span> companies.{" "}
+                        <span className="bigno"> 150+</span> companies{" "}
                     </b>
                     {/* at an average salary of{" "}
                     <b>
