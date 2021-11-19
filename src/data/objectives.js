@@ -1,20 +1,20 @@
 export const objectives = [
     {
-        title: "Guidance of Students in the Right Path",
-        content: "To provide proper mentorship to students, helping them to achieve their career prospectives",
+        title: "Expert Guidance for Students",
+        content: "Provide proper mentorship in order to help students achieve their desired career path",
     },
     {
         title: "Best Placements",
-        content: "To place students in respectable organizations through campus recruitment",
+        content: "Place students in respectable organizations through campus recruitment",
     },
     {
-        title: "Higher Studies",
+        title: "Higher Learning Opportunities",
         content:
-            "To give students an insight into the higher studies options in India and abroad and train them to excel in competitive exams like GRE, CAT, TOEFL, GMAT, etc.",
+            "Offer students an insight into possible advanced degree options available in India and abroad, and also provide training to excel in competitive examinations such as GATE, GRE, CAT, TOEFL, GMAT, etc.",
     },
     {
         title: "Industrial Training",
         content:
-            "To organize lectures, seminars, mock interviews and provide internships to students during course of study as well as offer them opportunities to work on research projects",
+            "Conduct lectures, seminars, mock interviews and provide industrial training to students during the course of their study in the institution and, in addition, offer research oriented project opportunities",
     },
 ];

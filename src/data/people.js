@@ -4,16 +4,10 @@ export const head = [
         title: "Dr. Sunil Kumar K",
         posi: "Training and Placement Officer",
         mail: "placement@cet.ac.in",
-    }
-];
-    
-export const reps = [
-    {
-        img: "https://i.pravatar.cc/250",
-        title: "Lakshmi U G",
-        posi: "Computer Science and Engineering",
-        // mail: "placement@cet.ac.in",
     },
+];
+
+export const reps = [
     {
         img: "/repImg/ancil.jpg",
         title: "Ancil Tom Assisi",
@@ -21,7 +15,7 @@ export const reps = [
         // mail: "placement@cet.ac.in",
     },
     {
-        img: "https://i.pravatar.cc/250",
+        img: "/repImg/abhirami.jpg",
         title: "Abhirami N P",
         posi: "Civil Engineering",
         // mail: "placement@cet.ac.in",
@@ -32,7 +26,7 @@ export const reps = [
         posi: "Applied Electronics and Instrumentation",
         // mail: "placement@cet.ac.in",
     },
-    
+
     {
         img: "/repImg/arya.jpg",
         title: "Arya Raj M",
@@ -52,7 +46,13 @@ export const reps = [
         // mail: "placement@cet.ac.in",
     },
     {
-        img: "https://i.pravatar.cc/250",
+        img: "/repImg/lakshmi.jpg",
+        title: "Lakshmi U G",
+        posi: "Computer Science and Engineering",
+        // mail: "placement@cet.ac.in",
+    },
+    {
+        img: "/repImg/munavar.jpg",
         title: "Munavar T P",
         posi: "Civil Engineering",
         // mail: "placement@cet.ac.in",

@@ -16,7 +16,7 @@ export default function Footer() {
                         <Link to="/contact">Contact Us</Link>
                     </div>
                     <div className="col-6 col-sm-4 col-md-4 py-2">
-                        <h6 className="pb-3">Useful Links</h6>
+                        <h6 className="pb-3">Related Links</h6>
                         <a href="https://ktu.edu.in/" target="_blank" rel="noopener noreferrer">
                             Kerala Technological University
                         </a>

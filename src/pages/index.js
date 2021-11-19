@@ -26,36 +26,35 @@ export default function Home() {
                             <div className="subtitle">College of Engineering Trivandrum</div>
                         </div>
                         <div className="desc">
-                            <div className="mb-4">
+                            <div className="mb-3">
                                 We at CET believe in fostering the three factors that in amalgamation prompts success:
                                 Ability, Motivation and Attitude. CET's placement process aims to match the requirements
                                 of recruiters and the aspirations of students.
                             </div>
-                            <div className="width-sp">
-                                <Link to="/about-cgpu" className="btn learnbtn">
-                                    Learn More
-                                </Link>
-
-                                <a href={`CET @ Glance.pdf`} download className="download px-4 py-2">
-                                    Download Brochure
-                                </a>
+                            <div className="d-flex flex-wrap text-center justify-content-center justify-content-md-start">
+                                <div className="my-2 mx-3 ms-md-0 me-md-4">
+                                    <Link to="/about-cgpu" className="btn learnbtn">
+                                        Learn More
+                                    </Link>
+                                </div>
+                                <div className="my-2 mx-3 mx-md-0 d-flex align-items-center">
+                                    <a href={`CET @ Glance.pdf`} download className="download learnLink">
+                                        Download Brochure
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="bluebox my-5 px-xl-3">
+                <div className="bluebox mt-4 mt-md-5 mb-5 px-xl-3">
                     Over the last 5 years, we have assisted
                     <b>
                         <span className="bigno"> 3000+</span> students
                     </b>{" "}
-                    in being placed in
+                    in being placed and acquiring internships at
                     <b>
                         <span className="bigno"> 150+</span> companies{" "}
                     </b>
-                    {/* at an average salary of{" "}
-                    <b>
-                        <span className="bigno">₹9.6 </span>LPA
-                    </b> */}
                 </div>
                 <ThingsVal />
             </div>

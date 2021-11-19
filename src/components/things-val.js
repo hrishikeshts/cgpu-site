@@ -15,7 +15,7 @@ const ThingsVal = () => {
                     </div>
                     <div className="px-5 py-4 py-md-0 text-center text-md-end order-md-1">
                         <h4>Our Vision</h4>
-                        <div className="text" style={{ textAlign: "left" }}>
+                        <div className="text">
                             National Level Excellence and International visibility in every facet of Engineering
                             Research and Education.
                         </div>
