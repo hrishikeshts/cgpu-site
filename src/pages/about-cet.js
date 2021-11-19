@@ -80,7 +80,7 @@ export default function AboutCET() {
                         <p className="numeric-text">
                             Teaching
                             <br />
-                            Professionals
+                            Staff
                         </p>
                     </div>
                     <div className="col">

@@ -85,3 +85,7 @@ footer h2 span:nth-child(2) {
     font-weight: 300;
     user-select: text;
 }
+
+.footer-phone {
+    white-space: nowrap;
+}
