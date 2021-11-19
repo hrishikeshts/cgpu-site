@@ -23,7 +23,7 @@ export default function Home() {
                         <div className="page-head">
                             <img src={logo} alt="CET Seal" className="cet-logo py-2 py-md-3" />
                             <div className="title mx-auto mx-md-0">Career Guidance and Placement Unit (CGPU)</div>
-                            <div>College of Engineering Trivandrum</div>
+                            <div className="subtitle">College of Engineering Trivandrum</div>
                         </div>
                         <div className="desc">
                             <div className="mb-4">
