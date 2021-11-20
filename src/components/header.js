@@ -42,13 +42,7 @@ export default function Header({ page }) {
                     <span className="dropdown d-flex d-lg-inline">
                         <button
                             className={`btn dropdown-toggle ps-0 pe-5 px-lg-3 ${
-                                page === "cet"
-                                    ? "active"
-                                    : page === "cgpu"
-                                    ? "active"
-                                    : page === "gallery"
-                                    ? "active"
-                                    : ""
+                                page === "cet" ? "active" : page === "cgpu" ? "active" : ""
                             }`}
                             type="button"
                             id="dropdownMenuButton1"

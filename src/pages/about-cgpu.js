@@ -64,9 +64,9 @@ export default function AboutCGPU() {
                                         <div className="text-box">
                                             <div className="item-name">{item.title}</div>
                                             <div className="item-pos">{item.posi}</div>
-                                            <a href={`mailto:${item.mail}`} className="item-mail">
+                                            {/* <a href={`mailto:${item.mail}`} className="item-mail">
                                                 {item.mail}
-                                            </a>
+                                            </a> */}
                                         </div>
                                     </div>
                                 </div>
