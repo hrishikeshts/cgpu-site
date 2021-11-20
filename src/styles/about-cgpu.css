@@ -167,7 +167,6 @@
     margin: 0.5rem;
     transition: all 0.3s;
     position: relative;
-    filter: grayscale(0.9);
 }
 
 .card-item:hover {
@@ -181,6 +180,11 @@
     background: white;
     box-shadow: 0px 0px 16px rgba(130, 130, 130, 0.16);
     border-radius: 0.75rem;
+    min-height: 13rem;
+}
+
+.card-text.rep {
+    min-height: 12rem;
 }
 
 .card-blank {
@@ -194,6 +198,29 @@
     position: absolute;
     top: 0;
     left: 10%;
+    filter: grayscale(0.7) brightness(1.2);
+    transition: all 0.3s;
+}
+
+.card-item:hover .card-img {
+    filter: none;
+}
+
+.card-overlay {
+    background-color: var(--blue);
+    height: 11.2rem;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    opacity: 0.25;
+    z-index: 1;
+    border-radius: 0.75rem;
+    transition: all 0.3s;
+}
+
+.card-item:hover .card-overlay {
+    opacity: 0;
+    transition: all 0.3s;
 }
 
 .card-title {
@@ -210,9 +237,9 @@
     text-align: left;
     width: 80%;
     margin: auto;
-    height: 3rem;
+    /* height: 3rem;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
 }
 
 .card-mail {
@@ -222,4 +249,37 @@
     width: 80%;
     margin: auto;
     display: block;
+}
+.ali {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /* align-items: center; */
+}
+.padd-right {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1192px) {
+    .padd-right {
+        padding-right: 0;
+    }
+
+    .ali-left {
+        padding-left: 1rem;
+    }
+    .ali {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
+@media (min-width: 1192px) and (max-width: 1196px) {
+    .ali-left .cards-container {
+        flex-wrap: nowrap;
+    }
 }
