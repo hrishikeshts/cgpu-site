@@ -23,11 +23,7 @@ export default function Contact() {
                             <p>
                                 Phone:{" "}
                                 <a href="tel:04712595152" className="phone">
-                                    0471 2595152
-                                </a>
-                                ,{" "}
-                                <a href="tel:04712515682" className="phone">
-                                    2515682
+                                    0471 251-5682
                                 </a>
                                 <br />
                                 Email:{" "}
@@ -54,13 +50,13 @@ export default function Contact() {
                             </p>
                             <p>
                                 Mobile:{" "}
-                                <a href="tel:9946844277" className="phone">
-                                    9946844277
+                                <a href="tel:+919946844277" className="phone">
+                                    +91 994-684-4277
                                 </a>
                                 <br />
                                 Email:{" "}
-                                <a href="mailto:placement@cet.ac.in" className="phone">
-                                    placement@cet.ac.in
+                                <a href="mailto:ksk_sunil@cet.ac.in" className="phone">
+                                    ksk_sunil@cet.ac.in
                                 </a>
                             </p>
                         </div>

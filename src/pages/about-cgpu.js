@@ -1,5 +1,5 @@
 import React from "react";
-import { head, reps } from "../data/people";
+import { head, faculty, reps } from "../data/people";
 import Layout from "../components/layout";
 import "../styles/about-cgpu.css";
 import AboutSVG from "../components/about-svg";
@@ -31,8 +31,7 @@ export default function AboutCGPU() {
                 </div>
                 <div className="ppl-cgpu mt-5">
                     <div className="page-head">People Behind CGPU</div>
-                    <h4 className="blue my-2">CGPU Co-ordinator</h4>
-                    {/* <div className="cards-main row p-0"> */}
+                    <h4 className="blue my-2">Coordinator</h4>
                     <div className="cards-container">
                         {head.map((item, key) => {
                             return (
@@ -42,6 +41,27 @@ export default function AboutCGPU() {
                                     <div className="card-text">
                                         <div className="card-title">{item.title}</div>
                                         <div className="card-subtitle">{item.posi}</div>
+                                        <a href={`mailto:${item.mail}`} className="card-mail">
+                                            {item.mail}
+                                        </a>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                    <h4 className="blue mt-4 mb-2">Associated Faculty</h4>
+                    <div className="cards-container">
+                        {faculty.map((item, key) => {
+                            return (
+                                <div key={key} className="card-item">
+                                    <img src={item.img} className="card-img" alt={item.title} />
+                                    <div className="card-blank" />
+                                    <div className="card-text">
+                                        <div className="card-title">{item.title}</div>
+                                        <div className="card-subtitle">{item.posi}</div>
+                                        <a href={`mailto:${item.mail}`} className="card-mail">
+                                            {item.mail}
+                                        </a>
                                     </div>
                                 </div>
                             );
@@ -69,11 +89,15 @@ export default function AboutCGPU() {
                             // );
                             return (
                                 <div key={key} className="card-item">
+                                    <div className="card-img" />
                                     <img src={item.img} className="card-img" alt={item.title} />
                                     <div className="card-blank" />
                                     <div className="card-text">
                                         <div className="card-title">{item.title}</div>
                                         <div className="card-subtitle">{item.posi}</div>
+                                        <a href={`mailto:${item.mail}`} className="card-mail">
+                                            {item.mail}
+                                        </a>
                                     </div>
                                 </div>
                             );

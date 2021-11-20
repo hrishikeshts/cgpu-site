@@ -129,7 +129,9 @@
 .item-mail {
     color: var(--blue);
     font-size: 12px;
+    text-align: left;
 }
+
 .rep-img {
     width: 180px;
     height: 180px;
@@ -208,4 +210,13 @@
     text-align: left;
     width: 80%;
     margin: auto;
+}
+
+.card-mail {
+    color: var(--blue);
+    font-size: 12px;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    display: block;
 }
