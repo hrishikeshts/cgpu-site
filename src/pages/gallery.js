@@ -19,7 +19,7 @@ export default function Gallery() {
                                 return (
                                     <div key={key} className="gal-space">
                                         <div className="myDIV">
-                                            <img src={`${item.src}`} alt="Gallery Item" className="gal-img"></img>
+                                            <img src={item.src} alt={item.desc} className="gal-img"></img>
                                             <div className="overlay">
                                                 <div className="text-wrap">
                                                     <h4 className="img-desc">{item.desc}</h4>
