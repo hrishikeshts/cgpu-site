@@ -14,7 +14,7 @@ export default function Placement({ data: _pData }) {
 
     const [year, setYear] = useState(placements[2].year);
     const keyedData = {};
-    placements.map((p) => (keyedData[p.year] = p));
+    placements.map((placement) => (keyedData[placement.year] = placement));
 
     return (
         <Layout page="placement">
@@ -79,8 +79,12 @@ export default function Placement({ data: _pData }) {
                                     <th scope="col">MCA</th>
                                     <th scope="col">MBA</th>
                                     <th scope="col">Total</th> */}
-                                    <th scope="col">Branch</th>
-                                    <th scope="col">Total Offers</th>
+                                    <th scope="col" className="ps-5">
+                                        Branch
+                                    </th>
+                                    <th scope="col" className="pe-5">
+                                        Total Offers
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -100,10 +104,10 @@ export default function Placement({ data: _pData }) {
                                         <td>{Object.values(company.stats).reduce((a, b) => a + b)}</td>
                                     </tr>
                                 ))} */}
-                                {keyedData[year].data.map((data, i) => (
-                                    <tr key={i}>
-                                        <td>{data.branch}</td>
-                                        <td>{data.offers}</td>
+                                {keyedData[year].data.map((data, key) => (
+                                    <tr key={key}>
+                                        <td className="ps-5">{data.branch}</td>
+                                        <td className="pe-5">{data.offers}</td>
                                     </tr>
                                 ))}
                             </tbody>
@@ -115,26 +119,26 @@ export default function Placement({ data: _pData }) {
     );
 }
 
-export const query = graphql`
-    query MyQuery {
-        allPlacementJson {
-            nodes {
-                year
-                companies {
-                    name
-                    stats {
-                        AE
-                        CE
-                        CS
-                        EC
-                        EEE
-                        IE
-                        MBA
-                        MCA
-                        ME
-                    }
-                }
-            }
-        }
-    }
-`;
+// export const query = graphql`
+//     query MyQuery {
+//         allPlacementJson {
+//             nodes {
+//                 year
+//                 companies {
+//                     name
+//                     stats {
+//                         AE
+//                         CE
+//                         CS
+//                         EC
+//                         EEE
+//                         IE
+//                         MBA
+//                         MCA
+//                         ME
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// `;

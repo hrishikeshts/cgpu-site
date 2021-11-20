@@ -57,6 +57,10 @@ button.placement-year:hover > img {
     color: var(--blue) !important;
 }
 
+.table-responsive {
+    max-width: 40rem;
+}
+
 .table-responsive > div {
     border: 2px solid rgba(31, 122, 224, 0.3);
     border-radius: 1rem;
@@ -75,13 +79,13 @@ button.placement-year:hover > img {
 }
 
 .placement-table {
-    text-align: center;
-}
-
-.placement-table thead th:nth-child(2),
-.placement-table tbody tr th + td {
     text-align: left;
 }
+
+/* .placement-table thead th:nth-child(2),
+.placement-table tbody tr th + td {
+    text-align: left;
+} */
 
 .placement-table > tbody > tr:nth-child(odd) {
     --bs-table-accent-bg: white;
@@ -100,8 +104,16 @@ button.placement-year:hover > img {
     text-align: left;
 }
 
+.placement-table thead th:last-child {
+    text-align: center;
+}
+
 .placement-table tbody tr:last-child td:last-child {
     border-radius: 0 0 0.75rem 0;
+}
+
+.placement-table tbody tr td:last-child {
+    text-align: center;
 }
 
 .placement-table thead th:last-child {
