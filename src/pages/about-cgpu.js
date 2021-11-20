@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { head, faculty, reps } from "../data/people";
 import Layout from "../components/layout";
 import "../styles/about-cgpu.css";
@@ -6,6 +6,8 @@ import AboutSVG from "../components/about-svg";
 import aboutcgpu from "../images/about-cgpu.jpg";
 
 export default function AboutCGPU() {
+    const [more, setMore] = useState(0);
+    const repsToggle = more ? reps : reps.slice(0, 5);
     return (
         <Layout page="cgpu">
             <div className="main-container mb-4 mb-md-0">
@@ -78,7 +80,7 @@ export default function AboutCGPU() {
                     <h4 className="blue mt-4 mb-2">Student Representatives</h4>
                     {/* <div className="cards-main row p-0"> */}
                     <div className="cards-container">
-                        {reps.map((item, key) => {
+                        {repsToggle.map((item, key) => {
                             // return (
                             //     <div key={key} className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
                             //         <div className="cards-in">
@@ -113,6 +115,9 @@ export default function AboutCGPU() {
                             );
                         })}
                     </div>
+                    <button className={`more-btn${more ? " d-none" : ""}`} onClick={() => setMore(!more)}>
+                        Show more
+                    </button>
                 </div>
             </div>
         </Layout>
