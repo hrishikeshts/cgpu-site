@@ -31,43 +31,49 @@ export default function AboutCGPU() {
                 </div>
                 <div className="ppl-cgpu mt-5">
                     <div className="page-head">People Behind CGPU</div>
-                    <h4 className="blue mt-2">CGPU Co-ordinator</h4>
-                    <div className="cards-main row p-0">
+                    <h4 className="blue my-2">CGPU Co-ordinator</h4>
+                    {/* <div className="cards-main row p-0"> */}
+                    <div className="cards-container">
                         {head.map((item, key) => {
                             return (
-                                <div key={key} className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
-                                    <div className="cards-in">
-                                        <div className="img-bg">
-                                            <img src={item.img} className="rep-img" alt={item.title} />
-                                        </div>
-                                        <div className="text-box">
-                                            <div className="item-name">{item.title}</div>
-                                            <div className="item-pos">{item.posi}</div>
-                                            {/* <a href={`mailto:${item.mail}`} className="item-mail">
-                                                {item.mail}
-                                            </a> */}
-                                        </div>
+                                <div key={key} className="card-item">
+                                    <img src={item.img} className="card-img" alt={item.title} />
+                                    <div className="card-blank" />
+                                    <div className="card-text">
+                                        <div className="card-title">{item.title}</div>
+                                        <div className="card-subtitle">{item.posi}</div>
                                     </div>
                                 </div>
                             );
                         })}
                     </div>
-                    <h4 className="blue">Student Representatives</h4>
-                    <div className="cards-main row p-0">
+                    <h4 className="blue mt-4 mb-2">Student Representatives</h4>
+                    {/* <div className="cards-main row p-0"> */}
+                    <div className="cards-container">
                         {reps.map((item, key) => {
+                            // return (
+                            //     <div key={key} className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
+                            //         <div className="cards-in">
+                            //             <div className="img-bg">
+                            //                 <img src={item.img} className="rep-img" alt={item.title} />
+                            //             </div>
+                            //             <div className="text-box">
+                            //                 <div className="item-name">{item.title}</div>
+                            //                 <div className="item-pos">{item.posi}</div>
+                            //                 {/* <a href={`mailto:${item.mail}`} className="item-mail">
+                            //                     {item.mail}
+                            //                 </a> */}
+                            //             </div>
+                            //         </div>
+                            //     </div>
+                            // );
                             return (
-                                <div key={key} className="cards-each col-12 col-sm-6 col-md-4 col-xl-3">
-                                    <div className="cards-in">
-                                        <div className="img-bg">
-                                            <img src={item.img} className="rep-img" alt={item.title} />
-                                        </div>
-                                        <div className="text-box">
-                                            <div className="item-name">{item.title}</div>
-                                            <div className="item-pos">{item.posi}</div>
-                                            {/* <a href={`mailto:${item.mail}`} className="item-mail">
-                                                {item.mail}
-                                            </a> */}
-                                        </div>
+                                <div key={key} className="card-item">
+                                    <img src={item.img} className="card-img" alt={item.title} />
+                                    <div className="card-blank" />
+                                    <div className="card-text">
+                                        <div className="card-title">{item.title}</div>
+                                        <div className="card-subtitle">{item.posi}</div>
                                     </div>
                                 </div>
                             );

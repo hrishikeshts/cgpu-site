@@ -117,11 +117,13 @@
 .item-name {
     color: var(--dark);
     font-weight: 500;
+    text-align: left;
 }
 
 .item-pos {
     color: var(--blue-gray);
     font-size: 12px;
+    text-align: left;
 }
 
 .item-mail {
@@ -150,4 +152,60 @@
     height: 70px;
     bottom: 7px;
     justify-content: start;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-item {
+    width: 14rem;
+    margin: 0.5rem;
+    transition: all 0.3s;
+    position: relative;
+    filter: grayscale(0.9);
+}
+
+.card-item:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    filter: none;
+}
+
+.card-text {
+    padding: 7rem 0 0.75rem;
+    background: white;
+    box-shadow: 0px 0px 16px rgba(130, 130, 130, 0.16);
+    border-radius: 0.75rem;
+}
+
+.card-blank {
+    height: 3rem;
+    margin: 0.75rem 1rem;
+}
+
+.card-img {
+    width: 80%;
+    border-radius: 0.75rem;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.card-title {
+    color: var(--dark);
+    font-weight: 500;
+    text-align: left;
+    margin: 0.3rem auto 0.1rem;
+    width: 80%;
+}
+
+.card-subtitle {
+    color: var(--blue-gray);
+    font-size: 12px;
+    text-align: left;
+    width: 80%;
+    margin: auto;
 }
