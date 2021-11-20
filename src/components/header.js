@@ -84,7 +84,26 @@ export default function Header({ page }) {
                     >
                         Contact
                     </Link>
-                    <button className="btn my-2 my-lg-0 ms-lg-3 d-block d-lg-inline-block">Register</button>
+                    {/* <button className="btn my-2 my-lg-0 ms-lg-3 d-block d-lg-inline-block">Register</button> */}
+                    <span className="dropdown d-flex d-lg-inline">
+                        <button
+                            className={"btn my-2 my-lg-0 ms-lg-3 d-block d-lg-inline-block"}
+                            type="button"
+                            id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Register
+                        </button>
+                        <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            <Link to="/about-cet" className={`${page === "cet" ? "active" : ""}`}>
+                                Student
+                            </Link>
+                            <Link to="/about-cgpu" className={`${page === "cgpu" ? "active" : ""}`}>
+                                Recruiter
+                            </Link>
+                        </ul>
+                    </span>
                 </nav>
             </div>
         </header>

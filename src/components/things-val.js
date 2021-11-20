@@ -8,14 +8,14 @@ const ThingsVal = () => {
             <div className="page-head text-center mb-4">We Treasure</div>
             <div className="vm">
                 <div className="vision d-md-flex align-items-center py-2 py-md-3 justify-content-end">
-                    <div className="order-md-2">
+                    <div className="">
                         <div className="bluelayer">
                             <img src={vision} alt="Vision" className="eye" />
                         </div>
                     </div>
-                    <div className="px-5 py-4 py-md-0 text-center text-md-end order-md-1">
+                    <div className="px-5 pe-md-0 py-4 py-md-0 text-center text-md-start">
                         <h4>Our Vision</h4>
-                        <div className="text">
+                        <div className="text mx-auto">
                             National Level Excellence and International visibility in every facet of Engineering
                             Research and Education.
                         </div>
@@ -27,14 +27,21 @@ const ThingsVal = () => {
                             <img src={mission} alt="Mision" className="eye" />
                         </div>
                     </div>
-                    <div className="px-5 py-4 py-md-0 text-center text-md-start">
+                    <div className="px-5 pe-md-0 py-4 py-md-0 text-center text-md-start">
                         <h4>Our Mission</h4>
                         <div className="text">
-                            To facilitate quality transformative education in Engineering and Management. <br />
-                            To foster innovations in Technology and its application for meeting global challenges.
-                            <br /> To pursue and disseminate Quality Research.
-                            <br /> To equip, enrich and transform students to be responsible professionals for better
-                            service to humanity.
+                            <ul>
+                                <li>To facilitate quality transformative education in engineering and management.</li>
+                                <li>
+                                    To foster innovations in technology and its application for meeting global
+                                    challenges.
+                                </li>
+                                <li>To pursue and disseminate quality research.</li>
+                                <li>
+                                    To equip, enrich and transform students to be responsible professionals for better
+                                    service to humanity.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
 .abt-desc {
     color: var(--blue-gray);
 }
-.abt-cet-pos{
+.abt-cet-pos {
     position: relative;
 }
 
@@ -171,4 +171,13 @@ ul li::before {
     border-color: transparent #111;
     border-style: circle;
     border-width: 0.35em;
+}
+
+.text ul li::before {
+    color: var(--gray);
+    margin-left: -1.2em;
+}
+
+.text li {
+    line-height: 1.5rem;
 }

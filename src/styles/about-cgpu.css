@@ -210,6 +210,9 @@
     text-align: left;
     width: 80%;
     margin: auto;
+    height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-mail {

@@ -95,9 +95,9 @@ export default function AboutCGPU() {
                                     <div className="card-text">
                                         <div className="card-title">{item.title}</div>
                                         <div className="card-subtitle">{item.posi}</div>
-                                        <a href={`mailto:${item.mail}`} className="card-mail">
+                                        {/* <a href={`mailto:${item.mail}`} className="card-mail">
                                             {item.mail}
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             );
