@@ -194,6 +194,8 @@
 
 .card-img {
     width: 80%;
+    height: 11.2rem;
+    background: var(--blue-gray);
     border-radius: 0.75rem;
     position: absolute;
     top: 0;
@@ -281,6 +283,7 @@
         flex-wrap: nowrap;
     }
 }
+
 @media (min-width: 1192px) and (max-width: 1196px) {
     .ali-left .cards-container {
         flex-wrap: nowrap;

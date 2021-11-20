@@ -3,9 +3,9 @@ import Layout from "../components/layout";
 import { Link } from "gatsby";
 import "../styles/index.css";
 import HomeSVG from "../components/home-svg";
-import ThingsVal from "../components/things-val";
-import Major from "../components/major";
-import Objectives from "../components/Objectives";
+import VisionMission from "../components/vision-mission";
+import RecruitersMarquee from "../components/recruiters-marquee";
+import { objectives } from "../data/objectives";
 import logo from "../images/cet-logo.png";
 import cetfront from "../images/cet-front.jpg";
 import cgpufront from "../images/cgpu-front.jpg";
@@ -56,11 +56,21 @@ export default function Home() {
                         <span className="bigno"> 150+</span> companies{" "}
                     </b>
                 </div>
-                <ThingsVal />
+                <VisionMission />
             </div>
-            <Major />
+            <RecruitersMarquee />
             <div className="main-container mb-4 mb-md-0">
-                <Objectives />
+                <div className="page-head text-center mb-3">Our Objectives</div>
+                <div className="row">
+                    {objectives.map((objective, key) => (
+                        <div key={key} className="obj-main col-12 col-md-6 my-3">
+                            <div className="objectives mx-auto">
+                                <div className="objectives-title">{objective.title}</div>
+                                <div className="objectives-content">{objective.content}</div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </Layout>
     );

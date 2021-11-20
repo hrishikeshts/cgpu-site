@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 import { recruiters } from "../data/recruiters";
 import "../styles/major.css";
 
-const Major = () => {
+const RecruitersMarquee = () => {
     var first = recruiters.slice(0, 8);
     var second = recruiters.slice(8, 15);
 
@@ -41,4 +41,4 @@ const Major = () => {
     );
 };
 
-export default Major;
+export default RecruitersMarquee;

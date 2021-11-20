@@ -2,7 +2,7 @@ import React from "react";
 import vision from "../images/vision-asset.svg";
 import mission from "../images/mission-asset.svg";
 
-const ThingsVal = () => {
+const VisionMission = () => {
     return (
         <div className="my-0 my-md-4">
             <div className="page-head text-center mb-4">We Treasure</div>
@@ -50,4 +50,4 @@ const ThingsVal = () => {
     );
 };
 
-export default ThingsVal;
+export default VisionMission;

@@ -97,6 +97,7 @@ button.placement-year:hover > img {
 
 .placement-table thead th:first-child {
     border-radius: 0.75rem 0 0 0;
+    text-align: left;
 }
 
 .placement-table tbody tr:last-child td:last-child {

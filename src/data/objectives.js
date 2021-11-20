@@ -15,6 +15,6 @@ export const objectives = [
     {
         title: "Industrial Training",
         content:
-            "Conduct lectures, seminars, mock interviews and provide industrial training to students during the course of their study in the institution and, in addition, offer research oriented project opportunities",
+            "Conduct lectures, seminars, mock interviews and provide industrial training to students during the course of their study in the institution, and in addition, offer research oriented project opportunities",
     },
 ];

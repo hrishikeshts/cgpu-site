@@ -1,40 +1,20 @@
-import React, { useState } from 'react';
-import Layout from '../components/layout';
+import React, { useState } from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
 // import { Line } from 'react-chartjs-2';
-import down from '../images/down.svg';
-import '../styles/placement.css';
-import { graphql } from 'gatsby';
-
-// const data = {
-//     labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021'],
-//     datasets: [
-//         {
-//             label: '# of Placements',
-//             data: [604, 591, 1020, 606, 715, 840],
-//             fill: false,
-//             backgroundColor: '#FFF',
-//             borderColor: '#1F7AE0',
-//         },
-//     ],
-// };
-
-// const options = {
-//     scales: {
-//         yAxes: [
-//             {
-//                 ticks: {
-//                     beginAtZero: true,
-//                 },
-//             },
-//         ],
-//     },
-// };
+import { placements } from "../data/placements";
+import down from "../images/down.svg";
+import "../styles/placement.css";
 
 export default function Placement({ data: _pData }) {
-    const pData = _pData.allPlacementJson.nodes;
-    const [year, setYear] = useState(pData[0].year);
+    // const pData = _pData.allPlacementJson.nodes;
+    // const [year, setYear] = useState(pData[0].year);
+    // const keyedData = {};
+    // pData.map((p) => (keyedData[p.year] = p));
+
+    const [year, setYear] = useState(placements[2].year);
     const keyedData = {};
-    pData.map((p) => (keyedData[p.year] = p));
+    placements.map((p) => (keyedData[p.year] = p));
 
     return (
         <Layout page="placement">
@@ -43,13 +23,11 @@ export default function Placement({ data: _pData }) {
                     <div className="page-head">Placement Highlights</div>
                     <div className="head-desc">
                         <span>
-                            CET is one of the few colleges in Kerala which has
-                            witnessed excellent placement records in the last 3
-                            years.{' '}
+                            CET is one of the few colleges in Kerala which has witnessed excellent placement records in
+                            the last 3 years.{" "}
                         </span>
                         <span className="d-lg-block">
-                            Here is the placement statistics of the total number
-                            of offers made in the last 6 years.
+                            Here is the placement statistics of the total number of offers made in the last 6 years.
                         </span>
                     </div>
                 </div>
@@ -68,22 +46,16 @@ export default function Placement({ data: _pData }) {
                         >
                             {year} <img src={down} alt="Dropdown" />
                         </button>
-                        <ul
-                            className="dropdown-menu dropdown-menu-end"
-                            aria-labelledby="dropdownMenuButton1"
-                        >
-                            {pData.map((label, key) => {
+                        <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            {/* {pData.map((label, key) => { */}
+                            {placements.map((placement, key) => {
                                 return (
                                     <button
                                         key={key}
-                                        onClick={() => setYear(label.year)}
-                                        className={`btn${
-                                            year === label.year
-                                                ? ' active'
-                                                : ' '
-                                        }`}
+                                        onClick={() => setYear(placement.year)}
+                                        className={`btn${year === placement.year ? " active" : " "}`}
                                     >
-                                        {label.year}
+                                        {placement.year}
                                     </button>
                                 );
                             })}
@@ -95,7 +67,7 @@ export default function Placement({ data: _pData }) {
                         <table className="table table-striped placement-table m-0">
                             <thead>
                                 <tr>
-                                    <th scope="col">#</th>
+                                    {/* <th scope="col">#</th>
                                     <th scope="col">Company</th>
                                     <th scope="col">AE</th>
                                     <th scope="col">CE</th>
@@ -106,11 +78,13 @@ export default function Placement({ data: _pData }) {
                                     <th scope="col">ME</th>
                                     <th scope="col">MCA</th>
                                     <th scope="col">MBA</th>
-                                    <th scope="col">Total</th>
+                                    <th scope="col">Total</th> */}
+                                    <th scope="col">Branch</th>
+                                    <th scope="col">Total Offers</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {keyedData[year].companies.map((company, i) => (
+                                {/* {keyedData[year].companies.map((company, i) => (
                                     <tr key={i}>
                                         <th scope="row">{i + 1}</th>
                                         <td>{company.name}</td>
@@ -123,11 +97,13 @@ export default function Placement({ data: _pData }) {
                                         <td>{company.stats.ME || 0}</td>
                                         <td>{company.stats.MCA || 0}</td>
                                         <td>{company.stats.MBA || 0}</td>
-                                        <td>
-                                            {Object.values(
-                                                company.stats,
-                                            ).reduce((a, b) => a + b)}
-                                        </td>
+                                        <td>{Object.values(company.stats).reduce((a, b) => a + b)}</td>
+                                    </tr>
+                                ))} */}
+                                {keyedData[year].data.map((data, i) => (
+                                    <tr key={i}>
+                                        <td>{data.branch}</td>
+                                        <td>{data.offers}</td>
                                     </tr>
                                 ))}
                             </tbody>
