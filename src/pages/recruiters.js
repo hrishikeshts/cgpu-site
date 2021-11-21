@@ -16,8 +16,18 @@ export default function Recruiters() {
                         </span>
                     </div>
                     <a href="https://genskill.com/" target="_blank" rel="noopener noreferrer" className="learnLink">
-                        Register
+                        Register as a recruiter
                     </a>
+                </div>
+
+                <div className="cards-container">
+                    {recruiters.map((item, key) => {
+                        return (
+                            <div key={key} className="card-item">
+                                1
+                            </div>
+                        );
+                    })}
                 </div>
 
                 <div className="row justify-content-center">
