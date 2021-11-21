@@ -24,13 +24,14 @@ export default function Recruiters() {
                     {recruiters.map((item, key) => {
                         return (
                             <div key={key} className="tile-item">
-                                <span className="tile-title">{item.company}</span>
+                                <img src={`${item.logo}`} alt="Company Logo" className="tile-logo"></img>
+                                <div className="tile-title">{item.company}</div>
                             </div>
                         );
                     })}
                 </div>
 
-                <div className="row justify-content-center">
+                {/* <div className="row justify-content-center">
                     {recruiters.map((item, key) => {
                         return (
                             <div key={key} className="r-cards-each col-xl-3 col-md-4 col-sm-12">
@@ -53,7 +54,7 @@ export default function Recruiters() {
                             </div>
                         );
                     })}
-                </div>
+                </div> */}
             </div>
         </Layout>
     );

@@ -153,9 +153,17 @@ export default function AboutCET() {
                     <div className="alm-cntnt col-12 col-md-5 col-lg-6 text-center text-md-start pe-md-5 py-4">
                         <div className="page-head">Our Alumni</div>
                         <div className="abt-desc">
-                            CET alumni are distinguished forerunners in every possible technological field across the
-                            world. The CET Alumni association (CETAA) is very much active in the college bringing
-                            together the CETians of yesteryears and present cream.
+                            The CET Alumni association (CETAA) was initiated in 1976. They ensure support to the
+                            deserving students who require financial assistance through the Growing Engineers Monetary
+                            Support (GEMS) scheme which is the major outcome of the CETAA Global Meet held at Dubai in
+                            2010. The association has also introduced several awards and endowments for meritorious
+                            students excelling in both academics and extracurricular activities.
+                            <br />
+                            <br />
+                            CETAA has immensely contributed towards various infrastructural development projects in the
+                            College campus. Apart from providing financial support, the alumni are directly involved in
+                            devising and conducting various programmes to enhance the various skills of the students for
+                            their better employability.
                             <br />
                             <br />
                             <a

@@ -27,7 +27,7 @@ export default function Placement({ data: _pData }) {
                             the last 3 years.{" "}
                         </span>
                         <span className="d-lg-block">
-                            Here is the placement statistics of the total number of offers made in the last 6 years.
+                            Here is the placement statistics of the total number of offers made in the last 3 years.
                         </span>
                     </div>
                 </div>
