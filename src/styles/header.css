@@ -78,6 +78,10 @@ header a:hover,
     background: var(--light-blue) !important;
 }
 
+.m-neg {
+    margin-right: -1rem;
+}
+
 header nav a.active,
 .dropdown-toggle.active {
     color: var(--blue) !important;
@@ -112,8 +116,7 @@ button.navbar-toggler {
 .navbar-toggler.collapsed:hover {
     filter: brightness(0);
 }
-.drop-set ul{
-    
+.drop-set ul {
     display: flex;
     flex-direction: column;
     justify-content: left;

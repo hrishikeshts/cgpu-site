@@ -78,6 +78,7 @@
     height: 100px;
     border-radius: 100%;
 }
+
 /* .title-center{
     
     display: flex;
@@ -86,11 +87,11 @@
     align-items: center;
     padding-left: 6%;
 } */
+
 .tiles-container {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: left;
-
 }
 
 .tile-item {

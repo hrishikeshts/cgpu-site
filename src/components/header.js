@@ -35,7 +35,7 @@ export default function Header({ page }) {
                 <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <nav>
+                <nav className="m-neg">
                     <Link to="/" className={`d-flex d-lg-inline ps-0 pe-5 px-lg-3 ${page === "home" ? "active" : ""}`}>
                         Home
                     </Link>
@@ -84,8 +84,8 @@ export default function Header({ page }) {
                     >
                         Contact
                     </Link>
-                    {/* <button className="btn my-2 my-lg-0 ms-lg-3 d-block d-lg-inline-block">Register</button> */}
-                    <span className="dropdown d-flex d-lg-inline">
+
+                    {/* <span className="dropdown d-flex d-lg-inline">
                         
                         <button
                             className={"btn my-2 drop-bt my-lg-0 ms-lg-3 d-block d-lg-inline-block"}
@@ -116,7 +116,7 @@ export default function Header({ page }) {
                             </a>
                         </ul>
                         </div>
-                    </span>
+                    </span> */}
                 </nav>
             </div>
         </header>

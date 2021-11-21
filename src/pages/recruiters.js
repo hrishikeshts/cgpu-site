@@ -15,16 +15,16 @@ export default function Recruiters() {
                             Register as a recruiter now to participate in our placement drive.
                         </span>
                     </div>
-                    <a href="https://genskill.com/" target="_blank" rel="noopener noreferrer" className="learnLink">
+                    {/* <a href="https://genskill.com/" target="_blank" rel="noopener noreferrer" className="learnLink">
                         Register as a recruiter
-                    </a>
+                    </a> */}
                 </div>
                 <div className="title-center">
-                    <div className="tiles-container">
+                    <div className="tiles-container row">
                         {recruiters.map((item, key) => {
                             return (
                                 <div key={key} className="tile-item">
-                                    <img src={`${item.logo}`} alt="Company Logo" className="tile-logo"></img>
+                                    <img src={item.logo} alt={item.company} className="tile-logo"></img>
                                     <div className="tile-title">{item.company}</div>
                                 </div>
                             );
