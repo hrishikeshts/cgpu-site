@@ -75,15 +75,15 @@ export const recruiters = [
     },
     {
         company: "Capgemini",
-        logo: "/recruiters-logo/capgemini.png",
+        logo: "/recruiters-logo/capgemini.svg",
     },
     {
         company: "Saint-Gobain",
-        logo: "/recruiters-logo/saint.png",
+        logo: "/recruiters-logo/saint-gobain.svg",
     },
     {
         company: "MRF",
-        logo: "/recruiters-logo/mrf.png",
+        logo: "/recruiters-logo/mrf.svg",
     },
     {
         company: "Accenture",
