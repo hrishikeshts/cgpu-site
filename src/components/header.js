@@ -96,12 +96,22 @@ export default function Header({ page }) {
                             Register
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                            <Link to="/about-cet" className={`${page === "cet" ? "active" : ""}`}>
+                            <a
+                                href="https://genskill.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="learnLink"
+                            >
                                 Student
-                            </Link>
-                            <Link to="/about-cgpu" className={`${page === "cgpu" ? "active" : ""}`}>
+                            </a>
+                            <a
+                                href="https://genskill.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="learnLink"
+                            >
                                 Recruiter
-                            </Link>
+                            </a>
                         </ul>
                     </span>
                 </nav>

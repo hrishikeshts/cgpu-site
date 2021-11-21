@@ -1,3 +1,7 @@
+.head-desc.placement {
+    max-width: 60rem;
+}
+
 .chart-container {
     background-color: white;
     padding: 5%;

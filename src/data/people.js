@@ -103,7 +103,7 @@ export const reps = [
     },
     {
         img: "/people/reps/amritha.jpg",
-        title: "Amritha S L",
+        title: "Amritha M L",
         subtitle: "MCA",
         mail: "amrithaml1998@cet.ac.in",
     },
