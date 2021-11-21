@@ -23,8 +23,8 @@ export default function Recruiters() {
                 <div className="cards-container">
                     {recruiters.map((item, key) => {
                         return (
-                            <div key={key} className="card-item">
-                                1
+                            <div key={key} className="tile-item">
+                                <span className="tile-title">{item.company}</span>
                             </div>
                         );
                     })}

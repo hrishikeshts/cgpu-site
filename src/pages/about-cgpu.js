@@ -18,12 +18,23 @@ export default function AboutCGPU() {
                     <div className="order-md-1 col-12 col-md-7 col-lg-6 text-center text-md-start py-3 py-md-5">
                         <div className="page-head">About CGPU</div>
                         <div className="abt-desc">
-                            The Career Guidance and Placement Unit (CGPU) was formed in January 1984. The Placement
+                            The Career Guidance and Placement Unit (CGPU) was formed in January 1984. The Placement Cell
+                            concentrates on providing the students with placement oriented training from the first year.
+                            It is headed by the Placement officer who is assisted by student representatives from each
+                            department. The cell provides the students opportunities to connect with potential employers
+                            by way of internships, lectures and workshops; and live projects at an industry level.
+                            <br />
+                            <br />
+                            The Unit helps students achieve ‘employability’ through intensive training across eight
+                            semesters, from industry experts. Besides the academic or technical skills, the cell is
+                            committed to developing skills in our students like integrity and teamwork, problem-solving,
+                            entrepreneurship, communication in English and use of modern tools and technologies.
+                            {/* The Career Guidance and Placement Unit (CGPU) was formed in January 1984. The Placement
                             Officer who is assisted by student representatives from all the departments heads this unit.
                             The Principal of the institution and all other faculty members have extended their
                             wholehearted support to the functioning of the unit.
                             <br />
-                            <br />
+                            <br /> */}
                             {/* Spanning across an area over 3500 sq feet.{" "} */}
                             {/* CGPU can accomodate 500 students at a time for written test. */}
                             {/* It is well equipped with high quality audio and video systems suitable for preplacement
