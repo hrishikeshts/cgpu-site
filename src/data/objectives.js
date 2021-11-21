@@ -13,8 +13,8 @@ export const objectives = [
             "Offer students an insight into possible advanced degree options available in India and abroad, and also provide training to excel in competitive examinations such as GATE, GRE, CAT, TOEFL, GMAT, etc.",
     },
     {
-        title: "Industrial Training",
+        title: "Personality & Career Development",
         content:
-            "Conduct lectures, seminars, mock interviews and provide industrial training to students during the course of their study in the institution, and in addition, offer research oriented project opportunities",
+            "Conduct lectures, seminars, mock interviews and provide internships to students during the course of their study in the institution, and in addition, offer research oriented project opportunities",
     },
 ];

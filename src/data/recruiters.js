@@ -75,6 +75,21 @@ export const recruiters = [
         logo: "/recruiters-logo/abb.svg",
     },
     {
+        company: "Capgemini",
+        url: "www.abb.com",
+        logo: "/recruiters-logo/capgemini.png", 
+    },
+    {
+        company: "Saint-Gobain",
+        url: "www.abb.com",
+        logo: "/recruiters-logo/saint.png", 
+    },
+    {
+        company: "MRF",
+        url: "www.abb.com",
+        logo: "/recruiters-logo/mrf.png", 
+    },
+    {
         company: "Accenture",
         url: "www.accenture.com",
         logo: "/recruiters-logo/accenture.png",

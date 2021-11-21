@@ -5,8 +5,8 @@ import { recruiters } from "../data/recruiters";
 import "../styles/major.css";
 
 const RecruitersMarquee = () => {
-    var first = recruiters.slice(0, 8);
-    var second = recruiters.slice(8, 15);
+    var first = recruiters.slice(0, 9);
+    var second = recruiters.slice(10, 18);
 
     return (
         <div className="major my-5">
