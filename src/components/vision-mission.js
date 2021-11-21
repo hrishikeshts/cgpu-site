@@ -30,7 +30,7 @@ const VisionMission = () => {
                     <div className="px-5 pe-md-0 py-4 py-md-0 text-center text-md-start">
                         <h4>Our Mission</h4>
                         <div className="text">
-                            <ul>
+                            <ul className="px-4 pe-md-0">
                                 <li>To facilitate quality transformative education in Engineering and Management.</li>
                                 <li>
                                     To foster innovations in Technology and its application for meeting global
