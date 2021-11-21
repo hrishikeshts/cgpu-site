@@ -21,20 +21,21 @@ export default function Placement({ data: _pData }) {
             <div className="main-container">
                 <div className="align-self-start head-desc-main">
                     <div className="page-head">Placement Highlights</div>
-                    <div className="head-desc">
+                    <div className="head-desc placement">
                         <span>
-                            CET is one of the few colleges in Kerala which has witnessed excellent placement records in
-                            the last 3 years.{" "}
+                            CET is one of the very few colleges in Kerala that offer excellent job opportunities to the
+                            students via campus placement drives; with world renowned companies partaking in the
+                            recruitment process.{" "}
                         </span>
                         <span className="d-lg-block">
-                            Here is the placement statistics of the total number of offers made in the last 3 years.
+                            The placement statistics of the institution over the last 3 years is as follows:
                         </span>
                     </div>
                 </div>
                 {/* <div className="chart-container">
                     <Line data={data} options={options} />
                 </div> */}
-                <div className="table-tagline mt-2 pt-4 pb-3 pb-sm-4 mt-lg-4 mb-lg-2 py-lg-4">
+                <div className="table-tagline pb-3 pb-sm-4 mb-lg-2 pt-lg-2 pb-lg-4">
                     <span>Our placement records for the year</span>
                     <span className="dropdown mx-auto">
                         <button
