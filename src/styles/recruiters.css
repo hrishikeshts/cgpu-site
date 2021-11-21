@@ -94,6 +94,14 @@
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+
+.tile-item:hover {
+    transform: scale(1.07);
+    transition: all 0.3s;
+    background: white;
+    filter: drop-shadow(0px 0px 24px rgba(130, 130, 130, 0.16));
 }
 
 .tile-title {
@@ -108,5 +116,7 @@
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 0.5rem;
+    border: var(--light-blue) 2px solid;
     margin-right: 1rem;
+    transition: all 0.3s;
 }

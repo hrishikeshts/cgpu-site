@@ -15,6 +15,7 @@ body {
     --blue-gray: #7a8193;
     background: #fafafa;
     overflow-y: scroll;
+    cursor: default;
 }
 
 img {

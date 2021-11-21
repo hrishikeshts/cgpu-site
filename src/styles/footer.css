@@ -66,6 +66,10 @@ footer h2 span:nth-child(2) {
     transition: 0.15s;
 }
 
+.contact {
+    cursor: auto;
+}
+
 .contact .footer-adr {
     font-weight: 300;
     font-size: 0.9rem;
