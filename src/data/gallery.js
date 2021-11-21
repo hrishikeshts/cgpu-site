@@ -6,10 +6,10 @@ export const gallery = [
         desc: "Department of Architecture",
     },
     {
-        src: "/gallery/cafeteria.jpg",
+        src: "/gallery/main-building.jpg",
         width: 4,
         height: 3,
-        desc: "College Cafeteria",
+        desc: "Main building",
     },
     {
         src: "/gallery/cetaa-hall.jpg",
@@ -150,10 +150,10 @@ export const gallery = [
         desc: "Aerial View of college",
     },
     {
-        src: "/gallery/main-building.jpg",
+        src: "/gallery/cafeteria.jpg",
         width: 4,
         height: 3,
-        desc: "Main building",
+        desc: "College Cafeteria",
     },
     // {
     //     src: "/gallery/gimg11.jpg",

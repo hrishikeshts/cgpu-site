@@ -20,7 +20,7 @@ export default function Recruiters() {
                     </a>
                 </div>
 
-                <div className="cards-container">
+                <div className="tiles-container">
                     {recruiters.map((item, key) => {
                         return (
                             <div key={key} className="tile-item">

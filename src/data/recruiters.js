@@ -1,7 +1,7 @@
 export const recruiters = [
     {
         company: "Amazon",
-        url: "www.amazon.jobs",
+        url: "amazon.jobs",
         logo: "/recruiters-logo/amazon.svg",
     },
     {
@@ -71,98 +71,78 @@ export const recruiters = [
     },
     {
         company: "ABB",
-        url: "www.abb.com",
         logo: "/recruiters-logo/abb.svg",
     },
     {
         company: "Capgemini",
-        url: "www.abb.com",
-        logo: "/recruiters-logo/capgemini.png", 
+        logo: "/recruiters-logo/capgemini.png",
     },
     {
         company: "Saint-Gobain",
-        url: "www.abb.com",
-        logo: "/recruiters-logo/saint.png", 
+        logo: "/recruiters-logo/saint.png",
     },
     {
         company: "MRF",
-        url: "www.abb.com",
-        logo: "/recruiters-logo/mrf.png", 
+        logo: "/recruiters-logo/mrf.png",
     },
     {
         company: "Accenture",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/accenture.png",
     },
     {
         company: "bridgei2i",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/bridgei2i.png",
     },
     {
         company: "Byju's",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/byjus.png",
     },
     {
         company: "Deloitte",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/deloitte.png",
     },
     {
         company: "Envestnet",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/envestnet.png",
     },
     {
         company: "Experion",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/experion.png",
     },
     {
         company: "EY",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/ey.png",
     },
     {
         company: "ITC",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/itc.png",
     },
     {
-        company: "L&T",
-        url: "www.accenture.com",
+        company: "L&T Tech",
         logo: "/recruiters-logo/l_t.png",
     },
     {
         company: "Mitsogo",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/mitsogo.png",
     },
     {
         company: "Providence",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/providence.png",
     },
     {
-        company: "Quest",
-        url: "www.accenture.com",
+        company: "Quest Global",
         logo: "/recruiters-logo/quest.png",
     },
     {
         company: "Tata Elxsi",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/tata elxsi.png",
     },
     {
         company: "Texas Instruments",
-        url: "www.accenture.com",
         logo: "/recruiters-logo/texas.png",
     },
     {
-        company: "UST",
-        url: "www.accenture.com",
+        company: "UST Global",
         logo: "/recruiters-logo/ust.png",
     },
-   
 ];
