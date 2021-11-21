@@ -86,8 +86,9 @@ export default function Header({ page }) {
                     </Link>
                     {/* <button className="btn my-2 my-lg-0 ms-lg-3 d-block d-lg-inline-block">Register</button> */}
                     <span className="dropdown d-flex d-lg-inline">
+                        
                         <button
-                            className={"btn my-2 my-lg-0 ms-lg-3 d-block d-lg-inline-block"}
+                            className={"btn my-2 drop-bt my-lg-0 ms-lg-3 d-block d-lg-inline-block"}
                             type="button"
                             id="dropdownMenuButton1"
                             data-bs-toggle="dropdown"
@@ -95,7 +96,8 @@ export default function Header({ page }) {
                         >
                             Register
                         </button>
-                        <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <div className="dropdown-menu dropdown-menu-end drop-set my-3" aria-labelledby="dropdownMenuButton1">
+                        <ul>
                             <a
                                 href="https://genskill.com/"
                                 target="_blank"
@@ -113,6 +115,7 @@ export default function Header({ page }) {
                                 Recruiter
                             </a>
                         </ul>
+                        </div>
                     </span>
                 </nav>
             </div>

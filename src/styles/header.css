@@ -112,3 +112,11 @@ button.navbar-toggler {
 .navbar-toggler.collapsed:hover {
     filter: brightness(0);
 }
+.drop-set ul{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0;
+    margin-bottom: 0;
+}

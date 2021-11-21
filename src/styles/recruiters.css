@@ -78,11 +78,19 @@
     height: 100px;
     border-radius: 100%;
 }
-
+/* .title-center{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+} */
 .tiles-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+
 }
 
 .tile-item {

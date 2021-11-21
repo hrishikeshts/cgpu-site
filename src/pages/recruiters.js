@@ -19,16 +19,17 @@ export default function Recruiters() {
                         Register as a recruiter
                     </a>
                 </div>
-
-                <div className="tiles-container">
-                    {recruiters.map((item, key) => {
-                        return (
-                            <div key={key} className="tile-item">
-                                <img src={`${item.logo}`} alt="Company Logo" className="tile-logo"></img>
-                                <div className="tile-title">{item.company}</div>
-                            </div>
-                        );
-                    })}
+                <div className="title-center">
+                    <div className="tiles-container">
+                        {recruiters.map((item, key) => {
+                            return (
+                                <div key={key} className="tile-item">
+                                    <img src={`${item.logo}`} alt="Company Logo" className="tile-logo"></img>
+                                    <div className="tile-title">{item.company}</div>
+                                </div>
+                            );
+                        })}
+                    </div>
                 </div>
 
                 {/* <div className="row justify-content-center">
